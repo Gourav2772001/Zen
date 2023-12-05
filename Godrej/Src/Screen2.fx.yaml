@@ -272,8 +272,6 @@ Screen2 As screen:
         LoadingSpinner: =LoadingSpinner.Data
         TemplatePadding: =0
         TemplateSize: =104
-        Width: =610
-        X: =18
         Y: =580
         ZIndex: =13
 
