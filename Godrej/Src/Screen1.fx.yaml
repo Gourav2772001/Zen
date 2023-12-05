@@ -21,3 +21,10 @@ Screen1 As screen:
             Y: =147
             ZIndex: =2
 
+        Rectangle1 As rectangle:
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =1136
+            OnSelect: =Navigate(Screen2)
+            Width: =640
+            ZIndex: =3
+
