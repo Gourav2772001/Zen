@@ -1,2 +1,66 @@
 Screen3 As screen:
+    OnVisible: |-
+        =ClearCollect(
+            imgCol,
+            {
+                img: "https://picsum.photos/id/1/340/100?table1.png",
+                order: 1
+            },
+            {
+                img: "https://picsum.photos/id/2/340/100?table2.png",
+                order: 2
+            },
+            {
+                img: "https://picsum.photos/id/3/340/100?table3.png",
+                order: 3
+            },
+            {
+                img: "https://picsum.photos/id/4/340/100?table4.png",
+                order: 4
+            },
+            {
+                img: "https://picsum.photos/id/5/340/100?table5.png",
+                order: 5
+            }
+        );
+        UpdateContext({currentImg: 1})
+
+    Icon4 As icon.ArrowLeft:
+        Color: =RGBA(0, 0, 0, 1)
+        Height: =45
+        Icon: =Icon.ArrowLeft
+        Width: =45
+        X: =40
+        Y: =50
+        ZIndex: =2
+
+    Label5 As label:
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Bold
+        Height: =70
+        Size: =21
+        Text: ="Property Details"
+        Width: =541
+        X: =96
+        Y: =38
+        ZIndex: =3
+
+    Container5 As groupContainer.manualLayoutContainer:
+        Height: =390
+        RadiusBottomLeft: =20
+        RadiusBottomRight: =20
+        RadiusTopLeft: =20
+        RadiusTopRight: =20
+        Width: =603
+        X: =19
+        Y: =142
+        ZIndex: =4
+
+        Image10 As image:
+            Height: =385
+            Image: =LookUp(imgCol,order=currentImg).img
+            ImagePosition: =ImagePosition.Fill
+            Width: =Parent.Width
+            Y: =3
+            ZIndex: =1
 
