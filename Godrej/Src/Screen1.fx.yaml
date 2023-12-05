@@ -11,7 +11,7 @@ Screen1 As screen:
     Image2 As image:
         Height: =56
         Image: ='Group 3'
-        Width: =209
+        Width: =197
         X: =215
         Y: =146
         ZIndex: =2
