@@ -10,7 +10,7 @@ Screen1 As screen:
             Image: ='Group 3'
             Width: =197
             X: =221
-            Y: =180
+            Y: =131
             ZIndex: =2
 
         Rectangle1 As rectangle:
@@ -23,19 +23,21 @@ Screen1 As screen:
         Img As groupContainer.manualLayoutContainer:
             BorderStyle: =BorderStyle.None
             DropShadow: =DropShadow.None
-            Height: =883
+            Height: =946
             RadiusBottomLeft: =0
             RadiusBottomRight: =0
             RadiusTopLeft: =0
             RadiusTopRight: =0
             Width: =640
-            Y: =251
+            Y: =187
             ZIndex: =4
 
             Image1 As image:
                 DisplayMode: =DisplayMode.View
-                Height: =880
+                Height: =943
                 Image: ='elliot-andrews-0Z_KzexdAH4-unsplash 1'
+                ImagePosition: =ImagePosition.Fill
                 Width: =640
+                Y: =3
                 ZIndex: =1
 
