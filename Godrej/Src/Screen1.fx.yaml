@@ -5,14 +5,6 @@ Screen1 As screen:
         Width: =640
         ZIndex: =3
 
-        Image1 As image:
-            Height: =933
-            Image: ='elliot-andrews-0Z_KzexdAH4-unsplash 1'
-            ImagePosition: =ImagePosition.Fill
-            Width: =640
-            Y: =203
-            ZIndex: =1
-
         Image2 As image:
             Height: =56
             Image: ='Group 3'
@@ -27,4 +19,23 @@ Screen1 As screen:
             OnSelect: =Navigate(Screen2)
             Width: =640
             ZIndex: =3
+
+        Img As groupContainer.manualLayoutContainer:
+            BorderStyle: =BorderStyle.None
+            DropShadow: =DropShadow.None
+            Height: =880
+            RadiusBottomLeft: =0
+            RadiusBottomRight: =0
+            RadiusTopLeft: =0
+            RadiusTopRight: =0
+            Width: =640
+            Y: =255
+            ZIndex: =4
+
+            Image1 As image:
+                Height: =880
+                Image: ='elliot-andrews-0Z_KzexdAH4-unsplash 1'
+                ImagePosition: =ImagePosition.Fill
+                Width: =640
+                ZIndex: =1
 
