@@ -3,23 +3,23 @@ Screen3 As screen:
         =ClearCollect(
             imgCol,
             {
-                img: "https://picsum.photos/id/1/340/100?table1.png",
+                img: "https://i.pinimg.com/originals/5a/02/43/5a0243ed9ee2179f9e58aa431ece547c.jpg",
                 order: 1
             },
             {
-                img: "https://picsum.photos/id/2/340/100?table2.png",
+                img: "https://ssl.cdn-redfin.com/photo/104/mbpaddedwide/762/genMid.61899762_3.jpg",
                 order: 2
             },
             {
-                img: "https://picsum.photos/id/3/340/100?table3.png",
+                img: "https://i.pinimg.com/736x/f8/d5/2a/f8d52a0b96ec011bb8578e3f54404e2e--house-ideas-exterior-stucco-exterior.jpg",
                 order: 3
             },
             {
-                img: "https://picsum.photos/id/4/340/100?table4.png",
+                img: "https://s-media-cache-ak0.pinimg.com/736x/eb/a7/cb/eba7cbf153d7770e613cdc300a28587d.jpg",
                 order: 4
             },
             {
-                img: "https://picsum.photos/id/5/340/100?table5.png",
+                img: "https://hensleyhomes.com/wp-content/uploads/2018/06/486V5541.jpg",
                 order: 5
             }
         );
@@ -30,19 +30,19 @@ Screen3 As screen:
         Height: =45
         Icon: =Icon.ArrowLeft
         Width: =45
-        X: =40
+        X: =32
         Y: =50
         ZIndex: =2
 
     Label5 As label:
         Font: =Font.'Segoe UI'
         FontWeight: =FontWeight.Bold
-        Height: =70
+        Height: =45
         Size: =21
         Text: ="Property Details"
         Width: =541
-        X: =96
-        Y: =38
+        X: =99
+        Y: =50
         ZIndex: =3
 
     Container5 As groupContainer.manualLayoutContainer:
@@ -63,4 +63,26 @@ Screen3 As screen:
             Width: =Parent.Width
             Y: =3
             ZIndex: =1
+
+        Icon5 As icon.NextArrow:
+            Color: =RGBA(255, 255, 255, 1)
+            Height: =50
+            Icon: =Icon.NextArrow
+            OnSelect: |-
+                =UpdateContext({currentImg:If(currentImg=Max(imgCol,order),1,currentImg+1)})
+            Width: =50
+            X: =545
+            Y: =157
+            ZIndex: =2
+
+        Icon6 As icon.BackArrow:
+            Color: =RGBA(255, 255, 255, 1)
+            Height: =50
+            Icon: =Icon.BackArrow
+            OnSelect: |-
+                =UpdateContext({currentImg:If(currentImg=Max(imgCol,order),1,currentImg-1)})
+            Width: =50
+            X: =9
+            Y: =157
+            ZIndex: =3
 
