@@ -1,2 +1,18 @@
 Screen1 As screen:
 
+    Image1 As image:
+        Height: =933
+        Image: ='elliot-andrews-0Z_KzexdAH4-unsplash 1'
+        ImagePosition: =ImagePosition.Fill
+        Width: =640
+        Y: =202
+        ZIndex: =1
+
+    Image2 As image:
+        Height: =56
+        Image: ='Group 3'
+        Width: =209
+        X: =215
+        Y: =146
+        ZIndex: =2
+

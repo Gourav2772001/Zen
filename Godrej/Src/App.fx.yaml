@@ -1,5 +1,13 @@
 App As appinfo:
     BackEnabled: =true
+    OnStart: |-
+        =ClearCollect(
+            Tabs,
+            {Name: "Open"},
+            {Name: "In Progress"},
+            {Name: "Resolved"},
+            {Name: "Closed"}
+        )
     Theme: =PowerAppsTheme
 
     Host As hostControl.DefaultHostControlVariant:
