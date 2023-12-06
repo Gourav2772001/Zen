@@ -1,29 +1,5 @@
 Screen3 As screen:
-    OnVisible: |
-        =ClearCollect(
-            imgCol,
-            {
-                img: "https://picsum.photos/id/1/340/100?table1.png",
-                order: 1
-            },
-            {
-                img: "https://picsum.photos/id/2/340/100?table2.png",
-                order: 2
-            },
-            {
-                img: "https://picsum.photos/id/3/340/100?table3.png",
-                order: 3
-            },
-            {
-                img: "https://picsum.photos/id/4/340/100?table4.png",
-                order: 4
-            },
-            {
-                img: "https://picsum.photos/id/5/340/100?table5.png",
-                order: 5
-            }
-        );
-        UpdateContext({currentImg: 1})
+    OnVisible: =
 
     Icon4 As icon.ArrowLeft:
         Color: =RGBA(0, 0, 0, 1)
@@ -206,7 +182,7 @@ Screen3 As screen:
                     Size: =17
                     Text: =First(currentData).'Property Type'
                     Width: =204
-                    X: =383
+                    X: =376
                     Y: =112
                     ZIndex: =10
 

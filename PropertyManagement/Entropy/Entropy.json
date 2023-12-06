@@ -98,7 +98,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "12/06/2023 17:06:19",
+  "HeaderLastSavedDateTimeUTC": "12/06/2023 17:11:44",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "61134af4-e3e3-4105-b4e1-e807bb4bf167": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/832938808e0b419c8dc90fe74f425501\""
@@ -127,11 +127,10 @@
   "OrderComponentMetadata": {},
   "OrderComponentTemplate": {},
   "OrderDataSource": {
-    "currentData": 4,
+    "currentData": 3,
     "CustomGallerySample": 0,
     "GODREJ": 1,
-    "imgCol": 2,
-    "Tabs": 3
+    "Tabs": 2
   },
   "OrderGroupControls": {
     "Header": {
@@ -273,7 +272,7 @@
     "Icon2": 7,
     "Icon3": 14,
     "Icon4": 43,
-    "Icon4_1": 43,
+    "Icon4_1": 85,
     "Image1": 4,
     "Image10": 46,
     "Image12": 42,
@@ -332,7 +331,7 @@
     "Label3_3": 27,
     "Label4": 30,
     "Label5": 44,
-    "Label5_1": 44,
+    "Label5_1": 86,
     "Label6": 36,
     "Label7": 38,
     "Label8": 39,
