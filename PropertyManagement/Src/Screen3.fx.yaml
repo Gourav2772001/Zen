@@ -115,7 +115,7 @@ Screen3 As screen:
                     FontWeight: =FontWeight.Semibold
                     Height: =43
                     Size: =17
-                    Text: ="Property "
+                    Text: ="Property Type"
                     Width: =204
                     X: =16
                     Y: =112
@@ -127,7 +127,7 @@ Screen3 As screen:
                     FontWeight: =FontWeight.Semibold
                     Height: =43
                     Size: =17
-                    Text: ="Builder Name"
+                    Text: ="Cost"
                     Width: =204
                     X: =16
                     Y: =164
@@ -139,7 +139,7 @@ Screen3 As screen:
                     FontWeight: =FontWeight.Semibold
                     Height: =43
                     Size: =17
-                    Text: ="Builder Name"
+                    Text: ="Location"
                     Width: =204
                     X: =16
                     Y: =225
@@ -151,7 +151,7 @@ Screen3 As screen:
                     FontWeight: =FontWeight.Semibold
                     Height: =43
                     Size: =17
-                    Text: ="Builder Name"
+                    Text: ="Tower Number"
                     Width: =204
                     X: =16
                     Y: =277
@@ -163,11 +163,50 @@ Screen3 As screen:
                     FontWeight: =FontWeight.Semibold
                     Height: =43
                     Size: =17
-                    Text: ="Builder Name"
+                    Text: ="Floor Number"
                     Width: =204
                     X: =16
                     Y: =329
                     ZIndex: =7
+
+                Label11_7 As label:
+                    Align: =Align.Right
+                    Color: =RGBA(148, 135, 141, 1)
+                    Font: =Font.'Segoe UI'
+                    FontWeight: =FontWeight.Semibold
+                    Height: =43
+                    Size: =17
+                    Text: ="Builder Name"
+                    Width: =204
+                    X: =380
+                    Y: =8
+                    ZIndex: =8
+
+                Label11_8 As label:
+                    Align: =Align.Right
+                    Color: =RGBA(148, 135, 141, 1)
+                    Font: =Font.'Segoe UI'
+                    FontWeight: =FontWeight.Semibold
+                    Height: =43
+                    Size: =17
+                    Text: ="Builder Name"
+                    Width: =204
+                    X: =383
+                    Y: =60
+                    ZIndex: =9
+
+                Label11_9 As label:
+                    Align: =Align.Right
+                    Color: =RGBA(148, 135, 141, 1)
+                    Font: =Font.'Segoe UI'
+                    FontWeight: =FontWeight.Semibold
+                    Height: =43
+                    Size: =17
+                    Text: ="Builder Name"
+                    Width: =204
+                    X: =383
+                    Y: =112
+                    ZIndex: =10
 
     Container4 As groupContainer.manualLayoutContainer:
         Height: =76
