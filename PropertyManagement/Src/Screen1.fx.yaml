@@ -11,14 +11,7 @@ Screen1 As screen:
             Width: =197
             X: =221
             Y: =131
-            ZIndex: =2
-
-        Rectangle1 As rectangle:
-            Fill: =RGBA(0, 0, 0, 0)
-            Height: =1136
-            OnSelect: =Navigate(Screen2)
-            Width: =640
-            ZIndex: =3
+            ZIndex: =1
 
         Img As groupContainer.manualLayoutContainer:
             BorderStyle: =BorderStyle.None
@@ -30,7 +23,7 @@ Screen1 As screen:
             RadiusTopRight: =0
             Width: =640
             Y: =187
-            ZIndex: =4
+            ZIndex: =2
 
             Image1 As image:
                 DisplayMode: =DisplayMode.View
@@ -40,4 +33,11 @@ Screen1 As screen:
                 Width: =640
                 Y: =3
                 ZIndex: =1
+
+        Rectangle1 As rectangle:
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =1136
+            OnSelect: =Navigate(Screen2)
+            Width: =640
+            ZIndex: =3
 
