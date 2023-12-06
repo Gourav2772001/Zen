@@ -64,11 +64,29 @@ Screen3 As screen:
             Y: =3
             ZIndex: =1
 
-    Container6 As groupContainer.manualLayoutContainer:
-        DropShadow: =DropShadow.None
-        Height: =566
+    Container1 As groupContainer.verticalAutoLayoutContainer:
+        Height: =482
+        LayoutDirection: =LayoutDirection.Vertical
+        LayoutMode: =LayoutMode.Auto
         Width: =603
         X: =19
-        Y: =551
+        Y: =637
         ZIndex: =5
+
+    Container4 As groupContainer.manualLayoutContainer:
+        Height: =76
+        Width: =603
+        X: =19
+        Y: =547
+        ZIndex: =6
+
+        Label10 As label:
+            FontWeight: =FontWeight.Bold
+            Height: =49
+            Size: =18
+            Text: ="Basic Details"
+            Width: =223
+            X: =12
+            Y: =12
+            ZIndex: =1
 
