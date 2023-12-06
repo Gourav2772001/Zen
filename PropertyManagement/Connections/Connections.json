@@ -1,0 +1,24 @@
+{
+  "61134af4-e3e3-4105-b4e1-e807bb4bf167": {
+    "connectionRef": {
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1664/1.0.1664.3477/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline"
+    },
+    "datasets": {
+      "https://appcinotechnologies.sharepoint.com/sites/PowerAppUseCase": {
+        "dataSources": {
+          "GODREJ": {
+            "tableName": "f98bc07f-2c06-4a9d-ad3d-698b28dd7c1f"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "GODREJ"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "61134af4-e3e3-4105-b4e1-e807bb4bf167"
+  }
+}

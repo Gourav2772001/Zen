@@ -1,0 +1,43 @@
+Screen1 As screen:
+
+    Container2 As groupContainer.manualLayoutContainer:
+        Height: =1136
+        Width: =640
+        ZIndex: =3
+
+        Image2 As image:
+            Height: =56
+            Image: ='Group 3'
+            Width: =197
+            X: =221
+            Y: =131
+            ZIndex: =2
+
+        Rectangle1 As rectangle:
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =1136
+            OnSelect: =Navigate(Screen2)
+            Width: =640
+            ZIndex: =3
+
+        Img As groupContainer.manualLayoutContainer:
+            BorderStyle: =BorderStyle.None
+            DropShadow: =DropShadow.None
+            Height: =946
+            RadiusBottomLeft: =0
+            RadiusBottomRight: =0
+            RadiusTopLeft: =0
+            RadiusTopRight: =0
+            Width: =640
+            Y: =187
+            ZIndex: =4
+
+            Image1 As image:
+                DisplayMode: =DisplayMode.View
+                Height: =943
+                Image: ='elliot-andrews-0Z_KzexdAH4-unsplash 1'
+                ImagePosition: =ImagePosition.Fill
+                Width: =640
+                Y: =3
+                ZIndex: =1
+
