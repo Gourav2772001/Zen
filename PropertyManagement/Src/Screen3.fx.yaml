@@ -75,22 +75,99 @@ Screen3 As screen:
 
         Container6 As groupContainer.manualLayoutContainer:
             FillPortions: =0
-            Height: =400
+            Height: =380
             LayoutMinHeight: =112
             LayoutMinWidth: =250
             ZIndex: =1
 
             Container7 As groupContainer.manualLayoutContainer:
-                Height: =400
+                Height: =380
                 Width: =603
                 ZIndex: =1
 
                 Label11 As label:
+                    Color: =RGBA(148, 135, 141, 1)
+                    Font: =Font.'Segoe UI'
+                    FontWeight: =FontWeight.Semibold
                     Height: =43
                     Size: =17
                     Text: ="Builder Name"
                     Width: =204
+                    X: =16
+                    Y: =8
                     ZIndex: =1
+
+                Label11_1 As label:
+                    Color: =RGBA(148, 135, 141, 1)
+                    Font: =Font.'Segoe UI'
+                    FontWeight: =FontWeight.Semibold
+                    Height: =43
+                    Size: =17
+                    Text: ="RERA Number"
+                    Width: =204
+                    X: =16
+                    Y: =60
+                    ZIndex: =2
+
+                Label11_2 As label:
+                    Color: =RGBA(148, 135, 141, 1)
+                    Font: =Font.'Segoe UI'
+                    FontWeight: =FontWeight.Semibold
+                    Height: =43
+                    Size: =17
+                    Text: ="Property "
+                    Width: =204
+                    X: =16
+                    Y: =112
+                    ZIndex: =3
+
+                Label11_3 As label:
+                    Color: =RGBA(148, 135, 141, 1)
+                    Font: =Font.'Segoe UI'
+                    FontWeight: =FontWeight.Semibold
+                    Height: =43
+                    Size: =17
+                    Text: ="Builder Name"
+                    Width: =204
+                    X: =16
+                    Y: =164
+                    ZIndex: =4
+
+                Label11_4 As label:
+                    Color: =RGBA(148, 135, 141, 1)
+                    Font: =Font.'Segoe UI'
+                    FontWeight: =FontWeight.Semibold
+                    Height: =43
+                    Size: =17
+                    Text: ="Builder Name"
+                    Width: =204
+                    X: =16
+                    Y: =225
+                    ZIndex: =5
+
+                Label11_5 As label:
+                    Color: =RGBA(148, 135, 141, 1)
+                    Font: =Font.'Segoe UI'
+                    FontWeight: =FontWeight.Semibold
+                    Height: =43
+                    Size: =17
+                    Text: ="Builder Name"
+                    Width: =204
+                    X: =16
+                    Y: =277
+                    ZIndex: =6
+
+                Label11_6 As label:
+                    Color: =RGBA(148, 135, 141, 1)
+                    Font: =Font.'Segoe UI'
+                    FontWeight: =FontWeight.Semibold
+                    Height: =43
+                    Size: =17
+                    Text: ="Builder Name"
+                    Width: =204
+                    X: =16
+                    Y: =329
+                    ZIndex: =7
 
     Container4 As groupContainer.manualLayoutContainer:
         Height: =76
