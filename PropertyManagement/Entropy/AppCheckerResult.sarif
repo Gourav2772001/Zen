@@ -490,36 +490,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "App.down-arrow (1)"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "App.down-arrow (1)",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "down-arrow (1)",
-                "module": "App",
-                "type": "App"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-UnusedMediaResources",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "Screen3.currentImg"
                 }
               ],

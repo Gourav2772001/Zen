@@ -73,6 +73,25 @@ Screen3 As screen:
         Y: =637
         ZIndex: =5
 
+        Container6 As groupContainer.manualLayoutContainer:
+            FillPortions: =0
+            Height: =400
+            LayoutMinHeight: =112
+            LayoutMinWidth: =250
+            ZIndex: =1
+
+            Container7 As groupContainer.manualLayoutContainer:
+                Height: =400
+                Width: =603
+                ZIndex: =1
+
+                Label11 As label:
+                    Height: =43
+                    Size: =17
+                    Text: ="Builder Name"
+                    Width: =204
+                    ZIndex: =1
+
     Container4 As groupContainer.manualLayoutContainer:
         Height: =76
         Width: =603
@@ -89,4 +108,12 @@ Screen3 As screen:
             X: =12
             Y: =12
             ZIndex: =1
+
+        Image7 As image:
+            Height: =45
+            Image: ='down-arrow (1)'
+            Width: =45
+            X: =531
+            Y: =14
+            ZIndex: =2
 
