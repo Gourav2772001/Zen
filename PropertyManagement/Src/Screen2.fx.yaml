@@ -1,78 +1,5 @@
 Screen2 As screen:
 
-    TextInput1 As text:
-        BorderColor: =RGBA(233, 231, 232, 1)
-        Default: =""
-        Font: =Font.'Segoe UI'
-        Height: =63
-        HintText: ="            Search property, builders"
-        RadiusBottomLeft: =12
-        RadiusBottomRight: =12
-        RadiusTopLeft: =12
-        RadiusTopRight: =12
-        Size: =17
-        Width: =471
-        X: =35
-        Y: =127
-        ZIndex: =4
-
-    Icon3 As icon.Search:
-        Color: =RGBA(180, 14, 90, 1)
-        Height: =50
-        Icon: =Icon.Search
-        Width: =50
-        X: =51
-        Y: =134
-        ZIndex: =5
-
-    Header As group:
-        Height: =5
-        Width: =5
-        X: =40
-        Y: =40
-        ZIndex: =5
-
-        Label1 As label:
-            Font: =Font.'Segoe UI'
-            FontWeight: =FontWeight.Bold
-            Height: =70
-            Size: =21
-            Text: ="Hi "& First(Split(User().FullName, " ")).Value &"!"
-            Width: =409
-            X: =93
-            Y: =34
-            ZIndex: =1
-
-        Icon2 As icon.Bell:
-            Color: =RGBA(0, 0, 0, 1)
-            Height: =50
-            Icon: =Icon.Bell
-            Width: =49
-            X: =493
-            Y: =44
-            ZIndex: =2
-
-        Image3 As image:
-            Height: =50
-            Image: =User().Image
-            RadiusBottomLeft: =100
-            RadiusBottomRight: =100
-            RadiusTopLeft: =100
-            RadiusTopRight: =100
-            Width: =49
-            X: =553
-            Y: =44
-            ZIndex: =3
-
-    Image5 As image:
-        Height: =48
-        Image: |-
-            ="data:image/svg+xml;utf8, %3Csvg%20%20viewBox%3D%270%200%202048%202048%27%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%3E%3Cpath%20d%3D%27M2048%20128v128H0V128h2048zm0%201664H0v-128h2048v128zm0-768H0V896h2048v128zm-512-384H0V512h1536v128zm0%20768H0v-128h1536v128z%27%20fill%3D%27%23000000%27%3E%3C%2Fpath%3E%3C%2Fsvg%3E"
-        Width: =48
-        X: =35
-        Y: =46
-        ZIndex: =6
-
     Container1 As groupContainer.manualLayoutContainer:
         Fill: =RGBA(180, 14, 90, 1)
         Height: =63
@@ -235,9 +162,9 @@ Screen2 As screen:
         ShowScrollbar: =false
         TemplatePadding: =0
         TemplateSize: =76
-        Width: =597
+        Width: =567
         WrapCount: =4
-        X: =18
+        X: =35
         Y: =504
         ZIndex: =12
 
@@ -270,69 +197,26 @@ Screen2 As screen:
         Items: =GODREJ
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
+        LoadingSpinnerColor: =RGBA(180, 14, 90, 1)
         TemplatePadding: =0
         TemplateSize: =230
         Y: =580
         ZIndex: =13
 
-        Image9 As image:
-            Height: =204
-            Image: =ThisItem.Image
-            ImagePosition: =ImagePosition.Fill
-            OnSelect: =Select(Parent)
-            RadiusBottomLeft: =8
-            RadiusBottomRight: =8
-            RadiusTopLeft: =8
-            RadiusTopRight: =8
-            Width: =240
-            X: =16
-            Y: =18
+        Container3 As groupContainer.manualLayoutContainer:
+            DropShadow: =DropShadow.Regular
+            Height: =276
+            Width: =589
+            X: =25
+            Y: =15
             ZIndex: =1
 
-        Title3 As label:
-            FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
-            Height: =39
-            OnSelect: =Select(Parent)
-            PaddingBottom: =0
-            PaddingLeft: =0
-            PaddingRight: =0
-            PaddingTop: =0
-            Text: =ThisItem.'RegistrationNo.'
-            VerticalAlign: =VerticalAlign.Top
-            Width: =262
-            X: =308
-            Y: =55
-            ZIndex: =2
-
-        Subtitle3 As label:
-            FontWeight: =If(ThisItem.IsSelected, FontWeight.Bold, FontWeight.Normal)
-            Height: =Self.Size * 1.8
-            OnSelect: =Select(Parent)
-            PaddingBottom: =0
-            PaddingLeft: =0
-            PaddingRight: =0
-            PaddingTop: =0
-            Size: =16
-            Text: =ThisItem.Name
-            VerticalAlign: =VerticalAlign.Top
-            Width: =Title3.Width
-            X: =308
-            Y: =18
-            ZIndex: =3
-
-        Separator3 As rectangle:
-            Height: =8
-            OnSelect: =Select(Parent)
-            Width: =Parent.TemplateWidth
-            Y: =Parent.TemplateHeight - Self.Height
-            ZIndex: =5
-
-        Rectangle6 As rectangle:
-            Height: =Parent.TemplateHeight - Separator3.Height
-            OnSelect: =Select(Parent)
-            Visible: =ThisItem.IsSelected
-            Width: =4
-            ZIndex: =6
+            Image4 As image:
+                Height: =276
+                Image: =ThisItem.Image
+                ImagePosition: =ImagePosition.Center
+                Width: =259
+                ZIndex: =1
 
         Label6 As label:
             Height: =60
@@ -353,4 +237,84 @@ Screen2 As screen:
             X: =308
             Y: =154
             ZIndex: =8
+
+    Header As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =40
+        ZIndex: =14
+
+        Label1 As label:
+            Font: =Font.'Segoe UI'
+            FontWeight: =FontWeight.Bold
+            Height: =70
+            Size: =21
+            Text: ="Hi "& First(Split(User().FullName, " ")).Value &"!"
+            Width: =409
+            X: =93
+            Y: =34
+            ZIndex: =1
+
+        Icon2 As icon.Bell:
+            Color: =RGBA(0, 0, 0, 1)
+            Height: =50
+            Icon: =Icon.Bell
+            Width: =49
+            X: =493
+            Y: =44
+            ZIndex: =2
+
+        Image3 As image:
+            Height: =50
+            Image: =User().Image
+            RadiusBottomLeft: =100
+            RadiusBottomRight: =100
+            RadiusTopLeft: =100
+            RadiusTopRight: =100
+            Width: =49
+            X: =553
+            Y: =44
+            ZIndex: =3
+
+        Image5 As image:
+            Height: =48
+            Image: |-
+                ="data:image/svg+xml;utf8, %3Csvg%20%20viewBox%3D%270%200%202048%202048%27%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%3E%3Cpath%20d%3D%27M2048%20128v128H0V128h2048zm0%201664H0v-128h2048v128zm0-768H0V896h2048v128zm-512-384H0V512h1536v128zm0%20768H0v-128h1536v128z%27%20fill%3D%27%23000000%27%3E%3C%2Fpath%3E%3C%2Fsvg%3E"
+            Width: =48
+            X: =35
+            Y: =46
+            ZIndex: =6
+
+    SearchInput As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =40
+        ZIndex: =14
+
+        TextInput1 As text:
+            BorderColor: =RGBA(233, 231, 232, 1)
+            Default: =""
+            Font: =Font.'Segoe UI'
+            Height: =63
+            HintText: ="            Search property, builders"
+            RadiusBottomLeft: =12
+            RadiusBottomRight: =12
+            RadiusTopLeft: =12
+            RadiusTopRight: =12
+            Size: =17
+            Width: =471
+            X: =35
+            Y: =127
+            ZIndex: =4
+
+        Icon3 As icon.Search:
+            Color: =RGBA(180, 14, 90, 1)
+            Height: =50
+            Icon: =Icon.Search
+            Width: =50
+            X: =51
+            Y: =134
+            ZIndex: =5
 
