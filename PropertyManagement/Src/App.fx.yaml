@@ -1,6 +1,6 @@
 App As appinfo:
     BackEnabled: =true
-    OnStart: |-
+    OnStart: |
         =ClearCollect(
             Tabs,
             {Name: "Open"},
@@ -8,8 +8,37 @@ App As appinfo:
             {Name: "Resolved"},
             {Name: "Closed"}
         );
-        Set(uparrow,false);
-        Set(downarrow,true)
+        Set(
+            uparrow,
+            false
+        );
+        Set(
+            downarrow,
+            true
+        );
+        ClearCollect(
+            colstages,
+            {
+                value: "20",
+                Completed: true
+            },
+            {
+                value: "40",
+                Completed: true
+            },
+            {
+                value: "80",
+                Completed: true
+            },
+            {
+                value: "100",
+                Completed: false
+            },
+            {
+                value: "Full",
+                Completed: false
+            }
+        );
     Theme: =PowerAppsTheme
 
     Host As hostControl.DefaultHostControlVariant:

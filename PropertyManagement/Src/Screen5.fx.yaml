@@ -1,0 +1,204 @@
+Screen5 As screen:
+
+    Label5_2 As label:
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Bold
+        Height: =45
+        Size: =21
+        Text: ="Raise a Snag"
+        Width: =541
+        X: =98
+        Y: =50
+        ZIndex: =1
+
+    Icon4_2 As icon.ArrowLeft:
+        Color: =RGBA(0, 0, 0, 1)
+        Height: =45
+        Icon: =Icon.ArrowLeft
+        OnSelect: =Back()
+        Width: =45
+        X: =44
+        Y: =50
+        ZIndex: =2
+
+    Container13 As groupContainer.verticalAutoLayoutContainer:
+        Height: =1015
+        LayoutDirection: =LayoutDirection.Vertical
+        LayoutMode: =LayoutMode.Auto
+        LayoutOverflowY: =LayoutOverflow.Scroll
+        Width: =636
+        X: =4
+        Y: =121
+        ZIndex: =5
+
+        Container14 As groupContainer.manualLayoutContainer:
+            FillPortions: =0
+            Height: =1480
+            LayoutMinHeight: =112
+            LayoutMinWidth: =250
+            ZIndex: =1
+
+            Container12 As groupContainer.manualLayoutContainer:
+                Height: =1480
+                Width: =635
+                X: =1
+                ZIndex: =1
+
+                Label12 As label:
+                    Font: =Font.'Segoe UI'
+                    FontWeight: =FontWeight.Semibold
+                    Height: =70
+                    Size: =20
+                    Text: ="Fill the details below to raise a snag"
+                    Width: =560
+                    X: =36
+                    Y: =6
+                    ZIndex: =1
+
+                Group1 As group:
+                    Height: =5
+                    Width: =5
+                    X: =40
+                    Y: =40
+                    ZIndex: =4
+
+                    Dropdown2 As dropdown:
+                        BorderColor: =RGBA(232, 230, 231, 1)
+                        ChevronBackground: =RGBA(148, 135, 141, 1)
+                        Height: =70
+                        Items: =DropDownSample
+                        Size: =21
+                        Width: =560
+                        X: =36
+                        Y: =125
+                        ZIndex: =2
+
+                    Label13 As label:
+                        Color: =RGBA(148, 135, 141, 1)
+                        FontWeight: =FontWeight.Bold
+                        Height: =70
+                        Size: =17
+                        Text: ="Snag Category"
+                        Width: =560
+                        X: =36
+                        Y: =67
+                        ZIndex: =3
+
+                Group1_1 As group:
+                    Height: =5
+                    Width: =5
+                    X: =4
+                    Y: =-36
+                    ZIndex: =6
+
+                    Dropdown2_1 As dropdown:
+                        BorderColor: =RGBA(232, 230, 231, 1)
+                        ChevronBackground: =RGBA(148, 135, 141, 1)
+                        Height: =70
+                        Items: =DropDownSample
+                        Size: =21
+                        Width: =560
+                        X: =36
+                        Y: =267
+                        ZIndex: =4
+
+                    Label13_1 As label:
+                        Color: =RGBA(148, 135, 141, 1)
+                        FontWeight: =FontWeight.Bold
+                        Height: =70
+                        Size: =17
+                        Text: ="Nature of Snag"
+                        Width: =560
+                        X: =36
+                        Y: =208
+                        ZIndex: =5
+
+                Label13_3 As label:
+                    Color: =RGBA(148, 135, 141, 1)
+                    FontWeight: =FontWeight.Bold
+                    Height: =70
+                    Size: =17
+                    Text: ="Severity Level"
+                    Width: =560
+                    X: =36
+                    Y: =677
+                    ZIndex: =9
+
+                Group2 As group:
+                    Height: =5
+                    Width: =5
+                    X: =40
+                    Y: =40
+                    ZIndex: =9
+
+                    Label13_2 As label:
+                        Color: =RGBA(148, 135, 141, 1)
+                        FontWeight: =FontWeight.Bold
+                        Height: =70
+                        Size: =17
+                        Text: ="Description"
+                        Width: =560
+                        X: =36
+                        Y: =352
+                        ZIndex: =7
+
+                    TextInput2 As text:
+                        BorderColor: =RGBA(232, 230, 231, 1)
+                        Default: =""
+                        Font: =Font.'Segoe UI'
+                        Height: =252
+                        HoverFill: =RGBA(255, 255, 255, 1)
+                        Size: =17
+                        Width: =560
+                        X: =36
+                        Y: =410
+                        ZIndex: =8
+
+                Radio1 As radio:
+                    Font: =Font.'Segoe UI'
+                    Height: =164
+                    Items: =RadioSample
+                    RadioBorderColor: =RGBA(232, 230, 231, 1)
+                    RadioSelectionFill: =RGBA(181, 14, 89, 1)
+                    Size: =17
+                    Width: =560
+                    X: =36
+                    Y: =738
+                    ZIndex: =10
+
+                Label13_4 As label:
+                    Color: =RGBA(148, 135, 141, 1)
+                    FontWeight: =FontWeight.Bold
+                    Height: =70
+                    Size: =17
+                    Text: ="Document"
+                    Width: =560
+                    X: =36
+                    Y: =902
+                    ZIndex: =11
+
+                AddMediaWithImage1 As group:
+                    Height: =5
+                    Width: =5
+                    X: =40
+                    Y: =40
+                    ZIndex: =12
+
+                    UploadedImage1 As image:
+                        Height: =AddMediaButton1.Height
+                        Image: =If(IsBlank(AddMediaButton1.Media), SampleImage, AddMediaButton1.Media)
+                        ImagePosition: =ImagePosition.Fill
+                        Width: =AddMediaButton1.Width
+                        X: =AddMediaButton1.X
+                        Y: =AddMediaButton1.Y
+                        ZIndex: =13
+
+                    AddMediaButton1 As addMedia:
+                        Height: =74
+                        Size: =17
+                        Text: ="Tap or click to add a image"
+                        Width: =575
+                        X: =21
+                        Y: =972
+                        ZIndex: =14
+
