@@ -47,8 +47,9 @@ Screen3 As screen:
         LayoutDirection: =LayoutDirection.Vertical
         LayoutMode: =LayoutMode.Auto
         LayoutOverflowY: =LayoutOverflow.Scroll
-        Visible: |
+        Visible: |+
             =ShowContainer
+            
         Width: =603
         X: =19
         Y: =637
@@ -463,9 +464,24 @@ Screen3 As screen:
             Height: =45
             Image: ='down-arrow (1)'
             OnSelect: |
-                =Set(ShowContainer, !ShowContainer)
+                =Set(ShowContainer,!ShowContainer);
+                Set(uparrow, true);
+                Set(downarrow, false)
+            Visible: =downarrow
             Width: =45
             X: =531
-            Y: =14
+            Y: =12
             ZIndex: =2
+
+        Image9 As image:
+            Height: =45
+            Image: ='arrow-up'
+            OnSelect: |
+                =Set(uparrow, false);
+                Set(downarrow, true)
+            Visible: =uparrow
+            Width: =45
+            X: =531
+            Y: =12
+            ZIndex: =3
 

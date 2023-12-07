@@ -1,6 +1,6 @@
 App As appinfo:
     BackEnabled: =true
-    OnStart: |
+    OnStart: |-
         =ClearCollect(
             Tabs,
             {Name: "Open"},
@@ -8,6 +8,8 @@ App As appinfo:
             {Name: "Resolved"},
             {Name: "Closed"}
         );
+        Set(uparrow,false);
+        Set(downarrow,true)
     Theme: =PowerAppsTheme
 
     Host As hostControl.DefaultHostControlVariant:
