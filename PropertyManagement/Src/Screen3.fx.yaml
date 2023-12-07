@@ -170,7 +170,7 @@ Screen3 As screen:
                     Size: =17
                     Text: =First(currentData).'RegistrationNo.'
                     Width: =204
-                    X: =383
+                    X: =380
                     Y: =60
                     ZIndex: =9
 
@@ -182,7 +182,7 @@ Screen3 As screen:
                     Size: =17
                     Text: =First(currentData).'Property Type'
                     Width: =204
-                    X: =376
+                    X: =382
                     Y: =112
                     ZIndex: =10
 
@@ -207,7 +207,7 @@ Screen3 As screen:
                     Text: =First(currentData).'Number of Towers'
                     Width: =204
                     X: =380
-                    Y: =268
+                    Y: =265
                     ZIndex: =13
 
                 Label11_13 As label:
@@ -219,7 +219,7 @@ Screen3 As screen:
                     Text: =First(currentData).'Floor Number'&"rd"
                     Width: =204
                     X: =380
-                    Y: =329
+                    Y: =326
                     ZIndex: =14
 
                 Label11_11 As label:
@@ -231,7 +231,7 @@ Screen3 As screen:
                     Text: =First(currentData).Name
                     Width: =204
                     X: =380
-                    Y: =225
+                    Y: =216
                     ZIndex: =15
 
         Container8 As groupContainer.manualLayoutContainer:
