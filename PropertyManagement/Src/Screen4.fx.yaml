@@ -193,7 +193,7 @@ Screen4 As screen:
                     FontWeight: =FontWeight.Semibold
                     Height: =43
                     Size: =17
-                    Text: ="Apartment Area"
+                    Text: ="Apartment area"
                     Width: =204
                     X: =16
                     Y: =60
@@ -205,7 +205,7 @@ Screen4 As screen:
                     FontWeight: =FontWeight.Semibold
                     Height: =43
                     Size: =17
-                    Text: ="Property Type"
+                    Text: ="Rooms area"
                     Width: =204
                     X: =16
                     Y: =112
@@ -217,7 +217,7 @@ Screen4 As screen:
                     FontWeight: =FontWeight.Semibold
                     Height: =43
                     Size: =17
-                    Text: ="Cost"
+                    Text: ="Floor tiles quality"
                     Width: =204
                     X: =16
                     Y: =164
@@ -227,10 +227,10 @@ Screen4 As screen:
                     Color: =RGBA(148, 135, 141, 1)
                     Font: =Font.'Segoe UI'
                     FontWeight: =FontWeight.Semibold
-                    Height: =43
+                    Height: =46
                     Size: =17
-                    Text: ="Location"
-                    Width: =204
+                    Text: ="Doors material quality"
+                    Width: =252
                     X: =16
                     Y: =216
                     ZIndex: =5
@@ -241,7 +241,7 @@ Screen4 As screen:
                     FontWeight: =FontWeight.Semibold
                     Height: =43
                     Size: =17
-                    Text: ="Tower Number"
+                    Text: ="Locks quality"
                     Width: =204
                     X: =16
                     Y: =268
@@ -253,7 +253,7 @@ Screen4 As screen:
                     FontWeight: =FontWeight.Semibold
                     Height: =43
                     Size: =17
-                    Text: ="Floor Number"
+                    Text: ="Gaps in floor tiles"
                     Width: =204
                     X: =16
                     Y: =329
@@ -364,8 +364,8 @@ Screen4 As screen:
                     FontWeight: =FontWeight.Semibold
                     Height: =43
                     Size: =17
-                    Text: ="Total Area"
-                    Width: =204
+                    Text: ="Window material quality"
+                    Width: =280
                     X: =12
                     Y: =3
                     ZIndex: =1
@@ -376,7 +376,7 @@ Screen4 As screen:
                     FontWeight: =FontWeight.Semibold
                     Height: =43
                     Size: =17
-                    Text: ="Covered Area"
+                    Text: ="Doors working"
                     Width: =204
                     X: =12
                     Y: =64
@@ -388,8 +388,8 @@ Screen4 As screen:
                     FontWeight: =FontWeight.Semibold
                     Height: =43
                     Size: =17
-                    Text: ="Carpet Area"
-                    Width: =204
+                    Text: ="Winndows working"
+                    Width: =264
                     X: =12
                     Y: =119
                     ZIndex: =3
@@ -400,7 +400,7 @@ Screen4 As screen:
                     FontWeight: =FontWeight.Semibold
                     Height: =43
                     Size: =17
-                    Text: ="Furnished"
+                    Text: ="Balcony area"
                     Width: =204
                     X: =12
                     Y: =179
@@ -412,7 +412,7 @@ Screen4 As screen:
                     FontWeight: =FontWeight.Semibold
                     Height: =43
                     Size: =17
-                    Text: ="Room"
+                    Text: ="Washroom tiles"
                     Width: =204
                     X: =12
                     Y: =240
@@ -424,7 +424,7 @@ Screen4 As screen:
                     FontWeight: =FontWeight.Semibold
                     Height: =43
                     Size: =17
-                    Text: ="Washroom"
+                    Text: ="Gaps in floor tiles"
                     Width: =204
                     X: =12
                     Y: =301
@@ -436,7 +436,7 @@ Screen4 As screen:
                     FontWeight: =FontWeight.Semibold
                     Height: =43
                     Size: =17
-                    Text: ="Servant Room"
+                    Text: ="Wall Skirtings"
                     Width: =204
                     X: =12
                     Y: =362
@@ -448,7 +448,7 @@ Screen4 As screen:
                     FontWeight: =FontWeight.Semibold
                     Height: =43
                     Size: =17
-                    Text: ="Balcony"
+                    Text: ="Paint quality"
                     Width: =204
                     X: =12
                     Y: =421
@@ -570,7 +570,7 @@ Screen4 As screen:
                     FontWeight: =FontWeight.Bold
                     Height: =56
                     Size: =18
-                    Text: ="Construction Details"
+                    Text: ="Electrical Systems"
                     Width: =293
                     X: =12
                     Y: =12
@@ -623,7 +623,7 @@ Screen4 As screen:
                     FontWeight: =FontWeight.Semibold
                     Height: =43
                     Size: =17
-                    Text: ="Construction Type"
+                    Text: ="Bedroom switches"
                     Width: =204
                     X: =16
                     Y: =8
@@ -633,10 +633,10 @@ Screen4 As screen:
                     Color: =RGBA(148, 135, 141, 1)
                     Font: =Font.'Segoe UI'
                     FontWeight: =FontWeight.Semibold
-                    Height: =43
+                    Height: =46
                     Size: =17
-                    Text: ="Number of tower"
-                    Width: =204
+                    Text: ="Washroom switches"
+                    Width: =244
                     X: =16
                     Y: =60
                     ZIndex: =2
@@ -645,10 +645,10 @@ Screen4 As screen:
                     Color: =RGBA(148, 135, 141, 1)
                     Font: =Font.'Segoe UI'
                     FontWeight: =FontWeight.Semibold
-                    Height: =43
+                    Height: =46
                     Size: =17
-                    Text: ="Property Type"
-                    Width: =204
+                    Text: ="Drawing room switches"
+                    Width: =264
                     X: =16
                     Y: =112
                     ZIndex: =3
@@ -659,7 +659,7 @@ Screen4 As screen:
                     FontWeight: =FontWeight.Semibold
                     Height: =43
                     Size: =17
-                    Text: ="Cost"
+                    Text: ="Balcony switches"
                     Width: =204
                     X: =16
                     Y: =164
@@ -671,7 +671,7 @@ Screen4 As screen:
                     FontWeight: =FontWeight.Semibold
                     Height: =43
                     Size: =17
-                    Text: ="Location"
+                    Text: ="Power cables"
                     Width: =204
                     X: =16
                     Y: =216
@@ -683,7 +683,7 @@ Screen4 As screen:
                     FontWeight: =FontWeight.Semibold
                     Height: =43
                     Size: =17
-                    Text: ="Tower Number"
+                    Text: ="Flickering lights"
                     Width: =204
                     X: =16
                     Y: =268
@@ -695,7 +695,7 @@ Screen4 As screen:
                     FontWeight: =FontWeight.Semibold
                     Height: =43
                     Size: =17
-                    Text: ="Floor Number"
+                    Text: ="Power switches"
                     Width: =204
                     X: =16
                     Y: =329
@@ -788,7 +788,7 @@ Screen4 As screen:
         ConstructionDetails2_1 As groupContainer.manualLayoutContainer:
             DropShadow: =DropShadow.None
             FillPortions: =0
-            Height: =380
+            Height: =100
             LayoutMinHeight: =112
             LayoutMinWidth: =250
             Visible: =ShowContainer1
@@ -796,7 +796,7 @@ Screen4 As screen:
 
             Container7_7 As groupContainer.manualLayoutContainer:
                 DropShadow: =DropShadow.None
-                Height: =380
+                Height: =130
                 Width: =591
                 ZIndex: =1
 
@@ -806,7 +806,7 @@ Screen4 As screen:
                     FontWeight: =FontWeight.Semibold
                     Height: =43
                     Size: =17
-                    Text: ="Construction Type"
+                    Text: ="Switches"
                     Width: =204
                     X: =16
                     Y: =8
@@ -818,71 +818,11 @@ Screen4 As screen:
                     FontWeight: =FontWeight.Semibold
                     Height: =43
                     Size: =17
-                    Text: ="Number of tower"
+                    Text: ="Sockets"
                     Width: =204
                     X: =16
                     Y: =60
                     ZIndex: =2
-
-                Label11_118 As label:
-                    Color: =RGBA(148, 135, 141, 1)
-                    Font: =Font.'Segoe UI'
-                    FontWeight: =FontWeight.Semibold
-                    Height: =43
-                    Size: =17
-                    Text: ="Property Type"
-                    Width: =204
-                    X: =16
-                    Y: =112
-                    ZIndex: =3
-
-                Label11_120 As label:
-                    Color: =RGBA(148, 135, 141, 1)
-                    Font: =Font.'Segoe UI'
-                    FontWeight: =FontWeight.Semibold
-                    Height: =43
-                    Size: =17
-                    Text: ="Cost"
-                    Width: =204
-                    X: =16
-                    Y: =164
-                    ZIndex: =4
-
-                Label11_122 As label:
-                    Color: =RGBA(148, 135, 141, 1)
-                    Font: =Font.'Segoe UI'
-                    FontWeight: =FontWeight.Semibold
-                    Height: =43
-                    Size: =17
-                    Text: ="Location"
-                    Width: =204
-                    X: =16
-                    Y: =216
-                    ZIndex: =5
-
-                Label11_124 As label:
-                    Color: =RGBA(148, 135, 141, 1)
-                    Font: =Font.'Segoe UI'
-                    FontWeight: =FontWeight.Semibold
-                    Height: =43
-                    Size: =17
-                    Text: ="Tower Number"
-                    Width: =204
-                    X: =16
-                    Y: =268
-                    ZIndex: =6
-
-                Label11_126 As label:
-                    Color: =RGBA(148, 135, 141, 1)
-                    Font: =Font.'Segoe UI'
-                    FontWeight: =FontWeight.Semibold
-                    Height: =43
-                    Size: =17
-                    Text: ="Floor Number"
-                    Width: =204
-                    X: =16
-                    Y: =329
-                    ZIndex: =7
 
                 Label11_115 As label:
                     Align: =Align.Right
@@ -908,66 +848,6 @@ Screen4 As screen:
                     Y: =63
                     ZIndex: =9
 
-                Label11_119 As label:
-                    Align: =Align.Right
-                    Font: =Font.'Segoe UI'
-                    FontWeight: =FontWeight.Semibold
-                    Height: =43
-                    Size: =17
-                    Text: =First(currentData).'Property Type'
-                    Width: =204
-                    X: =368
-                    Y: =115
-                    ZIndex: =10
-
-                Label11_121 As label:
-                    Align: =Align.Right
-                    Font: =Font.'Segoe UI'
-                    FontWeight: =FontWeight.Semibold
-                    Height: =43
-                    Size: =17
-                    Text: =First(currentData).Cost&" Cr"
-                    Width: =204
-                    X: =369
-                    Y: =167
-                    ZIndex: =11
-
-                Label11_125 As label:
-                    Align: =Align.Right
-                    Font: =Font.'Segoe UI'
-                    FontWeight: =FontWeight.Semibold
-                    Height: =43
-                    Size: =17
-                    Text: =First(currentData).'Number of Towers'
-                    Width: =204
-                    X: =366
-                    Y: =268
-                    ZIndex: =13
-
-                Label11_127 As label:
-                    Align: =Align.Right
-                    Font: =Font.'Segoe UI'
-                    FontWeight: =FontWeight.Semibold
-                    Height: =43
-                    Size: =17
-                    Text: =First(currentData).'Floor Number'&"rd"
-                    Width: =204
-                    X: =366
-                    Y: =329
-                    ZIndex: =14
-
-                Label11_123 As label:
-                    Align: =Align.Right
-                    Font: =Font.'Segoe UI'
-                    FontWeight: =FontWeight.Semibold
-                    Height: =43
-                    Size: =17
-                    Text: =First(currentData).Name
-                    Width: =204
-                    X: =366
-                    Y: =219
-                    ZIndex: =15
-
         OwnerDetails_1 As groupContainer.manualLayoutContainer:
             DropShadow: =DropShadow.None
             FillPortions: =0
@@ -986,10 +866,10 @@ Screen4 As screen:
 
                 Label10_6 As label:
                     FontWeight: =FontWeight.Bold
-                    Height: =49
+                    Height: =57
                     Size: =18
-                    Text: ="Owner Details"
-                    Width: =223
+                    Text: ="Plumbing and HVAC Systems"
+                    Width: =378
                     X: =12
                     Y: =12
                     ZIndex: =1
@@ -1041,7 +921,7 @@ Screen4 As screen:
                     FontWeight: =FontWeight.Semibold
                     Height: =43
                     Size: =17
-                    Text: ="Builder Name"
+                    Text: ="Washroom faucets"
                     Width: =204
                     X: =16
                     Y: =8
@@ -1053,7 +933,7 @@ Screen4 As screen:
                     FontWeight: =FontWeight.Semibold
                     Height: =43
                     Size: =17
-                    Text: ="RERA Number"
+                    Text: ="Balcony faucets"
                     Width: =204
                     X: =16
                     Y: =60
@@ -1065,7 +945,7 @@ Screen4 As screen:
                     FontWeight: =FontWeight.Semibold
                     Height: =43
                     Size: =17
-                    Text: ="Property Type"
+                    Text: ="Kitchen faucets"
                     Width: =204
                     X: =16
                     Y: =112
@@ -1075,10 +955,10 @@ Screen4 As screen:
                     Color: =RGBA(148, 135, 141, 1)
                     Font: =Font.'Segoe UI'
                     FontWeight: =FontWeight.Semibold
-                    Height: =43
+                    Height: =46
                     Size: =17
-                    Text: ="Cost"
-                    Width: =204
+                    Text: ="Dawaing room faucets"
+                    Width: =279
                     X: =16
                     Y: =164
                     ZIndex: =4
@@ -1089,7 +969,7 @@ Screen4 As screen:
                     FontWeight: =FontWeight.Semibold
                     Height: =43
                     Size: =17
-                    Text: ="Location"
+                    Text: ="Drainage system"
                     Width: =204
                     X: =16
                     Y: =216
@@ -1101,7 +981,7 @@ Screen4 As screen:
                     FontWeight: =FontWeight.Semibold
                     Height: =43
                     Size: =17
-                    Text: ="Tower Number"
+                    Text: ="HVAC systems"
                     Width: =204
                     X: =16
                     Y: =268
@@ -1113,8 +993,8 @@ Screen4 As screen:
                     FontWeight: =FontWeight.Semibold
                     Height: =43
                     Size: =17
-                    Text: ="Floor Number"
-                    Width: =204
+                    Text: ="Heating and cooling"
+                    Width: =245
                     X: =16
                     Y: =329
                     ZIndex: =7
@@ -1221,10 +1101,10 @@ Screen4 As screen:
 
                 Label10_7 As label:
                     FontWeight: =FontWeight.Bold
-                    Height: =49
+                    Height: =45
                     Size: =18
-                    Text: ="Amenities"
-                    Width: =223
+                    Text: ="Safety and Security"
+                    Width: =259
                     X: =12
                     Y: =12
                     ZIndex: =1
@@ -1277,10 +1157,10 @@ Screen4 As screen:
                     FontWeight: =FontWeight.Semibold
                     Height: =43
                     Size: =17
-                    Text: ="Builder Name"
+                    Text: ="Fire alarms"
                     Width: =204
                     X: =16
-                    Y: =8
+                    Y: =17
                     ZIndex: =1
 
                 Label11_144 As label:
@@ -1289,7 +1169,7 @@ Screen4 As screen:
                     FontWeight: =FontWeight.Semibold
                     Height: =43
                     Size: =17
-                    Text: ="RERA Number"
+                    Text: ="Fire extinguishers"
                     Width: =204
                     X: =16
                     Y: =60
@@ -1301,7 +1181,7 @@ Screen4 As screen:
                     FontWeight: =FontWeight.Semibold
                     Height: =43
                     Size: =17
-                    Text: ="Property Type"
+                    Text: ="Camera"
                     Width: =204
                     X: =16
                     Y: =112
@@ -1311,10 +1191,10 @@ Screen4 As screen:
                     Color: =RGBA(148, 135, 141, 1)
                     Font: =Font.'Segoe UI'
                     FontWeight: =FontWeight.Semibold
-                    Height: =43
+                    Height: =46
                     Size: =17
-                    Text: ="Cost"
-                    Width: =204
+                    Text: ="Access control system"
+                    Width: =265
                     X: =16
                     Y: =164
                     ZIndex: =4
@@ -1325,7 +1205,7 @@ Screen4 As screen:
                     FontWeight: =FontWeight.Semibold
                     Height: =43
                     Size: =17
-                    Text: ="Location"
+                    Text: ="Security guards"
                     Width: =204
                     X: =16
                     Y: =216
@@ -1337,23 +1217,11 @@ Screen4 As screen:
                     FontWeight: =FontWeight.Semibold
                     Height: =43
                     Size: =17
-                    Text: ="Tower Number"
+                    Text: ="Lift quality"
                     Width: =204
                     X: =16
                     Y: =268
                     ZIndex: =6
-
-                Label11_154 As label:
-                    Color: =RGBA(148, 135, 141, 1)
-                    Font: =Font.'Segoe UI'
-                    FontWeight: =FontWeight.Semibold
-                    Height: =43
-                    Size: =17
-                    Text: ="Floor Number"
-                    Width: =204
-                    X: =16
-                    Y: =329
-                    ZIndex: =7
 
                 Label11_143 As label:
                     Align: =Align.Right
@@ -1415,18 +1283,6 @@ Screen4 As screen:
                     Y: =268
                     ZIndex: =13
 
-                Label11_155 As label:
-                    Align: =Align.Right
-                    Font: =Font.'Segoe UI'
-                    FontWeight: =FontWeight.Semibold
-                    Height: =43
-                    Size: =17
-                    Text: =First(currentData).'Floor Number'&"rd"
-                    Width: =204
-                    X: =366
-                    Y: =329
-                    ZIndex: =14
-
                 Label11_151 As label:
                     Align: =Align.Right
                     Font: =Font.'Segoe UI'
@@ -1438,4 +1294,236 @@ Screen4 As screen:
                     X: =366
                     Y: =219
                     ZIndex: =15
+
+        OwnerDetails_2 As groupContainer.manualLayoutContainer:
+            DropShadow: =DropShadow.None
+            FillPortions: =0
+            Height: =100
+            LayoutMinHeight: =112
+            LayoutMinWidth: =250
+            ZIndex: =11
+
+            Container4_8 As groupContainer.manualLayoutContainer:
+                DropShadow: =DropShadow.Semilight
+                Height: =72
+                Width: =569
+                X: =18
+                Y: =18
+                ZIndex: =1
+
+                Label10_8 As label:
+                    FontWeight: =FontWeight.Bold
+                    Height: =57
+                    Size: =18
+                    Text: ="Deep Cleaning"
+                    Width: =378
+                    X: =12
+                    Y: =12
+                    ZIndex: =1
+
+                arrowDown_8 As image:
+                    Height: =45
+                    Image: ='down-arrow (1)'
+                    OnSelect: |
+                        =Set(ShowContainer5,!ShowContainer5);
+                        Set(uparrow5, true);
+                        Set(downarrow5, false)
+                    Visible: =downarrow2
+                    Width: =45
+                    X: =504
+                    Y: =12
+                    ZIndex: =2
+
+                arrowUp_8 As image:
+                    Height: =45
+                    Image: ='arrow-up'
+                    OnSelect: |
+                        =Set(uparrow5, false);
+                        Set(downarrow5, true);
+                        Set(ShowContainer5,!ShowContainer5)
+                    Visible: =uparrow2
+                    Width: =45
+                    X: =507
+                    Y: =12
+                    ZIndex: =3
+
+        Container1 As groupContainer.manualLayoutContainer:
+            FillPortions: =0
+            Height: =430
+            LayoutMinHeight: =112
+            LayoutMinWidth: =250
+            Visible: =ShowContainer5
+            ZIndex: =12
+
+            Label11_154 As label:
+                Color: =RGBA(148, 135, 141, 1)
+                Font: =Font.'Segoe UI'
+                FontWeight: =FontWeight.Semibold
+                Height: =43
+                Size: =17
+                Text: ="Bedroom Walls"
+                Width: =204
+                X: =16
+                Y: =17
+                ZIndex: =1
+
+            Label11_155 As label:
+                Color: =RGBA(148, 135, 141, 1)
+                Font: =Font.'Segoe UI'
+                FontWeight: =FontWeight.Semibold
+                Height: =43
+                Size: =17
+                Text: ="Washrooms"
+                Width: =204
+                X: =16
+                Y: =60
+                ZIndex: =2
+
+            Label11_172 As label:
+                Color: =RGBA(148, 135, 141, 1)
+                Font: =Font.'Segoe UI'
+                FontWeight: =FontWeight.Semibold
+                Height: =0
+                Size: =17
+                Text: ="Lift quality"
+                Width: =204
+                X: =280
+                Y: =32
+                ZIndex: =3
+
+            Label11_173 As label:
+                Color: =RGBA(148, 135, 141, 1)
+                Font: =Font.'Segoe UI'
+                FontWeight: =FontWeight.Semibold
+                Height: =43
+                Size: =17
+                Text: ="Balcony area"
+                Width: =204
+                X: =16
+                Y: =103
+                ZIndex: =4
+
+            Label11_174 As label:
+                Color: =RGBA(148, 135, 141, 1)
+                Font: =Font.'Segoe UI'
+                FontWeight: =FontWeight.Semibold
+                Height: =43
+                Size: =17
+                Text: ="Floor tiles"
+                Width: =204
+                X: =16
+                Y: =146
+                ZIndex: =5
+
+            Label11_175 As label:
+                Color: =RGBA(148, 135, 141, 1)
+                Font: =Font.'Segoe UI'
+                FontWeight: =FontWeight.Semibold
+                Height: =43
+                Size: =17
+                Text: ="Kitchen"
+                Width: =204
+                X: =16
+                Y: =189
+                ZIndex: =6
+
+            Label11_176 As label:
+                Color: =RGBA(148, 135, 141, 1)
+                Font: =Font.'Segoe UI'
+                FontWeight: =FontWeight.Semibold
+                Height: =43
+                Size: =17
+                Text: ="Switches"
+                Width: =204
+                X: =16
+                Y: =232
+                ZIndex: =7
+
+            Label11_177 As label:
+                Color: =RGBA(148, 135, 141, 1)
+                Font: =Font.'Segoe UI'
+                FontWeight: =FontWeight.Semibold
+                Height: =43
+                Size: =17
+                Text: ="Roofs"
+                Width: =204
+                X: =16
+                Y: =275
+                ZIndex: =8
+
+            Label11_178 As label:
+                Color: =RGBA(148, 135, 141, 1)
+                Font: =Font.'Segoe UI'
+                FontWeight: =FontWeight.Semibold
+                Height: =43
+                Size: =17
+                Text: ="Doors"
+                Width: =204
+                X: =16
+                Y: =318
+                ZIndex: =9
+
+            Label11_179 As label:
+                Color: =RGBA(148, 135, 141, 1)
+                Font: =Font.'Segoe UI'
+                FontWeight: =FontWeight.Semibold
+                Height: =43
+                Size: =17
+                Text: ="Windows"
+                Width: =204
+                X: =16
+                Y: =361
+                ZIndex: =10
+
+        OwnerDetails_3 As groupContainer.manualLayoutContainer:
+            DropShadow: =DropShadow.None
+            FillPortions: =0
+            Height: =100
+            LayoutMinHeight: =112
+            LayoutMinWidth: =250
+            ZIndex: =13
+
+            Container4_9 As groupContainer.manualLayoutContainer:
+                DropShadow: =DropShadow.Semilight
+                Height: =72
+                Width: =569
+                X: =18
+                Y: =18
+                ZIndex: =1
+
+                Label10_9 As label:
+                    FontWeight: =FontWeight.Bold
+                    Height: =57
+                    Size: =18
+                    Text: ="Asset Transition"
+                    Width: =378
+                    X: =12
+                    Y: =12
+                    ZIndex: =1
+
+                arrowDown_9 As image:
+                    Height: =45
+                    Image: ='down-arrow (1)'
+                    OnSelect: |
+                        =Set(ShowContainer6,!ShowContainer6);
+                        Set(uparrow6, true);
+                        Set(downarrow6, false)
+                    Visible: =downarrow6
+                    Width: =45
+                    X: =504
+                    Y: =12
+                    ZIndex: =2
+
+                arrowUp_9 As image:
+                    Height: =45
+                    Image: ='arrow-up'
+                    OnSelect: |
+                        =Set(uparrow5, false);
+                        Set(downarrow5, true);
+                        Set(ShowContainer5,!ShowContainer5)
+                    Visible: =uparrow6
+                    Width: =45
+                    X: =507
+                    Y: =12
+                    ZIndex: =3
 
