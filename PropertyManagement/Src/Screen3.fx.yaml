@@ -1074,124 +1074,40 @@ Screen3 As screen:
                 Width: =603
                 ZIndex: =1
 
-                Label11_72 As label:
-                    Color: =RGBA(148, 135, 141, 1)
-                    Font: =Font.'Segoe UI'
-                    FontWeight: =FontWeight.Semibold
-                    Height: =43
-                    Size: =17
-                    Text: ="Builder Name"
-                    Width: =204
-                    X: =16
-                    Y: =8
-                    ZIndex: =1
-
-                Label11_74 As label:
-                    Color: =RGBA(148, 135, 141, 1)
-                    Font: =Font.'Segoe UI'
-                    FontWeight: =FontWeight.Semibold
-                    Height: =43
-                    Size: =17
-                    Text: ="RERA Number"
-                    Width: =204
-                    X: =16
-                    Y: =60
-                    ZIndex: =2
-
-                Label11_76 As label:
-                    Color: =RGBA(148, 135, 141, 1)
-                    Font: =Font.'Segoe UI'
-                    FontWeight: =FontWeight.Semibold
-                    Height: =43
-                    Size: =17
-                    Text: ="Property Type"
-                    Width: =204
-                    X: =16
-                    Y: =112
-                    ZIndex: =3
-
-                Label11_78 As label:
-                    Color: =RGBA(148, 135, 141, 1)
-                    Font: =Font.'Segoe UI'
-                    FontWeight: =FontWeight.Semibold
-                    Height: =43
-                    Size: =17
-                    Text: ="Cost"
-                    Width: =204
-                    X: =16
-                    Y: =164
-                    ZIndex: =4
-
-                Label11_80 As label:
-                    Color: =RGBA(148, 135, 141, 1)
-                    Font: =Font.'Segoe UI'
-                    FontWeight: =FontWeight.Semibold
-                    Height: =43
-                    Size: =17
-                    Text: ="Location"
-                    Width: =204
-                    X: =16
-                    Y: =216
-                    ZIndex: =5
-
-                Label11_82 As label:
-                    Color: =RGBA(148, 135, 141, 1)
-                    Font: =Font.'Segoe UI'
-                    FontWeight: =FontWeight.Semibold
-                    Height: =43
-                    Size: =17
-                    Text: ="Tower Number"
-                    Width: =204
-                    X: =16
-                    Y: =268
-                    ZIndex: =6
-
-                Label11_84 As label:
-                    Color: =RGBA(148, 135, 141, 1)
-                    Font: =Font.'Segoe UI'
-                    FontWeight: =FontWeight.Semibold
-                    Height: =43
-                    Size: =17
-                    Text: ="Floor Number"
-                    Width: =204
-                    X: =16
-                    Y: =329
-                    ZIndex: =7
-
                 Label11_73 As label:
-                    Align: =Align.Right
+                    Align: =Align.Center
                     Font: =Font.'Segoe UI'
                     FontWeight: =FontWeight.Semibold
                     Height: =43
                     Size: =17
-                    Text: =First(currentData).Name
-                    Width: =204
-                    X: =366
-                    Y: =11
+                    Text: ="Club House"
+                    Width: =140
+                    X: =94
+                    Y: =28
                     ZIndex: =8
 
                 Label11_75 As label:
-                    Align: =Align.Right
+                    Align: =Align.Center
                     Font: =Font.'Segoe UI'
                     FontWeight: =FontWeight.Semibold
                     Height: =43
                     Size: =17
-                    Text: =First(currentData).'RegistrationNo.'
+                    Text: ="Basketball Court"
                     Width: =204
-                    X: =366
-                    Y: =63
+                    X: =375
+                    Y: =28
                     ZIndex: =9
 
                 Label11_77 As label:
-                    Align: =Align.Right
+                    Align: =Align.Center
                     Font: =Font.'Segoe UI'
                     FontWeight: =FontWeight.Semibold
-                    Height: =43
+                    Height: =34
                     Size: =17
-                    Text: =First(currentData).'Property Type'
-                    Width: =204
-                    X: =368
-                    Y: =115
+                    Text: ="Tennis Court"
+                    Width: =157
+                    X: =94
+                    Y: =102
                     ZIndex: =10
 
                 Label11_79 As label:
@@ -1200,7 +1116,7 @@ Screen3 As screen:
                     FontWeight: =FontWeight.Semibold
                     Height: =43
                     Size: =17
-                    Text: =First(currentData).Cost&" Cr"
+                    Text: ="Cricket Pitch"
                     Width: =204
                     X: =369
                     Y: =167
@@ -1236,11 +1152,35 @@ Screen3 As screen:
                     FontWeight: =FontWeight.Semibold
                     Height: =43
                     Size: =17
-                    Text: =First(currentData).Name
+                    Text: ="Power Backup"
                     Width: =204
                     X: =366
                     Y: =219
                     ZIndex: =15
+
+                Image7 As image:
+                    Height: =60
+                    Image: =clubhouse
+                    Width: =60
+                    X: =31
+                    Y: =11
+                    ZIndex: =16
+
+                Image9 As image:
+                    Height: =60
+                    Image: ='basketball-ball-variant'
+                    Width: =60
+                    X: =324
+                    Y: =11
+                    ZIndex: =17
+
+                Image11 As image:
+                    Height: =60
+                    Image: =tennis
+                    Width: =60
+                    X: =31
+                    Y: =89
+                    ZIndex: =18
 
     Button1 As button:
         Fill: =RGBA(181, 14, 89, 1)
