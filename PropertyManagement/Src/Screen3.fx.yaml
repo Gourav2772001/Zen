@@ -43,7 +43,7 @@ Screen3 As screen:
 
     PropertyG As groupContainer.verticalAutoLayoutContainer:
         DropShadow: =DropShadow.None
-        Height: =587
+        Height: =501
         LayoutDirection: =LayoutDirection.Vertical
         LayoutMode: =LayoutMode.Auto
         LayoutOverflowY: =LayoutOverflow.Scroll
@@ -1385,4 +1385,16 @@ Screen3 As screen:
                     X: =366
                     Y: =219
                     ZIndex: =15
+
+    Button1 As button:
+        Fill: =RGBA(181, 14, 89, 1)
+        Height: =59
+        HoverFill: =ColorFade(RGBA(181, 14, 89, 1), -20%)
+        OnSelect: =Navigate(Screen4)
+        Size: =17
+        Text: ="Proceed for Inspection"
+        Width: =578
+        X: =32
+        Y: =1043
+        ZIndex: =6
 
