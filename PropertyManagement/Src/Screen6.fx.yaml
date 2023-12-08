@@ -47,8 +47,8 @@ Screen6 As screen:
 
             Container7_13 As groupContainer.manualLayoutContainer:
                 DropShadow: =DropShadow.None
-                Height: =496
-                Width: =596
+                Height: =525
+                Width: =603
                 ZIndex: =1
 
                 Label11_192 As label:
