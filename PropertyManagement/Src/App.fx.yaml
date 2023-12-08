@@ -40,6 +40,38 @@ App As appinfo:
             downarrow3,
             true
         );
+        Set(
+            uparrow4,
+            false
+        );
+        Set(
+            downarrow4,
+            true
+        );
+        Set(
+            uparrow5,
+            false
+        );
+        Set(
+            downarrow5,
+            true
+        );
+        Set(
+            uparrow6,
+            false
+        );
+        Set(
+            downarrow6,
+            true
+        );
+        Set(
+            uparrow7,
+            false
+        );
+        Set(
+            downarrow7,
+            true
+        );
         ClearCollect(
             colstages,
             {
