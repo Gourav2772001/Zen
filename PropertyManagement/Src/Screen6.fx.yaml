@@ -22,50 +22,6 @@ Screen6 As screen:
             LayoutMinWidth: =250
             ZIndex: =1
 
-            Container4_8 As groupContainer.manualLayoutContainer:
-                DropShadow: =DropShadow.Semilight
-                Height: =72
-                Width: =569
-                X: =18
-                Y: =18
-                ZIndex: =1
-
-                Label10_8 As label:
-                    FontWeight: =FontWeight.Bold
-                    Height: =45
-                    Size: =18
-                    Text: ="General Inpection"
-                    Width: =250
-                    X: =12
-                    Y: =12
-                    ZIndex: =1
-
-                arrowDown_8 As image:
-                    Height: =45
-                    Image: ='down-arrow (1)'
-                    OnSelect: |
-                        =Set(ShowContainer,!ShowContainer);
-                        Set(uparrow, true);
-                        Set(downarrow, false)
-                    Visible: =downarrow
-                    Width: =45
-                    X: =507
-                    Y: =12
-                    ZIndex: =2
-
-                arrowUp_8 As image:
-                    Height: =45
-                    Image: ='arrow-up'
-                    OnSelect: |
-                        =Set(uparrow, false);
-                        Set(downarrow, true);
-                        Set(ShowContainer,!ShowContainer)
-                    Visible: =uparrow
-                    Width: =45
-                    X: =507
-                    Y: =12
-                    ZIndex: =3
-
         BasicDetails1_2 As groupContainer.manualLayoutContainer:
             DropShadow: =DropShadow.None
             FillPortions: =0
@@ -141,30 +97,6 @@ Screen6 As screen:
                     Y: =216
                     ZIndex: =5
 
-                Label11_154 As label:
-                    Color: =RGBA(148, 135, 141, 1)
-                    Font: =Font.'Segoe UI'
-                    FontWeight: =FontWeight.Semibold
-                    Height: =43
-                    Size: =17
-                    Text: ="Locks quality"
-                    Width: =204
-                    X: =16
-                    Y: =268
-                    ZIndex: =6
-
-                Label11_172 As label:
-                    Color: =RGBA(148, 135, 141, 1)
-                    Font: =Font.'Segoe UI'
-                    FontWeight: =FontWeight.Semibold
-                    Height: =43
-                    Size: =17
-                    Text: ="Gaps in floor tiles"
-                    Width: =204
-                    X: =16
-                    Y: =329
-                    ZIndex: =7
-
                 Label11_119 As label:
                     Align: =Align.Right
                     Font: =Font.'Segoe UI'
@@ -212,30 +144,6 @@ Screen6 As screen:
                     X: =369
                     Y: =167
                     ZIndex: =11
-
-                Label11_155 As label:
-                    Align: =Align.Right
-                    Font: =Font.'Segoe UI'
-                    FontWeight: =FontWeight.Semibold
-                    Height: =43
-                    Size: =17
-                    Text: =First(currentData).'Number of Towers'
-                    Width: =204
-                    X: =366
-                    Y: =268
-                    ZIndex: =13
-
-                Label11_173 As label:
-                    Align: =Align.Right
-                    Font: =Font.'Segoe UI'
-                    FontWeight: =FontWeight.Semibold
-                    Height: =43
-                    Size: =17
-                    Text: =First(currentData).'Floor Number'&"rd"
-                    Width: =204
-                    X: =366
-                    Y: =329
-                    ZIndex: =14
 
                 Label11_127 As label:
                     Align: =Align.Right
@@ -472,42 +380,6 @@ Screen6 As screen:
                 Y: =9
                 ZIndex: =1
 
-                Label10_9 As label:
-                    FontWeight: =FontWeight.Bold
-                    Height: =56
-                    Size: =18
-                    Text: ="Electrical Systems"
-                    Width: =293
-                    X: =12
-                    Y: =12
-                    ZIndex: =1
-
-                arrowUp_9 As image:
-                    Height: =45
-                    Image: ='arrow-up'
-                    OnSelect: |
-                        =Set(uparrow1, false);
-                        Set(downarrow1, true);
-                        Set(ShowContainer1,!ShowContainer1)
-                    Visible: =uparrow1
-                    Width: =45
-                    X: =501
-                    Y: =17
-                    ZIndex: =2
-
-                arrowDown_9 As image:
-                    Height: =45
-                    Image: ='down-arrow (1)'
-                    OnSelect: |
-                        =Set(ShowContainer1,!ShowContainer1);
-                        Set(uparrow1, true);
-                        Set(downarrow1, false)
-                    Visible: =downarrow1
-                    Width: =45
-                    X: =501
-                    Y: =17
-                    ZIndex: =3
-
         ConstructionDetails1_2 As groupContainer.manualLayoutContainer:
             DropShadow: =DropShadow.None
             FillPortions: =0
@@ -522,42 +394,6 @@ Screen6 As screen:
                 Height: =380
                 Width: =603
                 ZIndex: =1
-
-                Label11_174 As label:
-                    Color: =RGBA(148, 135, 141, 1)
-                    Font: =Font.'Segoe UI'
-                    FontWeight: =FontWeight.Semibold
-                    Height: =43
-                    Size: =17
-                    Text: ="Bedroom switches"
-                    Width: =204
-                    X: =16
-                    Y: =8
-                    ZIndex: =1
-
-                Label11_176 As label:
-                    Color: =RGBA(148, 135, 141, 1)
-                    Font: =Font.'Segoe UI'
-                    FontWeight: =FontWeight.Semibold
-                    Height: =46
-                    Size: =17
-                    Text: ="Washroom switches"
-                    Width: =244
-                    X: =16
-                    Y: =60
-                    ZIndex: =2
-
-                Label11_178 As label:
-                    Color: =RGBA(148, 135, 141, 1)
-                    Font: =Font.'Segoe UI'
-                    FontWeight: =FontWeight.Semibold
-                    Height: =46
-                    Size: =17
-                    Text: ="Drawing room switches"
-                    Width: =264
-                    X: =16
-                    Y: =112
-                    ZIndex: =3
 
                 Label11_180 As label:
                     Color: =RGBA(148, 135, 141, 1)
@@ -606,42 +442,6 @@ Screen6 As screen:
                     X: =16
                     Y: =329
                     ZIndex: =7
-
-                Label11_175 As label:
-                    Align: =Align.Right
-                    Font: =Font.'Segoe UI'
-                    FontWeight: =FontWeight.Semibold
-                    Height: =43
-                    Size: =17
-                    Text: =First(currentData).Name
-                    Width: =204
-                    X: =366
-                    Y: =11
-                    ZIndex: =8
-
-                Label11_177 As label:
-                    Align: =Align.Right
-                    Font: =Font.'Segoe UI'
-                    FontWeight: =FontWeight.Semibold
-                    Height: =43
-                    Size: =17
-                    Text: =First(currentData).'RegistrationNo.'
-                    Width: =204
-                    X: =366
-                    Y: =63
-                    ZIndex: =9
-
-                Label11_179 As label:
-                    Align: =Align.Right
-                    Font: =Font.'Segoe UI'
-                    FontWeight: =FontWeight.Semibold
-                    Height: =43
-                    Size: =17
-                    Text: =First(currentData).'Property Type'
-                    Width: =204
-                    X: =368
-                    Y: =115
-                    ZIndex: =10
 
                 Label11_181 As label:
                     Align: =Align.Right
