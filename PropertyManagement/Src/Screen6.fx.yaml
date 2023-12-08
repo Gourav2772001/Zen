@@ -16,6 +16,7 @@ Screen6 As screen:
 
         OwnerDetails_2 As groupContainer.manualLayoutContainer:
             DropShadow: =DropShadow.None
+            FillPortions: =0
             Height: =100
             Width: =595
             ZIndex: =7
@@ -41,7 +42,6 @@ Screen6 As screen:
         OwnerDetails1_2 As groupContainer.manualLayoutContainer:
             DropShadow: =DropShadow.None
             Height: =500
-            Visible: =ShowContainer2
             Width: =600
             ZIndex: =8
 

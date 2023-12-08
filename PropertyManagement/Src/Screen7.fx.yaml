@@ -1,29 +1,5 @@
 Screen7 As screen:
 
-    PropertyG_4 As groupContainer.verticalAutoLayoutContainer:
-        DropShadow: =DropShadow.None
-        Height: =875
-        LayoutDirection: =LayoutDirection.Vertical
-        LayoutMode: =LayoutMode.Auto
-        LayoutOverflowY: =LayoutOverflow.Scroll
-        Visible: |+
-            =true
-            
-        Width: =603
-        X: =20
-        Y: =248
-        ZIndex: =1
-
-        OwnerDetails1_4 As groupContainer.manualLayoutContainer:
-            DropShadow: =DropShadow.None
-            FillPortions: =0
-            Height: =710
-            LayoutMinHeight: =112
-            LayoutMinWidth: =250
-            Visible: =ShowContainer2
-            Width: =600
-            ZIndex: =8
-
     Icon4_4 As icon.ArrowLeft:
         Color: =RGBA(0, 0, 0, 1)
         Height: =45
@@ -117,4 +93,164 @@ Screen7 As screen:
         X: =59
         Y: =137
         ZIndex: =11
+
+    PropertyG_4 As groupContainer.verticalAutoLayoutContainer:
+        DropShadow: =DropShadow.None
+        Height: =875
+        LayoutDirection: =LayoutDirection.Vertical
+        LayoutMode: =LayoutMode.Auto
+        LayoutOverflowY: =LayoutOverflow.Scroll
+        Visible: |+
+            =true
+            
+        Width: =603
+        X: =20
+        Y: =248
+        ZIndex: =12
+
+        OwnerDetails_3 As groupContainer.manualLayoutContainer:
+            DropShadow: =DropShadow.None
+            FillPortions: =0
+            Height: =100
+            Width: =595
+            ZIndex: =7
+
+            Container4_11 As groupContainer.manualLayoutContainer:
+                DropShadow: =DropShadow.Semilight
+                Height: =72
+                Width: =569
+                X: =18
+                Y: =18
+                ZIndex: =1
+
+                Label10_11 As label:
+                    FontWeight: =FontWeight.Bold
+                    Height: =57
+                    Size: =22
+                    Text: ="Deep Cleaning"
+                    Width: =378
+                    X: =12
+                    Y: =12
+                    ZIndex: =1
+
+        OwnerDetails1_4 As groupContainer.manualLayoutContainer:
+            DropShadow: =DropShadow.None
+            FillPortions: =0
+            Height: =500
+            Width: =600
+            ZIndex: =8
+
+            Container7_14 As groupContainer.manualLayoutContainer:
+                DropShadow: =DropShadow.None
+                Height: =600
+                Width: =596
+                ZIndex: =1
+
+                Label11_201 As label:
+                    Color: =RGBA(148, 135, 141, 1)
+                    Font: =Font.'Segoe UI'
+                    FontWeight: =FontWeight.Semibold
+                    Height: =43
+                    Size: =17
+                    Text: ="Beds"
+                    Width: =204
+                    X: =16
+                    Y: =62
+                    ZIndex: =1
+
+                Label11_203 As label:
+                    Color: =RGBA(148, 135, 141, 1)
+                    Font: =Font.'Segoe UI'
+                    FontWeight: =FontWeight.Semibold
+                    Height: =43
+                    Size: =17
+                    Text: ="Modular Kitchen"
+                    Width: =204
+                    X: =16
+                    Y: =114
+                    ZIndex: =2
+
+                Label11_205 As label:
+                    Color: =RGBA(148, 135, 141, 1)
+                    Font: =Font.'Segoe UI'
+                    FontWeight: =FontWeight.Semibold
+                    Height: =43
+                    Size: =17
+                    Text: ="Air Conditions"
+                    Width: =204
+                    X: =16
+                    Y: =166
+                    ZIndex: =3
+
+                Label11_206 As label:
+                    Color: =RGBA(148, 135, 141, 1)
+                    Font: =Font.'Segoe UI'
+                    FontWeight: =FontWeight.Semibold
+                    Height: =46
+                    Size: =17
+                    Text: ="Chimney"
+                    Width: =279
+                    X: =16
+                    Y: =218
+                    ZIndex: =4
+
+                Label11_207 As label:
+                    Color: =RGBA(148, 135, 141, 1)
+                    Font: =Font.'Segoe UI'
+                    FontWeight: =FontWeight.Semibold
+                    Height: =43
+                    Size: =17
+                    Text: ="Geysers"
+                    Width: =204
+                    X: =16
+                    Y: =270
+                    ZIndex: =5
+
+                Label11_208 As label:
+                    Color: =RGBA(148, 135, 141, 1)
+                    Font: =Font.'Segoe UI'
+                    FontWeight: =FontWeight.Semibold
+                    Height: =43
+                    Size: =17
+                    Text: ="Water Purifiers"
+                    Width: =204
+                    X: =16
+                    Y: =322
+                    ZIndex: =6
+
+                Label11_209 As label:
+                    Color: =RGBA(148, 135, 141, 1)
+                    Font: =Font.'Segoe UI'
+                    FontWeight: =FontWeight.Semibold
+                    Height: =43
+                    Size: =17
+                    Text: ="Gas Stove"
+                    Width: =245
+                    X: =16
+                    Y: =365
+                    ZIndex: =7
+
+                Label11_197 As label:
+                    Font: =Font.'Segoe UI'
+                    FontWeight: =FontWeight.Bold
+                    Height: =43
+                    Size: =17
+                    Text: ="Snag Checklist"
+                    Width: =204
+                    X: =16
+                    Y: =19
+                    ZIndex: =18
+
+                Label11_199 As label:
+                    Align: =Align.Right
+                    Color: =RGBA(180, 14, 90, 1)
+                    Font: =Font.'Segoe UI'
+                    FontWeight: =FontWeight.Bold
+                    Height: =43
+                    Size: =17
+                    Text: ="Select All"
+                    Width: =133
+                    X: =445
+                    Y: =19
+                    ZIndex: =19
 
