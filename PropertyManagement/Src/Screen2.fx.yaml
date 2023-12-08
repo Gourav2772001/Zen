@@ -153,55 +153,16 @@ Screen2 As screen:
                 Y: =51
                 ZIndex: =2
 
-    "filterProperty As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver5.0'":
-        DelayItemLoading: =true
-        Height: =76
-        Items: =Tabs
-        Layout: =Layout.Vertical
-        LoadingSpinner: =LoadingSpinner.Data
-        LoadingSpinnerColor: =RGBA(180, 14, 90, 1)
-        ShowScrollbar: =false
-        TemplatePadding: =0
-        TemplateSize: =76
-        Width: =567
-        WrapCount: =4
-        X: =35
-        Y: =504
-        ZIndex: =12
-
-        Label4 As label:
-            Align: =Align.Center
-            Color: =If(ThisItem.IsSelected, RGBA(0, 0, 0, 1),RGBA(147, 134, 140, 1))
-            Font: =Font.'Segoe UI'
-            FontWeight: =If(ThisItem.IsSelected,FontWeight.Bold, FontWeight.Normal)
-            Height: =76
-            OnSelect: =Select(Parent)
-            Size: =15
-            Text: =ThisItem.Name
-            Width: =148
-            X: =1
-            ZIndex: =1
-
-        Rectangle4 As rectangle:
-            Fill: =RGBA(180, 14, 90, 1)
-            Height: =3
-            OnSelect: =Select(Parent)
-            Visible: =ThisItem.IsSelected
-            Width: =148
-            X: =1
-            Y: =61
-            ZIndex: =2
-
     "PropertyGrid As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver5.0'":
         DelayItemLoading: =true
-        Height: =556
+        Height: =632
         Items: =GODREJ
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
         LoadingSpinnerColor: =RGBA(180, 14, 90, 1)
         TemplatePadding: =0
         TemplateSize: =332
-        Y: =580
+        Y: =504
         ZIndex: =13
 
         Container3 As groupContainer.manualLayoutContainer:
