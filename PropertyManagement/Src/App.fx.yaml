@@ -1,6 +1,6 @@
 App As appinfo:
     BackEnabled: =true
-    OnStart: |
+    OnStart: |-
         =ClearCollect(
             Tabs,
             {Name: "Open"},
@@ -95,6 +95,12 @@ App As appinfo:
                 Completed: false
             }
         );
+        ClearCollect(
+            RadioOption,
+            {Option1: "Low"},
+            {Option2: "Medium"},
+            {Option3: "High"}
+        )
     Theme: =PowerAppsTheme
 
     Host As hostControl.DefaultHostControlVariant:
