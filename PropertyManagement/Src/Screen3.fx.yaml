@@ -874,7 +874,7 @@ Screen3 As screen:
         OwnerDetails1 As groupContainer.manualLayoutContainer:
             DropShadow: =DropShadow.None
             FillPortions: =0
-            Height: =380
+            Height: =280
             LayoutMinHeight: =112
             LayoutMinWidth: =250
             Visible: =ShowContainer2
@@ -882,8 +882,8 @@ Screen3 As screen:
 
             Container7_3 As groupContainer.manualLayoutContainer:
                 DropShadow: =DropShadow.None
-                Height: =380
-                Width: =603
+                Height: =280
+                Width: =591
                 ZIndex: =1
 
                 Label11_58 As label:
