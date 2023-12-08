@@ -163,7 +163,9 @@ Screen6 As screen:
         Color: =RGBA(0, 0, 0, 1)
         Height: =45
         Icon: =Icon.ArrowLeft
-        OnSelect: =Back()
+        OnSelect: |-
+            =Back();
+            Set(Mile,1)
         Width: =45
         X: =32
         Y: =50
@@ -183,7 +185,7 @@ Screen6 As screen:
     Circle1_4 As circle:
         BorderColor: =RGBA(148, 135, 141, 1)
         BorderThickness: =3
-        Fill: =RGBA(148, 135, 141, 1)
+        Fill: =RGBA(181, 14, 89, 1)
         Height: =80
         Width: =80
         X: =41
@@ -193,7 +195,8 @@ Screen6 As screen:
     Circle1_5 As circle:
         BorderColor: =RGBA(232, 232, 232, 1)
         BorderThickness: =3
-        Fill: =RGBA(255, 255, 255, 1)
+        Fill: |-
+            =If(Mile=2,ColorValue("#B50E59"),RGBA(148, 135, 141, 1))
         Height: =80
         Width: =80
         X: =202
@@ -252,4 +255,27 @@ Screen6 As screen:
         X: =59
         Y: =137
         ZIndex: =11
+
+    Icon5_4 As icon.Check:
+        Color: =RGBA(255, 255, 255, 1)
+        Height: =45
+        Icon: =Icon.Check
+        Width: =45
+        X: =219
+        Y: =137
+        ZIndex: =12
+
+    Button1_2 As button:
+        Fill: =RGBA(181, 14, 89, 1)
+        Height: =55
+        HoverFill: =ColorFade(RGBA(181, 14, 89, 1), -20%)
+        OnSelect: |
+            =Navigate(Screen7);
+            Set(Mile,2)
+        Size: =17
+        Text: ="Save and Continue"
+        Width: =558
+        X: =42
+        Y: =1046
+        ZIndex: =13
 
