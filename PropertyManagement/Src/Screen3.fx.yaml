@@ -43,7 +43,7 @@ Screen3 As screen:
 
     PropertyG As groupContainer.verticalAutoLayoutContainer:
         DropShadow: =DropShadow.None
-        Height: =501
+        Height: =594
         LayoutDirection: =LayoutDirection.Vertical
         LayoutMode: =LayoutMode.Auto
         LayoutOverflowY: =LayoutOverflow.Scroll
@@ -1061,7 +1061,7 @@ Screen3 As screen:
         Amenities1 As groupContainer.manualLayoutContainer:
             DropShadow: =DropShadow.None
             FillPortions: =0
-            Height: =380
+            Height: =405
             LayoutMinHeight: =112
             LayoutMinWidth: =250
             Visible: =ShowContainer3
@@ -1069,7 +1069,7 @@ Screen3 As screen:
 
             Container7_4 As groupContainer.manualLayoutContainer:
                 DropShadow: =DropShadow.None
-                Height: =380
+                Height: =405
                 Visible: =ShowContainer3
                 Width: =603
                 ZIndex: =1
@@ -1214,15 +1214,64 @@ Screen3 As screen:
                     Y: =167
                     ZIndex: =22
 
-    Button1 As button:
-        Fill: =RGBA(181, 14, 89, 1)
-        Height: =59
-        HoverFill: =ColorFade(RGBA(181, 14, 89, 1), -20%)
-        OnSelect: =Navigate(Screen4)
-        Size: =17
-        Text: ="Proceed for Inspection"
-        Width: =578
-        X: =32
-        Y: =1043
-        ZIndex: =6
+                Image18 As image:
+                    Height: =60
+                    Image: =swimming
+                    Width: =60
+                    X: =34
+                    Y: =247
+                    ZIndex: =23
+
+                Label11_84 As label:
+                    Align: =Align.Center
+                    Font: =Font.'Segoe UI'
+                    FontWeight: =FontWeight.Semibold
+                    Height: =44
+                    Size: =17
+                    Text: ="Swimming Pool"
+                    Width: =180
+                    X: =100
+                    Y: =263
+                    ZIndex: =24
+
+                Image19 As image:
+                    Height: =60
+                    Image: =muscle
+                    Width: =60
+                    X: =324
+                    Y: =331
+                    ZIndex: =25
+
+                Image20 As image:
+                    Height: =60
+                    Image: ='food-court'
+                    Width: =60
+                    X: =40
+                    Y: =331
+                    ZIndex: =26
+
+        Container5 As groupContainer.manualLayoutContainer:
+            DropShadow: =DropShadow.None
+            FillPortions: =0
+            Height: =190
+            LayoutMinHeight: =112
+            LayoutMinWidth: =250
+            ZIndex: =11
+
+            Container6 As groupContainer.manualLayoutContainer:
+                Height: =190
+                Width: =603
+                ZIndex: =1
+
+                Button1 As button:
+                    Fill: =RGBA(181, 14, 89, 1)
+                    Height: =55
+                    HoverFill: =ColorFade(RGBA(181, 14, 89, 1), -20%)
+                    OnSelect: =Navigate(Screen4)
+                    Size: =17
+                    Text: ="Proceed for Inspection"
+                    Width: =558
+                    X: =24
+                    Y: =117
+                    ZIndex: =1
 
