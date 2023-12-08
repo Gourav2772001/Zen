@@ -135,30 +135,6 @@ Screen6 As screen:
                     Y: =365
                     ZIndex: =7
 
-                Label11_206 As label:
-                    Color: =RGBA(148, 135, 141, 1)
-                    Font: =Font.'Segoe UI'
-                    FontWeight: =FontWeight.Semibold
-                    Height: =43
-                    Size: =17
-                    Text: ="Doors"
-                    Width: =245
-                    X: =16
-                    Y: =408
-                    ZIndex: =16
-
-                Label11_207 As label:
-                    Color: =RGBA(148, 135, 141, 1)
-                    Font: =Font.'Segoe UI'
-                    FontWeight: =FontWeight.Semibold
-                    Height: =43
-                    Size: =17
-                    Text: ="Windows"
-                    Width: =245
-                    X: =16
-                    Y: =451
-                    ZIndex: =17
-
                 Label11_193 As label:
                     Font: =Font.'Segoe UI'
                     FontWeight: =FontWeight.Bold
