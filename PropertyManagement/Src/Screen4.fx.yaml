@@ -555,8 +555,8 @@ Screen4 As screen:
                     FontWeight: =FontWeight.Bold
                     Height: =45
                     Size: =18
-                    Text: ="Electric System"
-                    Width: =259
+                    Text: ="Plumbing and HVAC Systems"
+                    Width: =364
                     X: =12
                     Y: =12
                     ZIndex: =1
@@ -578,9 +578,9 @@ Screen4 As screen:
                     Height: =45
                     Image: ='arrow-up'
                     OnSelect: |
-                        =Set(uparrow5, false);
-                        Set(downarrow5, true);
-                        Set(ShowContainer6,!ShowContainer6)
+                        =Set(uparrow6, false);
+                        Set(downarrow6, true);
+                        Set(ShowContainer7,!ShowContainer7)
                     Visible: =uparrow6
                     Width: =45
                     X: =507
@@ -834,7 +834,6 @@ Screen4 As screen:
             Container7_19 As groupContainer.manualLayoutContainer:
                 DropShadow: =DropShadow.None
                 Height: =380
-                Visible: =ShowContainer3
                 Width: =603
                 ZIndex: =1
 
