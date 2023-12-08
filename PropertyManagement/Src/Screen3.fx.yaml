@@ -594,7 +594,7 @@ Screen3 As screen:
                     FontWeight: =FontWeight.Semibold
                     Height: =43
                     Size: =17
-                    Text: ="Property Type"
+                    Text: ="Tower Type"
                     Width: =204
                     X: =16
                     Y: =112
@@ -606,7 +606,7 @@ Screen3 As screen:
                     FontWeight: =FontWeight.Semibold
                     Height: =43
                     Size: =17
-                    Text: ="Cost"
+                    Text: ="Internal Roads"
                     Width: =204
                     X: =16
                     Y: =164
@@ -618,7 +618,7 @@ Screen3 As screen:
                     FontWeight: =FontWeight.Semibold
                     Height: =43
                     Size: =17
-                    Text: ="Location"
+                    Text: ="Sewerage Depth"
                     Width: =204
                     X: =16
                     Y: =216
@@ -630,7 +630,7 @@ Screen3 As screen:
                     FontWeight: =FontWeight.Semibold
                     Height: =43
                     Size: =17
-                    Text: ="Tower Number"
+                    Text: ="Electric Wires"
                     Width: =204
                     X: =16
                     Y: =268
@@ -642,7 +642,7 @@ Screen3 As screen:
                     FontWeight: =FontWeight.Semibold
                     Height: =43
                     Size: =17
-                    Text: ="Floor Number"
+                    Text: ="Sanitary "
                     Width: =204
                     X: =16
                     Y: =329
@@ -654,7 +654,7 @@ Screen3 As screen:
                     FontWeight: =FontWeight.Semibold
                     Height: =43
                     Size: =17
-                    Text: =First(currentData).Name
+                    Text: =First(currentData).'Construction Type'
                     Width: =204
                     X: =366
                     Y: =11
@@ -666,7 +666,7 @@ Screen3 As screen:
                     FontWeight: =FontWeight.Semibold
                     Height: =43
                     Size: =17
-                    Text: =First(currentData).'RegistrationNo.'
+                    Text: =First(currentData).'Number of Towers'
                     Width: =204
                     X: =366
                     Y: =63
@@ -678,7 +678,7 @@ Screen3 As screen:
                     FontWeight: =FontWeight.Semibold
                     Height: =43
                     Size: =17
-                    Text: =First(currentData).'Property Type'
+                    Text: =First(currentData).'Tower Type'
                     Width: =204
                     X: =368
                     Y: =115
@@ -690,7 +690,7 @@ Screen3 As screen:
                     FontWeight: =FontWeight.Semibold
                     Height: =43
                     Size: =17
-                    Text: =First(currentData).Cost&" Cr"
+                    Text: =First(currentData).'Internal Roads'&" ft wide"
                     Width: =204
                     X: =369
                     Y: =167
@@ -702,7 +702,7 @@ Screen3 As screen:
                     FontWeight: =FontWeight.Semibold
                     Height: =43
                     Size: =17
-                    Text: =First(currentData).'Number of Towers'
+                    Text: =First(currentData).'Electric Wires'
                     Width: =204
                     X: =366
                     Y: =268
@@ -714,7 +714,7 @@ Screen3 As screen:
                     FontWeight: =FontWeight.Semibold
                     Height: =43
                     Size: =17
-                    Text: =First(currentData).'Floor Number'&"rd"
+                    Text: =First(currentData).Sanitary
                     Width: =204
                     X: =366
                     Y: =329
@@ -726,7 +726,7 @@ Screen3 As screen:
                     FontWeight: =FontWeight.Semibold
                     Height: =43
                     Size: =17
-                    Text: =First(currentData).Name
+                    Text: =First(currentData).'Sewerage Depth'&" ft"
                     Width: =204
                     X: =366
                     Y: =219
@@ -735,7 +735,7 @@ Screen3 As screen:
         ConstructionDetails2 As groupContainer.manualLayoutContainer:
             DropShadow: =DropShadow.None
             FillPortions: =0
-            Height: =380
+            Height: =180
             LayoutMinHeight: =112
             LayoutMinWidth: =250
             Visible: =ShowContainer1
@@ -743,7 +743,7 @@ Screen3 As screen:
 
             Container7_2 As groupContainer.manualLayoutContainer:
                 DropShadow: =DropShadow.None
-                Height: =380
+                Height: =180
                 Width: =591
                 ZIndex: =1
 
@@ -753,7 +753,7 @@ Screen3 As screen:
                     FontWeight: =FontWeight.Semibold
                     Height: =43
                     Size: =17
-                    Text: ="Construction Type"
+                    Text: ="Switches"
                     Width: =204
                     X: =16
                     Y: =8
@@ -765,7 +765,7 @@ Screen3 As screen:
                     FontWeight: =FontWeight.Semibold
                     Height: =43
                     Size: =17
-                    Text: ="Number of tower"
+                    Text: ="Plywood"
                     Width: =204
                     X: =16
                     Y: =60
@@ -777,59 +777,11 @@ Screen3 As screen:
                     FontWeight: =FontWeight.Semibold
                     Height: =43
                     Size: =17
-                    Text: ="Property Type"
+                    Text: ="Floor Tiles"
                     Width: =204
                     X: =16
                     Y: =112
                     ZIndex: =3
-
-                Label11_50 As label:
-                    Color: =RGBA(148, 135, 141, 1)
-                    Font: =Font.'Segoe UI'
-                    FontWeight: =FontWeight.Semibold
-                    Height: =43
-                    Size: =17
-                    Text: ="Cost"
-                    Width: =204
-                    X: =16
-                    Y: =164
-                    ZIndex: =4
-
-                Label11_52 As label:
-                    Color: =RGBA(148, 135, 141, 1)
-                    Font: =Font.'Segoe UI'
-                    FontWeight: =FontWeight.Semibold
-                    Height: =43
-                    Size: =17
-                    Text: ="Location"
-                    Width: =204
-                    X: =16
-                    Y: =216
-                    ZIndex: =5
-
-                Label11_54 As label:
-                    Color: =RGBA(148, 135, 141, 1)
-                    Font: =Font.'Segoe UI'
-                    FontWeight: =FontWeight.Semibold
-                    Height: =43
-                    Size: =17
-                    Text: ="Tower Number"
-                    Width: =204
-                    X: =16
-                    Y: =268
-                    ZIndex: =6
-
-                Label11_56 As label:
-                    Color: =RGBA(148, 135, 141, 1)
-                    Font: =Font.'Segoe UI'
-                    FontWeight: =FontWeight.Semibold
-                    Height: =43
-                    Size: =17
-                    Text: ="Floor Number"
-                    Width: =204
-                    X: =16
-                    Y: =329
-                    ZIndex: =7
 
                 Label11_45 As label:
                     Align: =Align.Right
@@ -837,7 +789,7 @@ Screen3 As screen:
                     FontWeight: =FontWeight.Semibold
                     Height: =43
                     Size: =17
-                    Text: =First(currentData).Name
+                    Text: =First(currentData).Switches
                     Width: =204
                     X: =366
                     Y: =11
@@ -849,7 +801,7 @@ Screen3 As screen:
                     FontWeight: =FontWeight.Semibold
                     Height: =43
                     Size: =17
-                    Text: =First(currentData).'RegistrationNo.'
+                    Text: =First(currentData).Plywood
                     Width: =204
                     X: =366
                     Y: =63
@@ -861,59 +813,11 @@ Screen3 As screen:
                     FontWeight: =FontWeight.Semibold
                     Height: =43
                     Size: =17
-                    Text: =First(currentData).'Property Type'
+                    Text: =First(currentData).'Floor Tiles'
                     Width: =204
                     X: =368
                     Y: =115
                     ZIndex: =10
-
-                Label11_51 As label:
-                    Align: =Align.Right
-                    Font: =Font.'Segoe UI'
-                    FontWeight: =FontWeight.Semibold
-                    Height: =43
-                    Size: =17
-                    Text: =First(currentData).Cost&" Cr"
-                    Width: =204
-                    X: =369
-                    Y: =167
-                    ZIndex: =11
-
-                Label11_55 As label:
-                    Align: =Align.Right
-                    Font: =Font.'Segoe UI'
-                    FontWeight: =FontWeight.Semibold
-                    Height: =43
-                    Size: =17
-                    Text: =First(currentData).'Number of Towers'
-                    Width: =204
-                    X: =366
-                    Y: =268
-                    ZIndex: =13
-
-                Label11_57 As label:
-                    Align: =Align.Right
-                    Font: =Font.'Segoe UI'
-                    FontWeight: =FontWeight.Semibold
-                    Height: =43
-                    Size: =17
-                    Text: =First(currentData).'Floor Number'&"rd"
-                    Width: =204
-                    X: =366
-                    Y: =329
-                    ZIndex: =14
-
-                Label11_53 As label:
-                    Align: =Align.Right
-                    Font: =Font.'Segoe UI'
-                    FontWeight: =FontWeight.Semibold
-                    Height: =43
-                    Size: =17
-                    Text: =First(currentData).Name
-                    Width: =204
-                    X: =366
-                    Y: =219
-                    ZIndex: =15
 
         OwnerDetails As groupContainer.manualLayoutContainer:
             DropShadow: =DropShadow.None
@@ -988,7 +892,7 @@ Screen3 As screen:
                     FontWeight: =FontWeight.Semibold
                     Height: =43
                     Size: =17
-                    Text: ="Builder Name"
+                    Text: ="Name"
                     Width: =204
                     X: =16
                     Y: =8
@@ -1000,7 +904,7 @@ Screen3 As screen:
                     FontWeight: =FontWeight.Semibold
                     Height: =43
                     Size: =17
-                    Text: ="RERA Number"
+                    Text: ="Loan"
                     Width: =204
                     X: =16
                     Y: =60
@@ -1012,7 +916,7 @@ Screen3 As screen:
                     FontWeight: =FontWeight.Semibold
                     Height: =43
                     Size: =17
-                    Text: ="Property Type"
+                    Text: ="Amount"
                     Width: =204
                     X: =16
                     Y: =112
@@ -1024,7 +928,7 @@ Screen3 As screen:
                     FontWeight: =FontWeight.Semibold
                     Height: =43
                     Size: =17
-                    Text: ="Cost"
+                    Text: ="Property Cost"
                     Width: =204
                     X: =16
                     Y: =164
@@ -1036,35 +940,11 @@ Screen3 As screen:
                     FontWeight: =FontWeight.Semibold
                     Height: =43
                     Size: =17
-                    Text: ="Location"
+                    Text: ="Loan Type"
                     Width: =204
                     X: =16
                     Y: =216
                     ZIndex: =5
-
-                Label11_68 As label:
-                    Color: =RGBA(148, 135, 141, 1)
-                    Font: =Font.'Segoe UI'
-                    FontWeight: =FontWeight.Semibold
-                    Height: =43
-                    Size: =17
-                    Text: ="Tower Number"
-                    Width: =204
-                    X: =16
-                    Y: =268
-                    ZIndex: =6
-
-                Label11_70 As label:
-                    Color: =RGBA(148, 135, 141, 1)
-                    Font: =Font.'Segoe UI'
-                    FontWeight: =FontWeight.Semibold
-                    Height: =43
-                    Size: =17
-                    Text: ="Floor Number"
-                    Width: =204
-                    X: =16
-                    Y: =329
-                    ZIndex: =7
 
                 Label11_59 As label:
                     Align: =Align.Right
@@ -1072,7 +952,7 @@ Screen3 As screen:
                     FontWeight: =FontWeight.Semibold
                     Height: =43
                     Size: =17
-                    Text: =First(currentData).Name
+                    Text: =First(currentData).Owner
                     Width: =204
                     X: =366
                     Y: =11
@@ -1084,7 +964,7 @@ Screen3 As screen:
                     FontWeight: =FontWeight.Semibold
                     Height: =43
                     Size: =17
-                    Text: =First(currentData).'RegistrationNo.'
+                    Text: =First(currentData).Loan
                     Width: =204
                     X: =366
                     Y: =63
@@ -1096,7 +976,7 @@ Screen3 As screen:
                     FontWeight: =FontWeight.Semibold
                     Height: =43
                     Size: =17
-                    Text: =First(currentData).'Property Type'
+                    Text: =First(currentData).Amount&" Lakh"
                     Width: =204
                     X: =368
                     Y: =115
@@ -1114,37 +994,13 @@ Screen3 As screen:
                     Y: =167
                     ZIndex: =11
 
-                Label11_69 As label:
-                    Align: =Align.Right
-                    Font: =Font.'Segoe UI'
-                    FontWeight: =FontWeight.Semibold
-                    Height: =43
-                    Size: =17
-                    Text: =First(currentData).'Number of Towers'
-                    Width: =204
-                    X: =366
-                    Y: =268
-                    ZIndex: =13
-
-                Label11_71 As label:
-                    Align: =Align.Right
-                    Font: =Font.'Segoe UI'
-                    FontWeight: =FontWeight.Semibold
-                    Height: =43
-                    Size: =17
-                    Text: =First(currentData).'Floor Number'&"rd"
-                    Width: =204
-                    X: =366
-                    Y: =329
-                    ZIndex: =14
-
                 Label11_67 As label:
                     Align: =Align.Right
                     Font: =Font.'Segoe UI'
                     FontWeight: =FontWeight.Semibold
                     Height: =43
                     Size: =17
-                    Text: =First(currentData).Name
+                    Text: =First(currentData).'Loan Type'
                     Width: =204
                     X: =366
                     Y: =219
