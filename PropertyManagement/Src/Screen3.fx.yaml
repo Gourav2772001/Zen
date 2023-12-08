@@ -1250,30 +1250,6 @@ Screen3 As screen:
                     Y: =331
                     ZIndex: =26
 
-                Label11_172 As label:
-                    Align: =Align.Center
-                    Font: =Font.'Segoe UI'
-                    FontWeight: =FontWeight.Semibold
-                    Height: =44
-                    Size: =17
-                    Text: ="Food Court"
-                    Width: =180
-                    X: =100
-                    Y: =339
-                    ZIndex: =27
-
-                Label11_173 As label:
-                    Align: =Align.Center
-                    Font: =Font.'Segoe UI'
-                    FontWeight: =FontWeight.Semibold
-                    Height: =44
-                    Size: =17
-                    Text: ="Gym"
-                    Width: =106
-                    X: =424
-                    Y: =339
-                    ZIndex: =28
-
         Container5 As groupContainer.manualLayoutContainer:
             DropShadow: =DropShadow.None
             FillPortions: =0
