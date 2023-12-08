@@ -139,13 +139,13 @@ Screen7 As screen:
         OwnerDetails1_4 As groupContainer.manualLayoutContainer:
             DropShadow: =DropShadow.None
             FillPortions: =0
-            Height: =720
+            Height: =690
             Width: =600
             ZIndex: =8
 
             Container7_14 As groupContainer.manualLayoutContainer:
                 DropShadow: =DropShadow.None
-                Height: =720
+                Height: =690
                 Width: =596
                 ZIndex: =1
 
@@ -293,18 +293,6 @@ Screen7 As screen:
                     Y: =494
                     ZIndex: =22
 
-                Label11_213 As label:
-                    Color: =RGBA(148, 135, 141, 1)
-                    Font: =Font.'Segoe UI'
-                    FontWeight: =FontWeight.Semibold
-                    Height: =43
-                    Size: =17
-                    Text: ="Consoles"
-                    Width: =245
-                    X: =16
-                    Y: =580
-                    ZIndex: =23
-
                 Label11_214 As label:
                     Color: =RGBA(148, 135, 141, 1)
                     Font: =Font.'Segoe UI'
@@ -326,7 +314,7 @@ Screen7 As screen:
                     Text: ="Sofa"
                     Width: =245
                     X: =16
-                    Y: =623
+                    Y: =589
                     ZIndex: =25
 
                 Label11_216 As label:
@@ -338,7 +326,7 @@ Screen7 As screen:
                     Text: ="Dining Table"
                     Width: =245
                     X: =16
-                    Y: =666
+                    Y: =632
                     ZIndex: =26
 
     Button1_3 As button:
@@ -352,7 +340,7 @@ Screen7 As screen:
         Text: ="Save and Continue"
         Width: =558
         X: =43
-        Y: =1077
+        Y: =1041
         ZIndex: =13
 
     Icon5_5 As icon.Check:

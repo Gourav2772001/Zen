@@ -98,7 +98,7 @@ Screen8 As screen:
 
     PropertyG_5 As groupContainer.verticalAutoLayoutContainer:
         DropShadow: =DropShadow.None
-        Height: =830
+        Height: =755
         LayoutDirection: =LayoutDirection.Vertical
         LayoutMode: =LayoutMode.Auto
         LayoutOverflowY: =LayoutOverflow.Scroll
@@ -138,13 +138,13 @@ Screen8 As screen:
         OwnerDetails1_5 As groupContainer.manualLayoutContainer:
             DropShadow: =DropShadow.None
             FillPortions: =0
-            Height: =720
+            Height: =640
             Width: =600
             ZIndex: =8
 
             Container7_15 As groupContainer.manualLayoutContainer:
                 DropShadow: =DropShadow.None
-                Height: =708
+                Height: =640
                 Width: =596
                 ZIndex: =1
 
@@ -354,6 +354,6 @@ Screen8 As screen:
         Text: ="Onboard Customer"
         Width: =558
         X: =43
-        Y: =1064
+        Y: =1046
         ZIndex: =16
 
