@@ -24,6 +24,22 @@ App As appinfo:
             downarrow1,
             true
         );
+        Set(
+            uparrow2,
+            false
+        );
+        Set(
+            downarrow2,
+            true
+        );
+        Set(
+            uparrow3,
+            false
+        );
+        Set(
+            downarrow3,
+            true
+        );
         ClearCollect(
             colstages,
             {
