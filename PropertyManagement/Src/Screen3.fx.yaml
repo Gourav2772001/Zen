@@ -1094,7 +1094,7 @@ Screen3 As screen:
                     Size: =17
                     Text: ="Basketball Court"
                     Width: =204
-                    X: =375
+                    X: =384
                     Y: =28
                     ZIndex: =9
 
@@ -1111,51 +1111,51 @@ Screen3 As screen:
                     ZIndex: =10
 
                 Label11_79 As label:
-                    Align: =Align.Right
+                    Align: =Align.Center
                     Font: =Font.'Segoe UI'
                     FontWeight: =FontWeight.Semibold
                     Height: =43
                     Size: =17
                     Text: ="Cricket Pitch"
                     Width: =204
-                    X: =369
-                    Y: =167
+                    X: =375
+                    Y: =102
                     ZIndex: =11
 
                 Label11_83 As label:
-                    Align: =Align.Right
+                    Align: =Align.Center
                     Font: =Font.'Segoe UI'
                     FontWeight: =FontWeight.Semibold
-                    Height: =43
+                    Height: =44
                     Size: =17
-                    Text: =First(currentData).'Number of Towers'
-                    Width: =204
-                    X: =366
-                    Y: =268
+                    Text: ="Kids Play Area"
+                    Width: =167
+                    X: =393
+                    Y: =255
                     ZIndex: =13
 
                 Label11_85 As label:
-                    Align: =Align.Right
+                    Align: =Align.Center
                     Font: =Font.'Segoe UI'
                     FontWeight: =FontWeight.Semibold
-                    Height: =43
+                    Height: =38
                     Size: =17
-                    Text: =First(currentData).'Floor Number'&"rd"
-                    Width: =204
-                    X: =366
-                    Y: =329
+                    Text: ="Park"
+                    Width: =99
+                    X: =417
+                    Y: =181
                     ZIndex: =14
 
                 Label11_81 As label:
-                    Align: =Align.Right
+                    Align: =Align.Center
                     Font: =Font.'Segoe UI'
                     FontWeight: =FontWeight.Semibold
-                    Height: =43
+                    Height: =52
                     Size: =17
                     Text: ="Power Backup"
-                    Width: =204
-                    X: =366
-                    Y: =219
+                    Width: =160
+                    X: =100
+                    Y: =170
                     ZIndex: =15
 
                 Image7 As image:
@@ -1181,6 +1181,38 @@ Screen3 As screen:
                     X: =31
                     Y: =89
                     ZIndex: =18
+
+                Image13 As image:
+                    Height: =60
+                    Image: ='cricket-ground'
+                    Width: =60
+                    X: =324
+                    Y: =89
+                    ZIndex: =19
+
+                Image15 As image:
+                    Height: =60
+                    Image: =backup
+                    Width: =60
+                    X: =34
+                    Y: =170
+                    ZIndex: =20
+
+                Image16 As image:
+                    Height: =60
+                    Image: =playground
+                    Width: =60
+                    X: =324
+                    Y: =247
+                    ZIndex: =21
+
+                Image17 As image:
+                    Height: =60
+                    Image: =park
+                    Width: =60
+                    X: =324
+                    Y: =167
+                    ZIndex: =22
 
     Button1 As button:
         Fill: =RGBA(181, 14, 89, 1)
