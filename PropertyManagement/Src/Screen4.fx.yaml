@@ -543,6 +543,50 @@ Screen4 As screen:
             LayoutMinWidth: =250
             ZIndex: =7
 
+            Container4_17 As groupContainer.manualLayoutContainer:
+                DropShadow: =DropShadow.Semilight
+                Height: =72
+                Width: =569
+                X: =12
+                Y: =15
+                ZIndex: =1
+
+                Label10_16 As label:
+                    FontWeight: =FontWeight.Bold
+                    Height: =45
+                    Size: =18
+                    Text: ="Electric System"
+                    Width: =259
+                    X: =12
+                    Y: =12
+                    ZIndex: =1
+
+                arrowDown_16 As image:
+                    Height: =45
+                    Image: ='down-arrow (1)'
+                    OnSelect: |
+                        =Set(ShowContainer7,!ShowContainer7);
+                        Set(uparrow6, true);
+                        Set(downarrow6, false)
+                    Visible: =downarrow6
+                    Width: =45
+                    X: =507
+                    Y: =12
+                    ZIndex: =2
+
+                arrowUp_16 As image:
+                    Height: =45
+                    Image: ='arrow-up'
+                    OnSelect: |
+                        =Set(uparrow5, false);
+                        Set(downarrow5, true);
+                        Set(ShowContainer6,!ShowContainer6)
+                    Visible: =uparrow6
+                    Width: =45
+                    X: =507
+                    Y: =12
+                    ZIndex: =3
+
         OwnerDetails1_3 As groupContainer.manualLayoutContainer:
             DropShadow: =DropShadow.None
             FillPortions: =0
