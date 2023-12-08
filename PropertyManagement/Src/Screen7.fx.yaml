@@ -127,7 +127,7 @@ Screen7 As screen:
                     FontWeight: =FontWeight.Bold
                     Height: =57
                     Size: =22
-                    Text: ="Deep Cleaning"
+                    Text: ="Asset Transition"
                     Width: =378
                     X: =12
                     Y: =12
@@ -136,13 +136,13 @@ Screen7 As screen:
         OwnerDetails1_4 As groupContainer.manualLayoutContainer:
             DropShadow: =DropShadow.None
             FillPortions: =0
-            Height: =500
+            Height: =720
             Width: =600
             ZIndex: =8
 
             Container7_14 As groupContainer.manualLayoutContainer:
                 DropShadow: =DropShadow.None
-                Height: =600
+                Height: =708
                 Width: =596
                 ZIndex: =1
 
@@ -253,4 +253,88 @@ Screen7 As screen:
                     X: =445
                     Y: =19
                     ZIndex: =19
+
+                Label11_210 As label:
+                    Color: =RGBA(148, 135, 141, 1)
+                    Font: =Font.'Segoe UI'
+                    FontWeight: =FontWeight.Semibold
+                    Height: =43
+                    Size: =17
+                    Text: ="Fans"
+                    Width: =245
+                    X: =16
+                    Y: =408
+                    ZIndex: =20
+
+                Label11_211 As label:
+                    Color: =RGBA(148, 135, 141, 1)
+                    Font: =Font.'Segoe UI'
+                    FontWeight: =FontWeight.Semibold
+                    Height: =43
+                    Size: =17
+                    Text: ="Washing Machine"
+                    Width: =245
+                    X: =16
+                    Y: =451
+                    ZIndex: =21
+
+                Label11_212 As label:
+                    Color: =RGBA(148, 135, 141, 1)
+                    Font: =Font.'Segoe UI'
+                    FontWeight: =FontWeight.Semibold
+                    Height: =43
+                    Size: =17
+                    Text: ="LED TV"
+                    Width: =245
+                    X: =16
+                    Y: =494
+                    ZIndex: =22
+
+                Label11_213 As label:
+                    Color: =RGBA(148, 135, 141, 1)
+                    Font: =Font.'Segoe UI'
+                    FontWeight: =FontWeight.Semibold
+                    Height: =43
+                    Size: =17
+                    Text: ="Consoles"
+                    Width: =245
+                    X: =16
+                    Y: =580
+                    ZIndex: =23
+
+                Label11_214 As label:
+                    Color: =RGBA(148, 135, 141, 1)
+                    Font: =Font.'Segoe UI'
+                    FontWeight: =FontWeight.Semibold
+                    Height: =43
+                    Size: =17
+                    Text: ="Cupboards"
+                    Width: =245
+                    X: =16
+                    Y: =537
+                    ZIndex: =24
+
+                Label11_215 As label:
+                    Color: =RGBA(148, 135, 141, 1)
+                    Font: =Font.'Segoe UI'
+                    FontWeight: =FontWeight.Semibold
+                    Height: =43
+                    Size: =17
+                    Text: ="LED TV"
+                    Width: =245
+                    X: =16
+                    Y: =623
+                    ZIndex: =25
+
+                Label11_216 As label:
+                    Color: =RGBA(148, 135, 141, 1)
+                    Font: =Font.'Segoe UI'
+                    FontWeight: =FontWeight.Semibold
+                    Height: =43
+                    Size: =17
+                    Text: ="Cupboards"
+                    Width: =245
+                    X: =16
+                    Y: =666
+                    ZIndex: =26
 
