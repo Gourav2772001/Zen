@@ -21,6 +21,28 @@ Screen4 As screen:
         Y: =50
         ZIndex: =3
 
+    InspectionScreen As groupContainer.verticalAutoLayoutContainer:
+        DropShadow: =DropShadow.None
+        Height: =875
+        LayoutDirection: =LayoutDirection.Vertical
+        LayoutMode: =LayoutMode.Auto
+        LayoutOverflowY: =LayoutOverflow.Scroll
+        Visible: |+
+            =true
+            
+        Width: =603
+        X: =20
+        Y: =248
+        ZIndex: =14
+
+        "'Safety&security' As groupContainer.manualLayoutContainer":
+            DropShadow: =DropShadow.None
+            FillPortions: =0
+            Height: =100
+            LayoutMinHeight: =112
+            LayoutMinWidth: =250
+            ZIndex: =9
+
     Milestone As group:
         Height: =5
         Width: =5
@@ -100,26 +122,4 @@ Screen4 As screen:
             X: =59
             Y: =137
             ZIndex: =13
-
-    InspectionScreen As groupContainer.verticalAutoLayoutContainer:
-        DropShadow: =DropShadow.None
-        Height: =875
-        LayoutDirection: =LayoutDirection.Vertical
-        LayoutMode: =LayoutMode.Auto
-        LayoutOverflowY: =LayoutOverflow.Scroll
-        Visible: |+
-            =true
-            
-        Width: =603
-        X: =20
-        Y: =248
-        ZIndex: =14
-
-        "'Safety&security' As groupContainer.manualLayoutContainer":
-            DropShadow: =DropShadow.None
-            FillPortions: =0
-            Height: =100
-            LayoutMinHeight: =112
-            LayoutMinWidth: =250
-            ZIndex: =9
 
