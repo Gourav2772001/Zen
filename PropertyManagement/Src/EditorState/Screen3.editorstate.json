@@ -7565,7 +7565,7 @@
       "MetaDataIDKey": "",
       "Name": "Image18",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 12,
+      "ParentIndex": 13,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -29219,7 +29219,7 @@
       "MetaDataIDKey": "",
       "Name": "Label11_85",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 13,
+      "ParentIndex": 14,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -30516,7 +30516,7 @@
       "MetaDataIDKey": "",
       "Name": "PropertyG",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 4,
+      "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -30708,7 +30708,7 @@
       "MetaDataIDKey": "",
       "Name": "PropertyImage",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 3,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
