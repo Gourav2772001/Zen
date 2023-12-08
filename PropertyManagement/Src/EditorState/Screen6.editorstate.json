@@ -1593,7 +1593,7 @@
       "MetaDataIDKey": "",
       "Name": "Icon5_4",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 8,
+      "ParentIndex": 7,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -5845,7 +5845,7 @@
       "MetaDataIDKey": "",
       "Name": "Rectangle2_7",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 7,
+      "ParentIndex": 8,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
