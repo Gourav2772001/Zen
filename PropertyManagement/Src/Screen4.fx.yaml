@@ -108,7 +108,7 @@ Screen4 As screen:
         Y: =248
         ZIndex: =14
 
-        BasicDetails_1 As groupContainer.manualLayoutContainer:
+        GeneralInspection As groupContainer.manualLayoutContainer:
             DropShadow: =DropShadow.None
             FillPortions: =0
             Height: =100
@@ -160,7 +160,7 @@ Screen4 As screen:
                     Y: =12
                     ZIndex: =3
 
-        BasicDetails1_1 As groupContainer.manualLayoutContainer:
+        GeneralInspection1 As groupContainer.manualLayoutContainer:
             DropShadow: =DropShadow.None
             FillPortions: =0
             Height: =380
@@ -343,7 +343,7 @@ Screen4 As screen:
                     Y: =219
                     ZIndex: =15
 
-        BasicDetails2_1 As groupContainer.manualLayoutContainer:
+        GeneralInspection2 As groupContainer.manualLayoutContainer:
             DropShadow: =DropShadow.None
             FillPortions: =0
             Height: =490
@@ -550,7 +550,7 @@ Screen4 As screen:
                     Y: =421
                     ZIndex: =16
 
-        ConstructionDetails_1 As groupContainer.manualLayoutContainer:
+        ElectricalSyatem As groupContainer.manualLayoutContainer:
             DropShadow: =DropShadow.None
             FillPortions: =0
             Height: =100
@@ -602,7 +602,7 @@ Screen4 As screen:
                     Y: =17
                     ZIndex: =3
 
-        ConstructionDetails1_1 As groupContainer.manualLayoutContainer:
+        ElectricalSyatem1 As groupContainer.manualLayoutContainer:
             DropShadow: =DropShadow.None
             FillPortions: =0
             Height: =380
@@ -785,7 +785,7 @@ Screen4 As screen:
                     Y: =219
                     ZIndex: =15
 
-        ConstructionDetails2_1 As groupContainer.manualLayoutContainer:
+        ElectricalSyatem2 As groupContainer.manualLayoutContainer:
             DropShadow: =DropShadow.None
             FillPortions: =0
             Height: =100
@@ -848,7 +848,7 @@ Screen4 As screen:
                     Y: =63
                     ZIndex: =9
 
-        OwnerDetails_1 As groupContainer.manualLayoutContainer:
+        PlumbingSystems As groupContainer.manualLayoutContainer:
             DropShadow: =DropShadow.None
             FillPortions: =0
             Height: =100
@@ -900,7 +900,7 @@ Screen4 As screen:
                     Y: =12
                     ZIndex: =3
 
-        OwnerDetails1_1 As groupContainer.manualLayoutContainer:
+        PlumbingSystems1 As groupContainer.manualLayoutContainer:
             DropShadow: =DropShadow.None
             FillPortions: =0
             Height: =380
@@ -1083,7 +1083,7 @@ Screen4 As screen:
                     Y: =219
                     ZIndex: =15
 
-        Amenities_1 As groupContainer.manualLayoutContainer:
+        "'Safety&Security' As groupContainer.manualLayoutContainer":
             DropShadow: =DropShadow.None
             FillPortions: =0
             Height: =100
@@ -1135,7 +1135,7 @@ Screen4 As screen:
                     Y: =12
                     ZIndex: =3
 
-        Amenities1_1 As groupContainer.manualLayoutContainer:
+        "'Safety&Security1' As groupContainer.manualLayoutContainer":
             DropShadow: =DropShadow.None
             FillPortions: =0
             Height: =380
