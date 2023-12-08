@@ -1061,7 +1061,7 @@ Screen3 As screen:
         Amenities1 As groupContainer.manualLayoutContainer:
             DropShadow: =DropShadow.None
             FillPortions: =0
-            Height: =380
+            Height: =405
             LayoutMinHeight: =112
             LayoutMinWidth: =250
             Visible: =ShowContainer3
@@ -1069,7 +1069,7 @@ Screen3 As screen:
 
             Container7_4 As groupContainer.manualLayoutContainer:
                 DropShadow: =DropShadow.None
-                Height: =380
+                Height: =405
                 Visible: =ShowContainer3
                 Width: =603
                 ZIndex: =1
@@ -1214,6 +1214,66 @@ Screen3 As screen:
                     Y: =167
                     ZIndex: =22
 
+                Image18 As image:
+                    Height: =60
+                    Image: =swimming
+                    Width: =60
+                    X: =34
+                    Y: =247
+                    ZIndex: =23
+
+                Label11_84 As label:
+                    Align: =Align.Center
+                    Font: =Font.'Segoe UI'
+                    FontWeight: =FontWeight.Semibold
+                    Height: =44
+                    Size: =17
+                    Text: ="Swimming Pool"
+                    Width: =180
+                    X: =100
+                    Y: =263
+                    ZIndex: =24
+
+                Image19 As image:
+                    Height: =60
+                    Image: =muscle
+                    Width: =60
+                    X: =324
+                    Y: =331
+                    ZIndex: =25
+
+                Image20 As image:
+                    Height: =60
+                    Image: ='food-court'
+                    Width: =60
+                    X: =40
+                    Y: =331
+                    ZIndex: =26
+
+                Label11_172 As label:
+                    Align: =Align.Center
+                    Font: =Font.'Segoe UI'
+                    FontWeight: =FontWeight.Semibold
+                    Height: =44
+                    Size: =17
+                    Text: ="Food Court"
+                    Width: =180
+                    X: =100
+                    Y: =339
+                    ZIndex: =27
+
+                Label11_173 As label:
+                    Align: =Align.Center
+                    Font: =Font.'Segoe UI'
+                    FontWeight: =FontWeight.Semibold
+                    Height: =44
+                    Size: =17
+                    Text: ="Gym"
+                    Width: =106
+                    X: =424
+                    Y: =339
+                    ZIndex: =28
+
     Button1 As button:
         Fill: =RGBA(181, 14, 89, 1)
         Height: =59
@@ -1223,6 +1283,6 @@ Screen3 As screen:
         Text: ="Proceed for Inspection"
         Width: =578
         X: =32
-        Y: =1043
+        Y: =1052
         ZIndex: =6
 
