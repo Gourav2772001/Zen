@@ -96,7 +96,7 @@ Screen8 As screen:
 
     PropertyG_5 As groupContainer.verticalAutoLayoutContainer:
         DropShadow: =DropShadow.None
-        Height: =875
+        Height: =830
         LayoutDirection: =LayoutDirection.Vertical
         LayoutMode: =LayoutMode.Auto
         LayoutOverflowY: =LayoutOverflow.Scroll
@@ -152,7 +152,7 @@ Screen8 As screen:
                     FontWeight: =FontWeight.Semibold
                     Height: =43
                     Size: =17
-                    Text: ="Beds"
+                    Text: ="Switches"
                     Width: =204
                     X: =16
                     Y: =62
@@ -164,7 +164,7 @@ Screen8 As screen:
                     FontWeight: =FontWeight.Semibold
                     Height: =43
                     Size: =17
-                    Text: ="Modular Kitchen"
+                    Text: ="Light"
                     Width: =204
                     X: =16
                     Y: =114
@@ -176,7 +176,7 @@ Screen8 As screen:
                     FontWeight: =FontWeight.Semibold
                     Height: =43
                     Size: =17
-                    Text: ="Air Conditions"
+                    Text: ="Applancs"
                     Width: =204
                     X: =16
                     Y: =166
@@ -188,7 +188,7 @@ Screen8 As screen:
                     FontWeight: =FontWeight.Semibold
                     Height: =46
                     Size: =17
-                    Text: ="Chimney"
+                    Text: ="Faucets"
                     Width: =279
                     X: =16
                     Y: =218
@@ -200,7 +200,7 @@ Screen8 As screen:
                     FontWeight: =FontWeight.Semibold
                     Height: =43
                     Size: =17
-                    Text: ="Geysers"
+                    Text: ="Furniture"
                     Width: =204
                     X: =16
                     Y: =270
@@ -212,7 +212,7 @@ Screen8 As screen:
                     FontWeight: =FontWeight.Semibold
                     Height: =43
                     Size: =17
-                    Text: ="Water Purifiers"
+                    Text: ="Water supply"
                     Width: =204
                     X: =16
                     Y: =322
@@ -224,7 +224,7 @@ Screen8 As screen:
                     FontWeight: =FontWeight.Semibold
                     Height: =43
                     Size: =17
-                    Text: ="Gas Stove"
+                    Text: ="Blockage"
                     Width: =245
                     X: =16
                     Y: =365
@@ -260,7 +260,7 @@ Screen8 As screen:
                     FontWeight: =FontWeight.Semibold
                     Height: =43
                     Size: =17
-                    Text: ="Fans"
+                    Text: ="Doors"
                     Width: =245
                     X: =16
                     Y: =408
@@ -272,7 +272,7 @@ Screen8 As screen:
                     FontWeight: =FontWeight.Semibold
                     Height: =43
                     Size: =17
-                    Text: ="Washing Machine"
+                    Text: ="Locks"
                     Width: =245
                     X: =16
                     Y: =451
@@ -284,7 +284,7 @@ Screen8 As screen:
                     FontWeight: =FontWeight.Semibold
                     Height: =43
                     Size: =17
-                    Text: ="LED TV"
+                    Text: ="Wall paint"
                     Width: =245
                     X: =16
                     Y: =494
@@ -296,7 +296,7 @@ Screen8 As screen:
                     FontWeight: =FontWeight.Semibold
                     Height: =43
                     Size: =17
-                    Text: ="Consoles"
+                    Text: ="Documentation"
                     Width: =245
                     X: =16
                     Y: =580
@@ -308,33 +308,9 @@ Screen8 As screen:
                     FontWeight: =FontWeight.Semibold
                     Height: =43
                     Size: =17
-                    Text: ="Cupboards"
+                    Text: ="Floor tiles"
                     Width: =245
                     X: =16
                     Y: =537
                     ZIndex: =24
-
-                Label11_231 As label:
-                    Color: =RGBA(148, 135, 141, 1)
-                    Font: =Font.'Segoe UI'
-                    FontWeight: =FontWeight.Semibold
-                    Height: =43
-                    Size: =17
-                    Text: ="LED TV"
-                    Width: =245
-                    X: =16
-                    Y: =623
-                    ZIndex: =25
-
-                Label11_232 As label:
-                    Color: =RGBA(148, 135, 141, 1)
-                    Font: =Font.'Segoe UI'
-                    FontWeight: =FontWeight.Semibold
-                    Height: =43
-                    Size: =17
-                    Text: ="Cupboards"
-                    Width: =245
-                    X: =16
-                    Y: =665
-                    ZIndex: =26
 
