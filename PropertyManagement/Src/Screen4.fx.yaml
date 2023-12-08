@@ -96,11 +96,191 @@ Screen4 As screen:
             Visible: =ShowContainer5
             ZIndex: =2
 
-            Container7_15 As groupContainer.manualLayoutContainer:
+            Container9_4 As groupContainer.manualLayoutContainer:
                 DropShadow: =DropShadow.None
                 Height: =380
-                Width: =603
+                Width: =591
                 ZIndex: =1
+
+                Label11_288 As label:
+                    Color: =RGBA(148, 135, 141, 1)
+                    Font: =Font.'Segoe UI'
+                    FontWeight: =FontWeight.Semibold
+                    Height: =43
+                    Size: =17
+                    Text: ="Project Area"
+                    Width: =280
+                    X: =12
+                    Y: =3
+                    ZIndex: =1
+
+                Label11_290 As label:
+                    Color: =RGBA(148, 135, 141, 1)
+                    Font: =Font.'Segoe UI'
+                    FontWeight: =FontWeight.Semibold
+                    Height: =43
+                    Size: =17
+                    Text: ="Apartment Area"
+                    Width: =204
+                    X: =12
+                    Y: =64
+                    ZIndex: =2
+
+                Label11_292 As label:
+                    Color: =RGBA(148, 135, 141, 1)
+                    Font: =Font.'Segoe UI'
+                    FontWeight: =FontWeight.Semibold
+                    Height: =43
+                    Size: =17
+                    Text: ="Room Area"
+                    Width: =264
+                    X: =12
+                    Y: =119
+                    ZIndex: =3
+
+                Label11_294 As label:
+                    Color: =RGBA(148, 135, 141, 1)
+                    Font: =Font.'Segoe UI'
+                    FontWeight: =FontWeight.Semibold
+                    Height: =43
+                    Size: =17
+                    Text: ="Floor tiles Quality"
+                    Width: =204
+                    X: =12
+                    Y: =179
+                    ZIndex: =4
+
+                Label11_296 As label:
+                    Color: =RGBA(148, 135, 141, 1)
+                    Font: =Font.'Segoe UI'
+                    FontWeight: =FontWeight.Semibold
+                    Height: =43
+                    Size: =17
+                    Text: ="Door material quality"
+                    Width: =247
+                    X: =12
+                    Y: =240
+                    ZIndex: =5
+
+                Label11_298 As label:
+                    Color: =RGBA(148, 135, 141, 1)
+                    Font: =Font.'Segoe UI'
+                    FontWeight: =FontWeight.Semibold
+                    Height: =43
+                    Size: =17
+                    Text: ="Looks quality"
+                    Width: =204
+                    X: =12
+                    Y: =288
+                    ZIndex: =6
+
+                Label11_302 As label:
+                    Color: =RGBA(148, 135, 141, 1)
+                    Font: =Font.'Segoe UI'
+                    FontWeight: =FontWeight.Semibold
+                    Height: =43
+                    Size: =17
+                    Text: ="Gap in floor tiles"
+                    Width: =204
+                    X: =12
+                    Y: =337
+                    ZIndex: =8
+
+                Label11_289 As label:
+                    Align: =Align.Right
+                    Font: =Font.'Segoe UI'
+                    FontWeight: =FontWeight.Semibold
+                    Height: =43
+                    Size: =17
+                    Text: =First(currentData).Area&" sqft"
+                    Width: =204
+                    X: =369
+                    Y: =3
+                    ZIndex: =9
+
+                Label11_291 As label:
+                    Align: =Align.Right
+                    Font: =Font.'Segoe UI'
+                    FontWeight: =FontWeight.Semibold
+                    Height: =43
+                    Size: =17
+                    Text: =First(currentData).Area&" sqft"
+                    Width: =204
+                    X: =369
+                    Y: =64
+                    ZIndex: =10
+
+                Label11_293 As label:
+                    Align: =Align.Right
+                    Font: =Font.'Segoe UI'
+                    FontWeight: =FontWeight.Semibold
+                    Height: =43
+                    Size: =17
+                    Text: =First(currentData).'Carpet Area'&" sqft"
+                    Width: =204
+                    X: =369
+                    Y: =119
+                    ZIndex: =11
+
+                Label11_295 As label:
+                    Align: =Align.Right
+                    Font: =Font.'Segoe UI'
+                    FontWeight: =FontWeight.Semibold
+                    Height: =43
+                    Size: =17
+                    Text: =First(currentData).Furnished
+                    Width: =204
+                    X: =369
+                    Y: =179
+                    ZIndex: =12
+
+                Label11_297 As label:
+                    Align: =Align.Right
+                    Font: =Font.'Segoe UI'
+                    FontWeight: =FontWeight.Semibold
+                    Height: =43
+                    Size: =17
+                    Text: =First(currentData).Room
+                    Width: =204
+                    X: =369
+                    Y: =240
+                    ZIndex: =13
+
+                Label11_299 As label:
+                    Align: =Align.Right
+                    Font: =Font.'Segoe UI'
+                    FontWeight: =FontWeight.Semibold
+                    Height: =43
+                    Size: =17
+                    Text: =First(currentData).Washroom
+                    Width: =204
+                    X: =369
+                    Y: =301
+                    ZIndex: =14
+
+                Label11_301 As label:
+                    Align: =Align.Right
+                    Font: =Font.'Segoe UI'
+                    FontWeight: =FontWeight.Semibold
+                    Height: =43
+                    Size: =17
+                    Text: =First(currentData).'Servant Room'
+                    Width: =204
+                    X: =369
+                    Y: =337
+                    ZIndex: =15
+
+                Label11_303 As label:
+                    Align: =Align.Right
+                    Font: =Font.'Segoe UI'
+                    FontWeight: =FontWeight.Semibold
+                    Height: =43
+                    Size: =17
+                    Text: =First(currentData).Balcony
+                    Width: =204
+                    X: =369
+                    Y: =337
+                    ZIndex: =16
 
         BasicDetails2_3 As groupContainer.manualLayoutContainer:
             DropShadow: =DropShadow.None
