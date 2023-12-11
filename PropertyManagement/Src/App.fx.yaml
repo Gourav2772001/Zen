@@ -166,6 +166,11 @@ App As appinfo:
         Set(Checkb62,Blank());
         Set(Checkb63,Blank());
         Set(Checkb64,Blank());
+        Set(Checkb65,Blank());
+        Set(Checkb66,Blank());
+        Set(Checkb67,Blank());
+        Set(Checkb68,Blank());
+        Set(Checkb69,Blank());
         
         
         
