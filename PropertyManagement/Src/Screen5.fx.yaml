@@ -37,6 +37,18 @@ Screen5 As screen:
             X: =28
             ZIndex: =1
 
+        Label12_2 As label:
+            Color: =RGBA(148, 135, 141, 1)
+            Font: =Font.'Segoe UI'
+            FontWeight: =FontWeight.Bold
+            Height: =47
+            Size: =17
+            Text: ="Nature of Snag"
+            Width: =546
+            X: =43
+            Y: =219
+            ZIndex: =4
+
         Group1 As group:
             Height: =5
             Width: =5
@@ -71,41 +83,6 @@ Screen5 As screen:
                 X: =43
                 Y: =128
                 ZIndex: =3
-
-        Group1_1 As group:
-            Height: =5
-            Width: =5
-            X: =12
-            Y: =-41
-            ZIndex: =6
-
-            Label12_2 As label:
-                Color: =RGBA(148, 135, 141, 1)
-                Font: =Font.'Segoe UI'
-                FontWeight: =FontWeight.Bold
-                Height: =47
-                Size: =17
-                Text: ="Nature of Snag"
-                Width: =546
-                X: =43
-                Y: =219
-                ZIndex: =4
-
-            Dropdown1_1 As dropdown:
-                BorderColor: =RGBA(148, 135, 141, 1)
-                ChevronBackground: =RGBA(255, 255, 255, 1)
-                ChevronFill: =RGBA(0, 0, 0, 1)
-                ChevronHoverBackground: =RGBA(148, 135, 141, 1)
-                Height: =70
-                HoverFill: =RGBA(245, 245, 245, 1)
-                Items: =DropDownSample
-                PressedFill: =RGBA(245, 245, 245, 1)
-                SelectionFill: =RGBA(189, 43, 111, 1)
-                Size: =21
-                Width: =533
-                X: =43
-                Y: =266
-                ZIndex: =5
 
         Group2 As group:
             Height: =5
@@ -173,6 +150,18 @@ Screen5 As screen:
                 Y: =659
                 ZIndex: =9
 
+        Label14 As label:
+            BorderColor: =RGBA(0, 0, 0, 1)
+            BorderThickness: =1
+            DisplayMode: =DisplayMode.View
+            Height: =81
+            Size: =21
+            Text: =name.Text
+            Width: =532
+            X: =43
+            Y: =261
+            ZIndex: =14
+
         Group4 As group:
             Height: =5
             Width: =5
@@ -216,7 +205,13 @@ Screen5 As screen:
         Fill: =RGBA(189, 43, 111, 1)
         Height: =52
         HoverFill: =RGBA(189, 43, 111, 1)
-        OnSelect: =Back()
+        OnSelect: |+
+            =Back();
+            Set(name,Blank());
+            Patch(Godrej_snags,{Sub_Issue:Label14.Text,Description:TextInput2.Text,'Security Level':Radio1.Selected.Value,Image:UploadedImage2.Image,Title:PropertyGrid.Selected.'RegistrationNo.'});
+            Reset(TextInput2);
+            Reset(Radio1);
+            
         Size: =18
         Text: ="Submit"
         Width: =171

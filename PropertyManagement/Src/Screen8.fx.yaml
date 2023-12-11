@@ -885,7 +885,7 @@ Screen8 As screen:
                     Rectangle2_148 As rectangle:
                         BorderColor: =RGBA(148, 135, 141, 1)
                         BorderThickness: =2
-                        Fill: =If(Checkb1=true, Color.Green,Color.White)
+                        Fill: =If(Checkb68=true, Color.Green,Color.White)
                         Height: =40
                         Width: =40
                         X: =465
@@ -893,11 +893,11 @@ Screen8 As screen:
                         ZIndex: =69
 
                     Icon1_136 As icon.Check:
-                        Color: =If(Checkb1=true,Color.White,RGBA(115, 109, 109, 1))
-                        Fill: =If(Checkb1=true, Color.Green,Color.White)
+                        Color: =If(Checkb68=true,Color.White,RGBA(115, 109, 109, 1))
+                        Fill: =If(Checkb68=true, Color.Green,Color.White)
                         Height: =25
                         Icon: =Icon.Check
-                        OnSelect: =Set(Checkb14,true)
+                        OnSelect: =Set(Checkb68,true)
                         Width: =25
                         X: =472
                         Y: =637
@@ -920,7 +920,7 @@ Screen8 As screen:
                         Icon: =Icon.Cancel
                         OnSelect: |-
                             =Set(Checkb68,false);
-                            Set(name,Label11_229)
+                            Set(name,Label11_229);Navigate(Screen5)
                         Width: =25
                         X: =545
                         Y: =637
@@ -957,9 +957,79 @@ Screen8 As screen:
         Fill: =RGBA(181, 14, 89, 1)
         Height: =55
         HoverFill: =ColorFade(RGBA(181, 14, 89, 1), -20%)
-        OnSelect: |
+        OnSelect: |+
             =Navigate(Screen2);
-            Set(Mile,4)
+            Set(Mile,4);
+            Set(Checkb,Blank());
+            Set(Checkb1,Blank());
+            Set(Checkb2,Blank());
+            Set(Checkb3,Blank());
+            Set(Checkb4,Blank());
+            Set(Checkb5,Blank());
+            Set(Checkb6,Blank());
+            Set(Checkb7,Blank());
+            Set(Checkb8,Blank());
+            Set(Checkb9,Blank());
+            Set(Checkb10,Blank());
+            Set(Checkb11,Blank());
+            Set(Checkb12,Blank());
+            Set(Checkb13,Blank());
+            Set(Checkb14,Blank());
+            Set(Checkb15,Blank());
+            Set(Checkb16,Blank());
+            Set(Checkb17,Blank());
+            Set(Checkb18,Blank());
+            Set(Checkb19,Blank());
+            Set(Checkb20,Blank());
+            Set(Checkb21,Blank());
+            Set(Checkb22,Blank());
+            Set(Checkb23,Blank());
+            Set(Checkb24,Blank());
+            Set(Checkb25,Blank());
+            Set(Checkb26,Blank());
+            Set(Checkb27,Blank());
+            Set(Checkb28,Blank());
+            Set(Checkb29,Blank());
+            Set(Checkb30,Blank());
+            Set(Checkb31,Blank());
+            Set(Checkb32,Blank());
+            Set(Checkb33,Blank());
+            Set(Checkb34,Blank());
+            Set(Checkb35,Blank());
+            Set(Checkb36,Blank());
+            Set(Checkb37,Blank());
+            Set(Checkb38,Blank());
+            Set(Checkb39,Blank());
+            Set(Checkb40,Blank());
+            Set(Checkb41,Blank());
+            Set(Checkb42,Blank());
+            Set(Checkb43,Blank());
+            Set(Checkb44,Blank());
+            Set(Checkb45,Blank());
+            Set(Checkb46,Blank());
+            Set(Checkb47,Blank());
+            Set(Checkb48,Blank());
+            Set(Checkb49,Blank());
+            Set(Checkb50,Blank());
+            Set(Checkb51,Blank());
+            Set(Checkb52,Blank());
+            Set(Checkb53,Blank());
+            Set(Checkb54,Blank());
+            Set(Checkb55,Blank());
+            Set(Checkb56,Blank());
+            Set(Checkb57,Blank());
+            Set(Checkb58,Blank());
+            Set(Checkb59,Blank());
+            Set(Checkb60,Blank());
+            Set(Checkb61,Blank());
+            Set(Checkb62,Blank());
+            Set(Checkb63,Blank());
+            Set(Checkb64,Blank());
+            Set(Checkb65,Blank());
+            Set(Checkb66,Blank());
+            Set(Checkb67,Blank());
+            Set(Checkb68,Blank());
+            
         Size: =17
         Text: ="Submit"
         Width: =558

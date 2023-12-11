@@ -170,6 +170,7 @@ App As appinfo:
         Set(Checkb66,Blank());
         Set(Checkb67,Blank());
         Set(Checkb68,Blank());
+        Set(name,Blank())
         
         
         
