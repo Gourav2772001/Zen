@@ -41,13 +41,14 @@ Screen6 As screen:
 
         OwnerDetails1_2 As groupContainer.manualLayoutContainer:
             DropShadow: =DropShadow.None
-            Height: =500
+            FillPortions: =0
+            Height: =470
             Width: =600
             ZIndex: =8
 
             Container7_13 As groupContainer.manualLayoutContainer:
                 DropShadow: =DropShadow.None
-                Height: =512
+                Height: =470
                 Width: =603
                 ZIndex: =1
 
@@ -72,7 +73,7 @@ Screen6 As screen:
                     Text: ="Washrooms"
                     Width: =204
                     X: =16
-                    Y: =114
+                    Y: =119
                     ZIndex: =2
 
                 Label11_196 As label:
@@ -84,7 +85,7 @@ Screen6 As screen:
                     Text: ="Balcony area"
                     Width: =204
                     X: =16
-                    Y: =166
+                    Y: =175
                     ZIndex: =3
 
                 Label11_198 As label:
@@ -96,7 +97,7 @@ Screen6 As screen:
                     Text: ="Floor Tiles"
                     Width: =279
                     X: =16
-                    Y: =218
+                    Y: =227
                     ZIndex: =4
 
                 Label11_200 As label:
@@ -108,7 +109,7 @@ Screen6 As screen:
                     Text: ="Kitchen"
                     Width: =204
                     X: =16
-                    Y: =270
+                    Y: =288
                     ZIndex: =5
 
                 Label11_202 As label:
@@ -120,7 +121,7 @@ Screen6 As screen:
                     Text: ="Switches"
                     Width: =204
                     X: =16
-                    Y: =322
+                    Y: =340
                     ZIndex: =6
 
                 Label11_204 As label:
@@ -132,7 +133,7 @@ Screen6 As screen:
                     Text: ="Roofs"
                     Width: =245
                     X: =16
-                    Y: =365
+                    Y: =392
                     ZIndex: =7
 
                 Label11_193 As label:
@@ -158,6 +159,363 @@ Screen6 As screen:
                     X: =445
                     Y: =19
                     ZIndex: =19
+
+                Group8_37 As group:
+                    Height: =5
+                    Width: =5
+                    X: =-414
+                    Y: =-392
+                    ZIndex: =24
+
+                    Rectangle2_86 As rectangle:
+                        BorderColor: =RGBA(148, 135, 141, 1)
+                        BorderThickness: =2
+                        Fill: =If(Checkb1=true, Color.Green,Color.White)
+                        Height: =40
+                        Width: =40
+                        X: =465
+                        Y: =68
+                        ZIndex: =20
+
+                    Icon1_74 As icon.Check:
+                        Color: =If(Checkb1=true,Color.White,RGBA(115, 109, 109, 1))
+                        Fill: =If(Checkb1=true, Color.Green,Color.White)
+                        Height: =25
+                        Icon: =Icon.Check
+                        OnSelect: =Set(Checkb14,true)
+                        Width: =25
+                        X: =472
+                        Y: =76
+                        ZIndex: =21
+
+                    Rectangle2_87 As rectangle:
+                        BorderColor: =RGBA(148, 135, 141, 1)
+                        BorderThickness: =2
+                        Fill: =If(Checkb1=false,Color.Red,Color.White)
+                        Height: =40
+                        Width: =40
+                        X: =538
+                        Y: =68
+                        ZIndex: =22
+
+                    Icon1_75 As icon.Check:
+                        Color: =If(Checkb1=false,Color.White,RGBA(115, 109, 109, 1))
+                        Fill: =If(Checkb1=false,Color.Red,Color.White)
+                        Height: =25
+                        Icon: =Icon.Cancel
+                        OnSelect: |-
+                            =Set(Checkb14,false);
+                            Set(name,Label11_52)
+                        Width: =25
+                        X: =545
+                        Y: =76
+                        ZIndex: =23
+
+                Group8_38 As group:
+                    Height: =5
+                    Width: =5
+                    X: =-414
+                    Y: =-392
+                    ZIndex: =28
+
+                    Rectangle2_88 As rectangle:
+                        BorderColor: =RGBA(148, 135, 141, 1)
+                        BorderThickness: =2
+                        Fill: =If(Checkb1=true, Color.Green,Color.White)
+                        Height: =40
+                        Width: =40
+                        X: =465
+                        Y: =120
+                        ZIndex: =24
+
+                    Icon1_76 As icon.Check:
+                        Color: =If(Checkb1=true,Color.White,RGBA(115, 109, 109, 1))
+                        Fill: =If(Checkb1=true, Color.Green,Color.White)
+                        Height: =25
+                        Icon: =Icon.Check
+                        OnSelect: =Set(Checkb14,true)
+                        Width: =25
+                        X: =472
+                        Y: =128
+                        ZIndex: =25
+
+                    Rectangle2_89 As rectangle:
+                        BorderColor: =RGBA(148, 135, 141, 1)
+                        BorderThickness: =2
+                        Fill: =If(Checkb1=false,Color.Red,Color.White)
+                        Height: =40
+                        Width: =40
+                        X: =538
+                        Y: =120
+                        ZIndex: =26
+
+                    Icon1_77 As icon.Check:
+                        Color: =If(Checkb1=false,Color.White,RGBA(115, 109, 109, 1))
+                        Fill: =If(Checkb1=false,Color.Red,Color.White)
+                        Height: =25
+                        Icon: =Icon.Cancel
+                        OnSelect: |-
+                            =Set(Checkb14,false);
+                            Set(name,Label11_52)
+                        Width: =25
+                        X: =545
+                        Y: =128
+                        ZIndex: =27
+
+                Group8_39 As group:
+                    Height: =5
+                    Width: =5
+                    X: =-414
+                    Y: =-392
+                    ZIndex: =32
+
+                    Rectangle2_90 As rectangle:
+                        BorderColor: =RGBA(148, 135, 141, 1)
+                        BorderThickness: =2
+                        Fill: =If(Checkb1=true, Color.Green,Color.White)
+                        Height: =40
+                        Width: =40
+                        X: =465
+                        Y: =177
+                        ZIndex: =28
+
+                    Icon1_78 As icon.Check:
+                        Color: =If(Checkb1=true,Color.White,RGBA(115, 109, 109, 1))
+                        Fill: =If(Checkb1=true, Color.Green,Color.White)
+                        Height: =25
+                        Icon: =Icon.Check
+                        OnSelect: =Set(Checkb14,true)
+                        Width: =25
+                        X: =472
+                        Y: =185
+                        ZIndex: =29
+
+                    Rectangle2_91 As rectangle:
+                        BorderColor: =RGBA(148, 135, 141, 1)
+                        BorderThickness: =2
+                        Fill: =If(Checkb1=false,Color.Red,Color.White)
+                        Height: =40
+                        Width: =40
+                        X: =538
+                        Y: =177
+                        ZIndex: =30
+
+                    Icon1_79 As icon.Check:
+                        Color: =If(Checkb1=false,Color.White,RGBA(115, 109, 109, 1))
+                        Fill: =If(Checkb1=false,Color.Red,Color.White)
+                        Height: =25
+                        Icon: =Icon.Cancel
+                        OnSelect: |-
+                            =Set(Checkb14,false);
+                            Set(name,Label11_52)
+                        Width: =25
+                        X: =545
+                        Y: =185
+                        ZIndex: =31
+
+                Group8_40 As group:
+                    Height: =5
+                    Width: =5
+                    X: =-414
+                    Y: =-392
+                    ZIndex: =36
+
+                    Rectangle2_92 As rectangle:
+                        BorderColor: =RGBA(148, 135, 141, 1)
+                        BorderThickness: =2
+                        Fill: =If(Checkb1=true, Color.Green,Color.White)
+                        Height: =40
+                        Width: =40
+                        X: =465
+                        Y: =230
+                        ZIndex: =32
+
+                    Icon1_80 As icon.Check:
+                        Color: =If(Checkb1=true,Color.White,RGBA(115, 109, 109, 1))
+                        Fill: =If(Checkb1=true, Color.Green,Color.White)
+                        Height: =25
+                        Icon: =Icon.Check
+                        OnSelect: =Set(Checkb14,true)
+                        Width: =25
+                        X: =472
+                        Y: =238
+                        ZIndex: =33
+
+                    Rectangle2_93 As rectangle:
+                        BorderColor: =RGBA(148, 135, 141, 1)
+                        BorderThickness: =2
+                        Fill: =If(Checkb1=false,Color.Red,Color.White)
+                        Height: =40
+                        Width: =40
+                        X: =538
+                        Y: =230
+                        ZIndex: =34
+
+                    Icon1_81 As icon.Check:
+                        Color: =If(Checkb1=false,Color.White,RGBA(115, 109, 109, 1))
+                        Fill: =If(Checkb1=false,Color.Red,Color.White)
+                        Height: =25
+                        Icon: =Icon.Cancel
+                        OnSelect: |-
+                            =Set(Checkb14,false);
+                            Set(name,Label11_52)
+                        Width: =25
+                        X: =545
+                        Y: =238
+                        ZIndex: =35
+
+                Group8_41 As group:
+                    Height: =5
+                    Width: =5
+                    X: =-414
+                    Y: =-392
+                    ZIndex: =40
+
+                    Rectangle2_94 As rectangle:
+                        BorderColor: =RGBA(148, 135, 141, 1)
+                        BorderThickness: =2
+                        Fill: =If(Checkb1=true, Color.Green,Color.White)
+                        Height: =40
+                        Width: =40
+                        X: =465
+                        Y: =282
+                        ZIndex: =36
+
+                    Icon1_82 As icon.Check:
+                        Color: =If(Checkb1=true,Color.White,RGBA(115, 109, 109, 1))
+                        Fill: =If(Checkb1=true, Color.Green,Color.White)
+                        Height: =25
+                        Icon: =Icon.Check
+                        OnSelect: =Set(Checkb14,true)
+                        Width: =25
+                        X: =472
+                        Y: =290
+                        ZIndex: =37
+
+                    Rectangle2_95 As rectangle:
+                        BorderColor: =RGBA(148, 135, 141, 1)
+                        BorderThickness: =2
+                        Fill: =If(Checkb1=false,Color.Red,Color.White)
+                        Height: =40
+                        Width: =40
+                        X: =538
+                        Y: =282
+                        ZIndex: =38
+
+                    Icon1_83 As icon.Check:
+                        Color: =If(Checkb1=false,Color.White,RGBA(115, 109, 109, 1))
+                        Fill: =If(Checkb1=false,Color.Red,Color.White)
+                        Height: =25
+                        Icon: =Icon.Cancel
+                        OnSelect: |-
+                            =Set(Checkb14,false);
+                            Set(name,Label11_52)
+                        Width: =25
+                        X: =545
+                        Y: =290
+                        ZIndex: =39
+
+                Group8_42 As group:
+                    Height: =5
+                    Width: =5
+                    X: =-414
+                    Y: =-392
+                    ZIndex: =44
+
+                    Rectangle2_96 As rectangle:
+                        BorderColor: =RGBA(148, 135, 141, 1)
+                        BorderThickness: =2
+                        Fill: =If(Checkb1=true, Color.Green,Color.White)
+                        Height: =40
+                        Width: =40
+                        X: =465
+                        Y: =338
+                        ZIndex: =40
+
+                    Icon1_84 As icon.Check:
+                        Color: =If(Checkb1=true,Color.White,RGBA(115, 109, 109, 1))
+                        Fill: =If(Checkb1=true, Color.Green,Color.White)
+                        Height: =25
+                        Icon: =Icon.Check
+                        OnSelect: =Set(Checkb14,true)
+                        Width: =25
+                        X: =472
+                        Y: =346
+                        ZIndex: =41
+
+                    Rectangle2_97 As rectangle:
+                        BorderColor: =RGBA(148, 135, 141, 1)
+                        BorderThickness: =2
+                        Fill: =If(Checkb1=false,Color.Red,Color.White)
+                        Height: =40
+                        Width: =40
+                        X: =538
+                        Y: =338
+                        ZIndex: =42
+
+                    Icon1_85 As icon.Check:
+                        Color: =If(Checkb1=false,Color.White,RGBA(115, 109, 109, 1))
+                        Fill: =If(Checkb1=false,Color.Red,Color.White)
+                        Height: =25
+                        Icon: =Icon.Cancel
+                        OnSelect: |-
+                            =Set(Checkb14,false);
+                            Set(name,Label11_52)
+                        Width: =25
+                        X: =545
+                        Y: =346
+                        ZIndex: =43
+
+                Group8_43 As group:
+                    Height: =5
+                    Width: =5
+                    X: =-414
+                    Y: =-392
+                    ZIndex: =48
+
+                    Rectangle2_98 As rectangle:
+                        BorderColor: =RGBA(148, 135, 141, 1)
+                        BorderThickness: =2
+                        Fill: =If(Checkb1=true, Color.Green,Color.White)
+                        Height: =40
+                        Width: =40
+                        X: =465
+                        Y: =392
+                        ZIndex: =44
+
+                    Icon1_86 As icon.Check:
+                        Color: =If(Checkb1=true,Color.White,RGBA(115, 109, 109, 1))
+                        Fill: =If(Checkb1=true, Color.Green,Color.White)
+                        Height: =25
+                        Icon: =Icon.Check
+                        OnSelect: =Set(Checkb14,true)
+                        Width: =25
+                        X: =472
+                        Y: =400
+                        ZIndex: =45
+
+                    Rectangle2_99 As rectangle:
+                        BorderColor: =RGBA(148, 135, 141, 1)
+                        BorderThickness: =2
+                        Fill: =If(Checkb1=false,Color.Red,Color.White)
+                        Height: =40
+                        Width: =40
+                        X: =538
+                        Y: =392
+                        ZIndex: =46
+
+                    Icon1_87 As icon.Check:
+                        Color: =If(Checkb1=false,Color.White,RGBA(115, 109, 109, 1))
+                        Fill: =If(Checkb1=false,Color.Red,Color.White)
+                        Height: =25
+                        Icon: =Icon.Cancel
+                        OnSelect: |-
+                            =Set(Checkb14,false);
+                            Set(name,Label11_52)
+                        Width: =25
+                        X: =545
+                        Y: =400
+                        ZIndex: =47
 
     Icon4_3 As icon.ArrowLeft:
         Color: =RGBA(0, 0, 0, 1)
