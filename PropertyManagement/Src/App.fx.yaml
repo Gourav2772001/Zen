@@ -100,7 +100,8 @@ App As appinfo:
             {Option1: "Low"},
             {Option2: "Medium"},
             {Option3: "High"}
-        )
+        );
+        Set(Checkb,Blank());
     Theme: =PowerAppsTheme
 
     Host As hostControl.DefaultHostControlVariant:
