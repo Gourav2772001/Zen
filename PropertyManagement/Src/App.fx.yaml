@@ -1,6 +1,6 @@
 App As appinfo:
     BackEnabled: =true
-    OnStart: |-
+    OnStart: |
         =ClearCollect(
             Tabs,
             {Name: "Open"},
@@ -102,6 +102,16 @@ App As appinfo:
             {Option3: "High"}
         );
         Set(Checkb,Blank());
+        Set(Checkb1,Blank());
+        Set(Checkb2,Blank());
+        Set(Checkb3,Blank());
+        Set(Checkb4,Blank());
+        Set(Checkb5,Blank());
+        Set(Checkb6,Blank());
+        Set(Checkb7,Blank());
+        Set(Checkb8,Blank());
+        Set(Checkb9,Blank());
+        Set(Checkb10,Blank());
     Theme: =PowerAppsTheme
 
     Host As hostControl.DefaultHostControlVariant:
