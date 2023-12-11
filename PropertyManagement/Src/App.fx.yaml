@@ -1,6 +1,6 @@
 App As appinfo:
     BackEnabled: =true
-    OnStart: |
+    OnStart: |+
         =ClearCollect(
             Tabs,
             {Name: "Open"},
@@ -112,6 +112,63 @@ App As appinfo:
         Set(Checkb8,Blank());
         Set(Checkb9,Blank());
         Set(Checkb10,Blank());
+        Set(Checkb11,Blank());
+        Set(Checkb12,Blank());
+        Set(Checkb13,Blank());
+        Set(Checkb14,Blank());
+        Set(Checkb15,Blank());
+        Set(Checkb16,Blank());
+        Set(Checkb17,Blank());
+        Set(Checkb18,Blank());
+        Set(Checkb19,Blank());
+        Set(Checkb20,Blank());
+        Set(Checkb21,Blank());
+        Set(Checkb22,Blank());
+        Set(Checkb23,Blank());
+        Set(Checkb24,Blank());
+        Set(Checkb25,Blank());
+        Set(Checkb26,Blank());
+        Set(Checkb27,Blank());
+        Set(Checkb28,Blank());
+        Set(Checkb29,Blank());
+        Set(Checkb30,Blank());
+        Set(Checkb31,Blank());
+        Set(Checkb32,Blank());
+        Set(Checkb33,Blank());
+        Set(Checkb34,Blank());
+        Set(Checkb35,Blank());
+        Set(Checkb36,Blank());
+        Set(Checkb37,Blank());
+        Set(Checkb38,Blank());
+        Set(Checkb39,Blank());
+        Set(Checkb40,Blank());
+        Set(Checkb41,Blank());
+        Set(Checkb42,Blank());
+        Set(Checkb43,Blank());
+        Set(Checkb44,Blank());
+        Set(Checkb45,Blank());
+        Set(Checkb46,Blank());
+        Set(Checkb47,Blank());
+        Set(Checkb48,Blank());
+        Set(Checkb49,Blank());
+        Set(Checkb50,Blank());
+        Set(Checkb51,Blank());
+        Set(Checkb52,Blank());
+        Set(Checkb53,Blank());
+        Set(Checkb54,Blank());
+        Set(Checkb55,Blank());
+        Set(Checkb56,Blank());
+        Set(Checkb57,Blank());
+        Set(Checkb58,Blank());
+        Set(Checkb59,Blank());
+        Set(Checkb60,Blank());
+        Set(Checkb61,Blank());
+        Set(Checkb62,Blank());
+        Set(Checkb63,Blank());
+        Set(Checkb64,Blank());
+        
+        
+        
     Theme: =PowerAppsTheme
 
     Host As hostControl.DefaultHostControlVariant:
