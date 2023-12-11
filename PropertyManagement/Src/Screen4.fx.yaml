@@ -207,7 +207,7 @@ Screen4 As screen:
                     Rectangle2 As rectangle:
                         BorderColor: =RGBA(148, 135, 141, 1)
                         BorderThickness: =2
-                        Fill: =RGBA(255, 255, 255, 1)
+                        Fill: =If(Checkb=true, Color.Green,Color.White)
                         Height: =40
                         Width: =40
                         X: =454
@@ -216,9 +216,10 @@ Screen4 As screen:
 
                     Icon1 As icon.Check:
                         Color: =RGBA(115, 109, 109, 1)
-                        Fill: =RGBA(255, 255, 255, 1)
+                        Fill: =If(Checkb=true, Color.Green,Color.White)
                         Height: =25
                         Icon: =Icon.Check
+                        OnSelect: =Set(Checkb,true)
                         Width: =25
                         X: =461
                         Y: =64
@@ -238,6 +239,7 @@ Screen4 As screen:
                         Color: =RGBA(115, 109, 109, 1)
                         Height: =25
                         Icon: =Icon.Cancel
+                        OnSelect: =Set(Checkb,false)
                         Width: =25
                         X: =534
                         Y: =64
@@ -1290,13 +1292,13 @@ Screen4 As screen:
         Container5_1 As groupContainer.manualLayoutContainer:
             DropShadow: =DropShadow.None
             FillPortions: =0
-            Height: =390
+            Height: =120
             LayoutMinHeight: =112
             LayoutMinWidth: =250
             ZIndex: =11
 
             Container6_1 As groupContainer.manualLayoutContainer:
-                Height: =400
+                Height: =91
                 Width: =603
                 ZIndex: =1
 
@@ -1311,7 +1313,7 @@ Screen4 As screen:
                     Text: ="Save and Continue"
                     Width: =558
                     X: =24
-                    Y: =312
+                    Y: =21
                     ZIndex: =1
 
     Label4 As label:
