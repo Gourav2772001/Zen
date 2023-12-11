@@ -22,7 +22,7 @@ Screen8 As screen:
         ZIndex: =3
 
     Circle1_12 As circle:
-        BorderColor: =RGBA(148, 135, 141, 1)
+        BorderColor: =RGBA(181, 14, 89, 1)
         BorderThickness: =3
         Fill: =RGBA(181, 14, 89, 1)
         Height: =80
@@ -32,7 +32,7 @@ Screen8 As screen:
         ZIndex: =4
 
     Circle1_13 As circle:
-        BorderColor: =RGBA(232, 232, 232, 1)
+        BorderColor: =RGBA(181, 14, 89, 1)
         BorderThickness: =3
         Fill: =RGBA(181, 14, 89, 1)
         Height: =80
@@ -42,7 +42,7 @@ Screen8 As screen:
         ZIndex: =5
 
     Circle1_14 As circle:
-        BorderColor: =RGBA(232, 232, 232, 1)
+        BorderColor: =RGBA(181, 14, 89, 1)
         BorderThickness: =3
         Fill: =RGBA(181, 14, 89, 1)
         Height: =80
@@ -113,7 +113,7 @@ Screen8 As screen:
         OwnerDetails_4 As groupContainer.manualLayoutContainer:
             DropShadow: =DropShadow.None
             FillPortions: =0
-            Height: =100
+            Height: =90
             Width: =595
             ZIndex: =7
 
@@ -129,7 +129,7 @@ Screen8 As screen:
                     Height: =57
                     Size: =22
                     Text: ="Handover"
-                    Width: =378
+                    Width: =591
                     X: =12
                     Y: =12
                     ZIndex: =1

@@ -1333,7 +1333,7 @@ Screen4 As screen:
         ZIndex: =20
 
         Circle1 As circle:
-            BorderColor: =RGBA(148, 135, 141, 1)
+            BorderColor: =RGBA(181, 14, 89, 1)
             BorderThickness: =3
             Fill: |-
                 =If(Mile=1,ColorValue("#B50E59"),RGBA(148, 135, 141, 1))

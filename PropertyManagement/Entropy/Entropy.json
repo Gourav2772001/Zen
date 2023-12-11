@@ -446,7 +446,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "12/11/2023 06:01:10",
+  "HeaderLastSavedDateTimeUTC": "12/11/2023 07:04:24",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "61134af4-e3e3-4105-b4e1-e807bb4bf167": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/832938808e0b419c8dc90fe74f425501\""
@@ -1559,11 +1559,11 @@
       "dropdown": 2,
       "gallery": 1,
       "galleryTemplate": 1,
-      "group": 19,
+      "group": 20,
       "groupContainer": 72,
       "icon": 36,
       "image": 36,
-      "label": 204,
+      "label": 208,
       "radio": 1,
       "rectangle": 31,
       "screen": 8,
