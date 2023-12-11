@@ -10,16 +10,12 @@
         "dataSources": {
           "GODREJ": {
             "tableName": "f98bc07f-2c06-4a9d-ad3d-698b28dd7c1f"
-          },
-          "Godrej_snags": {
-            "tableName": "19befe5a-45d9-478d-9df6-1b07b08dde65"
           }
         }
       }
     },
     "dataSources": [
-      "GODREJ",
-      "Godrej_snags"
+      "GODREJ"
     ],
     "dependencies": {},
     "dependents": [],

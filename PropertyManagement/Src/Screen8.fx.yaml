@@ -710,8 +710,8 @@ Screen8 As screen:
                         ZIndex: =55
 
                     Icon1_129 As icon.Check:
-                        Color: =If(Checkb1=false,Color.White,RGBA(115, 109, 109, 1))
-                        Fill: =If(Checkb1=false,Color.Red,Color.White)
+                        Color: =If(Checkb64=false,Color.White,RGBA(115, 109, 109, 1))
+                        Fill: =If(Checkb64=false,Color.Red,Color.White)
                         Height: =25
                         Icon: =Icon.Cancel
                         OnSelect: |-
@@ -767,7 +767,7 @@ Screen8 As screen:
                         Icon: =Icon.Cancel
                         OnSelect: |-
                             =Set(Checkb65,false);
-                            Set(name,Label11_227);Navigate(Screen5)
+                            Set(name,Label11_227)
                         Width: =25
                         X: =545
                         Y: =485
@@ -818,7 +818,7 @@ Screen8 As screen:
                         Icon: =Icon.Cancel
                         OnSelect: |-
                             =Set(Checkb66,false);
-                            Set(name,Label11_228);Navigate(Screen5)
+                            Set(name,Label11_228)
                         Width: =25
                         X: =545
                         Y: =534
@@ -869,7 +869,7 @@ Screen8 As screen:
                         Icon: =Icon.Cancel
                         OnSelect: |-
                             =Set(Checkb67,false);
-                            Set(name,Label11_230);Navigate(Screen5)
+                            Set(name,Label11_230)
                         Width: =25
                         X: =545
                         Y: =585
