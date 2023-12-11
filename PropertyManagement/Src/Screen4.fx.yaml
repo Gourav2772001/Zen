@@ -440,8 +440,8 @@ Screen4 As screen:
                         ZIndex: =27
 
                     Icon1_9 As icon.Check:
-                        Color: =If(Checkb1=false,Color.White,RGBA(115, 109, 109, 1))
-                        Fill: =If(Checkb1=false,Color.Red,Color.White)
+                        Color: =If(Checkb4=false,Color.White,RGBA(115, 109, 109, 1))
+                        Fill: =If(Checkb4=false,Color.Red,Color.White)
                         Height: =25
                         Icon: =Icon.Cancel
                         OnSelect: |-
@@ -636,7 +636,7 @@ Screen4 As screen:
                     Rectangle2_24 As rectangle:
                         BorderColor: =RGBA(148, 135, 141, 1)
                         BorderThickness: =2
-                        Fill: =If(Checkb1=true, Color.Green,Color.White)
+                        Fill: =If(Checkb6=true, Color.Green,Color.White)
                         Height: =40
                         Width: =40
                         X: =454
@@ -644,8 +644,8 @@ Screen4 As screen:
                         ZIndex: =18
 
                     Icon1_12 As icon.Check:
-                        Color: =If(Checkb1=true,Color.White,RGBA(115, 109, 109, 1))
-                        Fill: =If(Checkb1=true, Color.Green,Color.White)
+                        Color: =If(Checkb6=true,Color.White,RGBA(115, 109, 109, 1))
+                        Fill: =If(Checkb6=true, Color.Green,Color.White)
                         Height: =25
                         Icon: =Icon.Check
                         OnSelect: =Set(Checkb6,true)
@@ -657,7 +657,7 @@ Screen4 As screen:
                     Rectangle2_25 As rectangle:
                         BorderColor: =RGBA(148, 135, 141, 1)
                         BorderThickness: =2
-                        Fill: =If(Checkb1=false,Color.Red,Color.White)
+                        Fill: =If(Checkb6=false,Color.Red,Color.White)
                         Height: =40
                         Width: =40
                         X: =527
@@ -665,8 +665,8 @@ Screen4 As screen:
                         ZIndex: =20
 
                     Icon1_13 As icon.Check:
-                        Color: =If(Checkb1=false,Color.White,RGBA(115, 109, 109, 1))
-                        Fill: =If(Checkb1=false,Color.Red,Color.White)
+                        Color: =If(Checkb6=false,Color.White,RGBA(115, 109, 109, 1))
+                        Fill: =If(Checkb6=false,Color.Red,Color.White)
                         Height: =25
                         Icon: =Icon.Cancel
                         OnSelect: |-
@@ -687,7 +687,7 @@ Screen4 As screen:
                     Rectangle2_26 As rectangle:
                         BorderColor: =RGBA(148, 135, 141, 1)
                         BorderThickness: =2
-                        Fill: =If(Checkb1=true, Color.Green,Color.White)
+                        Fill: =If(Checkb7=true, Color.Green,Color.White)
                         Height: =40
                         Width: =40
                         X: =454
@@ -695,8 +695,8 @@ Screen4 As screen:
                         ZIndex: =22
 
                     Icon1_14 As icon.Check:
-                        Color: =If(Checkb1=true,Color.White,RGBA(115, 109, 109, 1))
-                        Fill: =If(Checkb1=true, Color.Green,Color.White)
+                        Color: =If(Checkb7=true,Color.White,RGBA(115, 109, 109, 1))
+                        Fill: =If(Checkb7=true, Color.Green,Color.White)
                         Height: =25
                         Icon: =Icon.Check
                         OnSelect: =Set(Checkb7,true)
@@ -708,7 +708,7 @@ Screen4 As screen:
                     Rectangle2_27 As rectangle:
                         BorderColor: =RGBA(148, 135, 141, 1)
                         BorderThickness: =2
-                        Fill: =If(Checkb1=false,Color.Red,Color.White)
+                        Fill: =If(Checkb7=false,Color.Red,Color.White)
                         Height: =40
                         Width: =40
                         X: =527
@@ -716,8 +716,8 @@ Screen4 As screen:
                         ZIndex: =24
 
                     Icon1_15 As icon.Check:
-                        Color: =If(Checkb1=false,Color.White,RGBA(115, 109, 109, 1))
-                        Fill: =If(Checkb1=false,Color.Red,Color.White)
+                        Color: =If(Checkb7=false,Color.White,RGBA(115, 109, 109, 1))
+                        Fill: =If(Checkb7=false,Color.Red,Color.White)
                         Height: =25
                         Icon: =Icon.Cancel
                         OnSelect: |-
@@ -738,7 +738,7 @@ Screen4 As screen:
                     Rectangle2_28 As rectangle:
                         BorderColor: =RGBA(148, 135, 141, 1)
                         BorderThickness: =2
-                        Fill: =If(Checkb1=true, Color.Green,Color.White)
+                        Fill: =If(Checkb8=true, Color.Green,Color.White)
                         Height: =40
                         Width: =40
                         X: =454
@@ -746,8 +746,8 @@ Screen4 As screen:
                         ZIndex: =26
 
                     Icon1_16 As icon.Check:
-                        Color: =If(Checkb1=true,Color.White,RGBA(115, 109, 109, 1))
-                        Fill: =If(Checkb1=true, Color.Green,Color.White)
+                        Color: =If(Checkb8=true,Color.White,RGBA(115, 109, 109, 1))
+                        Fill: =If(Checkb8=true, Color.Green,Color.White)
                         Height: =25
                         Icon: =Icon.Check
                         OnSelect: =Set(Checkb8,true)
@@ -759,7 +759,7 @@ Screen4 As screen:
                     Rectangle2_29 As rectangle:
                         BorderColor: =RGBA(148, 135, 141, 1)
                         BorderThickness: =2
-                        Fill: =If(Checkb1=false,Color.Red,Color.White)
+                        Fill: =If(Checkb8=false,Color.Red,Color.White)
                         Height: =40
                         Width: =40
                         X: =527
@@ -767,8 +767,8 @@ Screen4 As screen:
                         ZIndex: =28
 
                     Icon1_17 As icon.Check:
-                        Color: =If(Checkb1=false,Color.White,RGBA(115, 109, 109, 1))
-                        Fill: =If(Checkb1=false,Color.Red,Color.White)
+                        Color: =If(Checkb8=false,Color.White,RGBA(115, 109, 109, 1))
+                        Fill: =If(Checkb8=false,Color.Red,Color.White)
                         Height: =25
                         Icon: =Icon.Cancel
                         OnSelect: |-
@@ -789,7 +789,7 @@ Screen4 As screen:
                     Rectangle2_30 As rectangle:
                         BorderColor: =RGBA(148, 135, 141, 1)
                         BorderThickness: =2
-                        Fill: =If(Checkb1=true, Color.Green,Color.White)
+                        Fill: =If(Checkb9=true, Color.Green,Color.White)
                         Height: =40
                         Width: =40
                         X: =454
@@ -797,8 +797,8 @@ Screen4 As screen:
                         ZIndex: =30
 
                     Icon1_18 As icon.Check:
-                        Color: =If(Checkb1=true,Color.White,RGBA(115, 109, 109, 1))
-                        Fill: =If(Checkb1=true, Color.Green,Color.White)
+                        Color: =If(Checkb9=true,Color.White,RGBA(115, 109, 109, 1))
+                        Fill: =If(Checkb9=true, Color.Green,Color.White)
                         Height: =25
                         Icon: =Icon.Check
                         OnSelect: =Set(Checkb9,true)
@@ -810,7 +810,7 @@ Screen4 As screen:
                     Rectangle2_31 As rectangle:
                         BorderColor: =RGBA(148, 135, 141, 1)
                         BorderThickness: =2
-                        Fill: =If(Checkb1=false,Color.Red,Color.White)
+                        Fill: =If(Checkb9=false,Color.Red,Color.White)
                         Height: =40
                         Width: =40
                         X: =527
@@ -818,8 +818,8 @@ Screen4 As screen:
                         ZIndex: =32
 
                     Icon1_19 As icon.Check:
-                        Color: =If(Checkb1=false,Color.White,RGBA(115, 109, 109, 1))
-                        Fill: =If(Checkb1=false,Color.Red,Color.White)
+                        Color: =If(Checkb9=false,Color.White,RGBA(115, 109, 109, 1))
+                        Fill: =If(Checkb9=false,Color.Red,Color.White)
                         Height: =25
                         Icon: =Icon.Cancel
                         OnSelect: |-
@@ -840,7 +840,7 @@ Screen4 As screen:
                     Rectangle2_32 As rectangle:
                         BorderColor: =RGBA(148, 135, 141, 1)
                         BorderThickness: =2
-                        Fill: =If(Checkb1=true, Color.Green,Color.White)
+                        Fill: =If(Checkb10=true, Color.Green,Color.White)
                         Height: =40
                         Width: =40
                         X: =454
@@ -848,8 +848,8 @@ Screen4 As screen:
                         ZIndex: =34
 
                     Icon1_20 As icon.Check:
-                        Color: =If(Checkb1=true,Color.White,RGBA(115, 109, 109, 1))
-                        Fill: =If(Checkb1=true, Color.Green,Color.White)
+                        Color: =If(Checkb10=true,Color.White,RGBA(115, 109, 109, 1))
+                        Fill: =If(Checkb10=true, Color.Green,Color.White)
                         Height: =25
                         Icon: =Icon.Check
                         OnSelect: =Set(Checkb10,true)
@@ -861,7 +861,7 @@ Screen4 As screen:
                     Rectangle2_33 As rectangle:
                         BorderColor: =RGBA(148, 135, 141, 1)
                         BorderThickness: =2
-                        Fill: =If(Checkb1=false,Color.Red,Color.White)
+                        Fill: =If(Checkb10=false,Color.Red,Color.White)
                         Height: =40
                         Width: =40
                         X: =527
@@ -869,8 +869,8 @@ Screen4 As screen:
                         ZIndex: =36
 
                     Icon1_21 As icon.Check:
-                        Color: =If(Checkb1=false,Color.White,RGBA(115, 109, 109, 1))
-                        Fill: =If(Checkb1=false,Color.Red,Color.White)
+                        Color: =If(Checkb10=false,Color.White,RGBA(115, 109, 109, 1))
+                        Fill: =If(Checkb10=false,Color.Red,Color.White)
                         Height: =25
                         Icon: =Icon.Cancel
                         OnSelect: |-
@@ -891,7 +891,7 @@ Screen4 As screen:
                     Rectangle2_34 As rectangle:
                         BorderColor: =RGBA(148, 135, 141, 1)
                         BorderThickness: =2
-                        Fill: =If(Checkb1=true, Color.Green,Color.White)
+                        Fill: =If(Checkb11=true, Color.Green,Color.White)
                         Height: =40
                         Width: =40
                         X: =454
@@ -899,8 +899,8 @@ Screen4 As screen:
                         ZIndex: =38
 
                     Icon1_22 As icon.Check:
-                        Color: =If(Checkb1=true,Color.White,RGBA(115, 109, 109, 1))
-                        Fill: =If(Checkb1=true, Color.Green,Color.White)
+                        Color: =If(Checkb11=true,Color.White,RGBA(115, 109, 109, 1))
+                        Fill: =If(Checkb11=true, Color.Green,Color.White)
                         Height: =25
                         Icon: =Icon.Check
                         OnSelect: =Set(Checkb11,true)
@@ -912,7 +912,7 @@ Screen4 As screen:
                     Rectangle2_35 As rectangle:
                         BorderColor: =RGBA(148, 135, 141, 1)
                         BorderThickness: =2
-                        Fill: =If(Checkb1=false,Color.Red,Color.White)
+                        Fill: =If(Checkb11=false,Color.Red,Color.White)
                         Height: =40
                         Width: =40
                         X: =527
@@ -920,8 +920,8 @@ Screen4 As screen:
                         ZIndex: =40
 
                     Icon1_23 As icon.Check:
-                        Color: =If(Checkb1=false,Color.White,RGBA(115, 109, 109, 1))
-                        Fill: =If(Checkb1=false,Color.Red,Color.White)
+                        Color: =If(Checkb11=false,Color.White,RGBA(115, 109, 109, 1))
+                        Fill: =If(Checkb11=false,Color.Red,Color.White)
                         Height: =25
                         Icon: =Icon.Cancel
                         OnSelect: |-
@@ -942,7 +942,7 @@ Screen4 As screen:
                     Rectangle2_36 As rectangle:
                         BorderColor: =RGBA(148, 135, 141, 1)
                         BorderThickness: =2
-                        Fill: =If(Checkb1=true, Color.Green,Color.White)
+                        Fill: =If(Checkb12=true, Color.Green,Color.White)
                         Height: =40
                         Width: =40
                         X: =454
@@ -950,8 +950,8 @@ Screen4 As screen:
                         ZIndex: =42
 
                     Icon1_24 As icon.Check:
-                        Color: =If(Checkb1=true,Color.White,RGBA(115, 109, 109, 1))
-                        Fill: =If(Checkb1=true, Color.Green,Color.White)
+                        Color: =If(Checkb12=true,Color.White,RGBA(115, 109, 109, 1))
+                        Fill: =If(Checkb12=true, Color.Green,Color.White)
                         Height: =25
                         Icon: =Icon.Check
                         OnSelect: =Set(Checkb12,true)
@@ -963,7 +963,7 @@ Screen4 As screen:
                     Rectangle2_37 As rectangle:
                         BorderColor: =RGBA(148, 135, 141, 1)
                         BorderThickness: =2
-                        Fill: =If(Checkb1=false,Color.Red,Color.White)
+                        Fill: =If(Checkb12=false,Color.Red,Color.White)
                         Height: =40
                         Width: =40
                         X: =527
@@ -971,8 +971,8 @@ Screen4 As screen:
                         ZIndex: =44
 
                     Icon1_25 As icon.Check:
-                        Color: =If(Checkb1=false,Color.White,RGBA(115, 109, 109, 1))
-                        Fill: =If(Checkb1=false,Color.Red,Color.White)
+                        Color: =If(Checkb12=false,Color.White,RGBA(115, 109, 109, 1))
+                        Fill: =If(Checkb12=false,Color.Red,Color.White)
                         Height: =25
                         Icon: =Icon.Cancel
                         OnSelect: |-
@@ -993,7 +993,7 @@ Screen4 As screen:
                     Rectangle2_38 As rectangle:
                         BorderColor: =RGBA(148, 135, 141, 1)
                         BorderThickness: =2
-                        Fill: =If(Checkb1=true, Color.Green,Color.White)
+                        Fill: =If(Checkb13=true, Color.Green,Color.White)
                         Height: =40
                         Width: =40
                         X: =454
@@ -1001,8 +1001,8 @@ Screen4 As screen:
                         ZIndex: =46
 
                     Icon1_26 As icon.Check:
-                        Color: =If(Checkb1=true,Color.White,RGBA(115, 109, 109, 1))
-                        Fill: =If(Checkb1=true, Color.Green,Color.White)
+                        Color: =If(Checkb13=true,Color.White,RGBA(115, 109, 109, 1))
+                        Fill: =If(Checkb13=true, Color.Green,Color.White)
                         Height: =25
                         Icon: =Icon.Check
                         OnSelect: =Set(Checkb13,true)
@@ -1014,7 +1014,7 @@ Screen4 As screen:
                     Rectangle2_39 As rectangle:
                         BorderColor: =RGBA(148, 135, 141, 1)
                         BorderThickness: =2
-                        Fill: =If(Checkb1=false,Color.Red,Color.White)
+                        Fill: =If(Checkb13=false,Color.Red,Color.White)
                         Height: =40
                         Width: =40
                         X: =527
@@ -1022,8 +1022,8 @@ Screen4 As screen:
                         ZIndex: =48
 
                     Icon1_27 As icon.Check:
-                        Color: =If(Checkb1=false,Color.White,RGBA(115, 109, 109, 1))
-                        Fill: =If(Checkb1=false,Color.Red,Color.White)
+                        Color: =If(Checkb13=false,Color.White,RGBA(115, 109, 109, 1))
+                        Fill: =If(Checkb13=false,Color.Red,Color.White)
                         Height: =25
                         Icon: =Icon.Cancel
                         OnSelect: |-
@@ -1044,7 +1044,7 @@ Screen4 As screen:
                     Rectangle2_40 As rectangle:
                         BorderColor: =RGBA(148, 135, 141, 1)
                         BorderThickness: =2
-                        Fill: =If(Checkb1=true, Color.Green,Color.White)
+                        Fill: =If(Checkb14=true, Color.Green,Color.White)
                         Height: =40
                         Width: =40
                         X: =454
@@ -1052,8 +1052,8 @@ Screen4 As screen:
                         ZIndex: =50
 
                     Icon1_28 As icon.Check:
-                        Color: =If(Checkb1=true,Color.White,RGBA(115, 109, 109, 1))
-                        Fill: =If(Checkb1=true, Color.Green,Color.White)
+                        Color: =If(Checkb14=true,Color.White,RGBA(115, 109, 109, 1))
+                        Fill: =If(Checkb14=true, Color.Green,Color.White)
                         Height: =25
                         Icon: =Icon.Check
                         OnSelect: =Set(Checkb14,true)
@@ -1065,7 +1065,7 @@ Screen4 As screen:
                     Rectangle2_41 As rectangle:
                         BorderColor: =RGBA(148, 135, 141, 1)
                         BorderThickness: =2
-                        Fill: =If(Checkb1=false,Color.Red,Color.White)
+                        Fill: =If(Checkb14=false,Color.Red,Color.White)
                         Height: =40
                         Width: =40
                         X: =527
@@ -1073,8 +1073,8 @@ Screen4 As screen:
                         ZIndex: =52
 
                     Icon1_29 As icon.Check:
-                        Color: =If(Checkb1=false,Color.White,RGBA(115, 109, 109, 1))
-                        Fill: =If(Checkb1=false,Color.Red,Color.White)
+                        Color: =If(Checkb14=false,Color.White,RGBA(115, 109, 109, 1))
+                        Fill: =If(Checkb14=false,Color.Red,Color.White)
                         Height: =25
                         Icon: =Icon.Cancel
                         OnSelect: |-
