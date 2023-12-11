@@ -14346,36 +14346,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "App.Checkb64"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "App.Checkb64",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "Checkb64",
-                "module": "App",
-                "type": "App"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-UnusedVariables",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "App.name"
                 }
               ],
