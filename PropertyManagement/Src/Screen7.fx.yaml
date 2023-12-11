@@ -99,7 +99,7 @@ Screen7 As screen:
 
     PropertyG_4 As groupContainer.verticalAutoLayoutContainer:
         DropShadow: =DropShadow.None
-        Height: =829
+        Height: =869
         LayoutDirection: =LayoutDirection.Vertical
         LayoutMode: =LayoutMode.Auto
         LayoutOverflowY: =LayoutOverflow.Scroll
@@ -119,7 +119,7 @@ Screen7 As screen:
             ZIndex: =7
 
             Container4_11 As groupContainer.manualLayoutContainer:
-                DropShadow: =DropShadow.Semilight
+                DropShadow: =DropShadow.None
                 Height: =72
                 Width: =569
                 X: =18
@@ -360,4 +360,53 @@ Screen7 As screen:
         X: =378
         Y: =137
         ZIndex: =15
+
+    Group6_1 As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =40
+        ZIndex: =20
+
+        Label13_11 As label:
+            Align: =Align.Center
+            Height: =43
+            Text: |-
+                ="Basic
+                 Inspection"
+            Width: =163
+            X: =2
+            Y: =206
+            ZIndex: =16
+
+        Label13_10 As label:
+            Align: =Align.Center
+            Height: =55
+            Text: |-
+                ="Deep 
+                Cleaning"
+            Width: =163
+            X: =160
+            Y: =200
+            ZIndex: =17
+
+        Label13_8 As label:
+            Align: =Align.Center
+            Height: =55
+            Text: |-
+                ="Asset 
+                Transition"
+            Width: =163
+            X: =323
+            Y: =206
+            ZIndex: =18
+
+        Label13_9 As label:
+            Align: =Align.Center
+            Height: =55
+            Text: ="Handover"
+            Width: =163
+            X: =475
+            Y: =206
+            ZIndex: =19
 

@@ -2,7 +2,7 @@ Screen6 As screen:
 
     PropertyG_2 As groupContainer.verticalAutoLayoutContainer:
         DropShadow: =DropShadow.None
-        Height: =625
+        Height: =612
         LayoutDirection: =LayoutDirection.Vertical
         LayoutMode: =LayoutMode.Auto
         LayoutOverflowY: =LayoutOverflow.Scroll
@@ -11,7 +11,7 @@ Screen6 As screen:
             
         Width: =603
         X: =20
-        Y: =248
+        Y: =261
         ZIndex: =1
 
         OwnerDetails_2 As groupContainer.manualLayoutContainer:
@@ -22,7 +22,7 @@ Screen6 As screen:
             ZIndex: =7
 
             Container4_10 As groupContainer.manualLayoutContainer:
-                DropShadow: =DropShadow.Semilight
+                DropShadow: =DropShadow.None
                 Height: =72
                 Width: =569
                 X: =18
@@ -47,7 +47,7 @@ Screen6 As screen:
 
             Container7_13 As groupContainer.manualLayoutContainer:
                 DropShadow: =DropShadow.None
-                Height: =525
+                Height: =512
                 Width: =603
                 ZIndex: =1
 
@@ -278,4 +278,53 @@ Screen6 As screen:
         X: =42
         Y: =1046
         ZIndex: =13
+
+    Group6 As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =40
+        ZIndex: =18
+
+        Label13_4 As label:
+            Align: =Align.Center
+            Height: =43
+            Text: |-
+                ="Basic
+                 Inspection"
+            Width: =163
+            X: =2
+            Y: =206
+            ZIndex: =14
+
+        Label13_5 As label:
+            Align: =Align.Center
+            Height: =55
+            Text: |-
+                ="Deep 
+                Cleaning"
+            Width: =163
+            X: =160
+            Y: =200
+            ZIndex: =15
+
+        Label13_6 As label:
+            Align: =Align.Center
+            Height: =55
+            Text: |-
+                ="Asset 
+                Transition"
+            Width: =163
+            X: =323
+            Y: =206
+            ZIndex: =16
+
+        Label13_7 As label:
+            Align: =Align.Center
+            Height: =55
+            Text: ="Handover"
+            Width: =163
+            X: =475
+            Y: =206
+            ZIndex: =17
 

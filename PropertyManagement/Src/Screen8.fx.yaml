@@ -98,7 +98,7 @@ Screen8 As screen:
 
     PropertyG_5 As groupContainer.verticalAutoLayoutContainer:
         DropShadow: =DropShadow.None
-        Height: =755
+        Height: =742
         LayoutDirection: =LayoutDirection.Vertical
         LayoutMode: =LayoutMode.Auto
         LayoutOverflowY: =LayoutOverflow.Scroll
@@ -107,7 +107,7 @@ Screen8 As screen:
             
         Width: =603
         X: =20
-        Y: =248
+        Y: =261
         ZIndex: =12
 
         OwnerDetails_4 As groupContainer.manualLayoutContainer:
@@ -118,10 +118,9 @@ Screen8 As screen:
             ZIndex: =7
 
             Container4_12 As groupContainer.manualLayoutContainer:
-                DropShadow: =DropShadow.Semilight
+                DropShadow: =DropShadow.None
                 Height: =72
-                Width: =569
-                X: =18
+                Width: =603
                 Y: =18
                 ZIndex: =1
 
@@ -356,4 +355,53 @@ Screen8 As screen:
         X: =43
         Y: =1046
         ZIndex: =16
+
+    Group6_2 As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =40
+        ZIndex: =21
+
+        Label13_15 As label:
+            Align: =Align.Center
+            Height: =43
+            Text: |-
+                ="Basic
+                 Inspection"
+            Width: =163
+            X: =2
+            Y: =206
+            ZIndex: =17
+
+        Label13_14 As label:
+            Align: =Align.Center
+            Height: =55
+            Text: |-
+                ="Deep 
+                Cleaning"
+            Width: =163
+            X: =160
+            Y: =200
+            ZIndex: =18
+
+        Label13_12 As label:
+            Align: =Align.Center
+            Height: =55
+            Text: |-
+                ="Asset 
+                Transition"
+            Width: =163
+            X: =323
+            Y: =206
+            ZIndex: =19
+
+        Label13_13 As label:
+            Align: =Align.Center
+            Height: =55
+            Text: ="Handover"
+            Width: =163
+            X: =475
+            Y: =206
+            ZIndex: =20
 

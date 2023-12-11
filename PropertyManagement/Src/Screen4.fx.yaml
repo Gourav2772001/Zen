@@ -23,7 +23,7 @@ Screen4 As screen:
 
     PropertyG_1 As groupContainer.verticalAutoLayoutContainer:
         DropShadow: =DropShadow.None
-        Height: =821
+        Height: =792
         LayoutDirection: =LayoutDirection.Vertical
         LayoutMode: =LayoutMode.Auto
         LayoutOverflowY: =LayoutOverflow.Scroll
@@ -32,7 +32,7 @@ Screen4 As screen:
             
         Width: =603
         X: =19
-        Y: =300
+        Y: =327
         ZIndex: =14
 
         BasicDetails_1 As groupContainer.manualLayoutContainer:
@@ -1290,13 +1290,13 @@ Screen4 As screen:
         Container5_1 As groupContainer.manualLayoutContainer:
             DropShadow: =DropShadow.None
             FillPortions: =0
-            Height: =410
+            Height: =390
             LayoutMinHeight: =112
             LayoutMinWidth: =250
             ZIndex: =11
 
             Container6_1 As groupContainer.manualLayoutContainer:
-                Height: =410
+                Height: =400
                 Width: =603
                 ZIndex: =1
 
@@ -1311,15 +1311,26 @@ Screen4 As screen:
                     Text: ="Save and Continue"
                     Width: =558
                     X: =24
-                    Y: =352
+                    Y: =312
                     ZIndex: =1
+
+    Label4 As label:
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Bold
+        Height: =54
+        Size: =25
+        Text: ="Basic Inspection"
+        Width: =560
+        X: =42
+        Y: =279
+        ZIndex: =15
 
     Milestone As group:
         Height: =5
         Width: =5
         X: =40
         Y: =40
-        ZIndex: =14
+        ZIndex: =20
 
         Circle1 As circle:
             BorderColor: =RGBA(148, 135, 141, 1)
@@ -1395,14 +1406,45 @@ Screen4 As screen:
             Y: =137
             ZIndex: =13
 
-    Label4 As label:
-        Font: =Font.'Segoe UI'
-        FontWeight: =FontWeight.Bold
-        Height: =54
-        Size: =25
-        Text: ="Basic Inspection"
-        Width: =560
-        X: =42
-        Y: =246
-        ZIndex: =15
+        Label13 As label:
+            Align: =Align.Center
+            Height: =43
+            Text: |-
+                ="Basic
+                 Inspection"
+            Width: =163
+            X: =2
+            Y: =206
+            ZIndex: =16
+
+        Label13_1 As label:
+            Align: =Align.Center
+            Height: =55
+            Text: |-
+                ="Deep 
+                Cleaning"
+            Width: =163
+            X: =160
+            Y: =200
+            ZIndex: =17
+
+        Label13_2 As label:
+            Align: =Align.Center
+            Height: =55
+            Text: |-
+                ="Asset 
+                Transition"
+            Width: =163
+            X: =321
+            Y: =200
+            ZIndex: =18
+
+        Label13_3 As label:
+            Align: =Align.Center
+            Height: =55
+            Text: ="Handover"
+            Width: =163
+            X: =475
+            Y: =200
+            ZIndex: =19
 
