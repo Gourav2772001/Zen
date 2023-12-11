@@ -23,7 +23,7 @@ Screen4 As screen:
 
     PropertyG_1 As groupContainer.verticalAutoLayoutContainer:
         DropShadow: =DropShadow.None
-        Height: =792
+        Height: =785
         LayoutDirection: =LayoutDirection.Vertical
         LayoutMode: =LayoutMode.Auto
         LayoutOverflowY: =LayoutOverflow.Scroll
@@ -32,7 +32,7 @@ Screen4 As screen:
             
         Width: =603
         X: =19
-        Y: =327
+        Y: =333
         ZIndex: =14
 
         BasicDetails_1 As groupContainer.manualLayoutContainer:
@@ -2763,13 +2763,13 @@ Screen4 As screen:
         Container5_1 As groupContainer.manualLayoutContainer:
             DropShadow: =DropShadow.None
             FillPortions: =0
-            Height: =390
+            Height: =370
             LayoutMinHeight: =112
             LayoutMinWidth: =250
             ZIndex: =11
 
             Container6_1 As groupContainer.manualLayoutContainer:
-                Height: =390
+                Height: =370
                 Width: =591
                 ZIndex: =1
 
@@ -2784,8 +2784,8 @@ Screen4 As screen:
                     Size: =17
                     Text: ="Save and Continue"
                     Width: =558
-                    X: =21
-                    Y: =315
+                    X: =15
+                    Y: =302
                     ZIndex: =1
 
     Label4 As label:
