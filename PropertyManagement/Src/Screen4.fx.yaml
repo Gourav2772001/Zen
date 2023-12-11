@@ -215,7 +215,7 @@ Screen4 As screen:
                         ZIndex: =9
 
                     Icon1 As icon.Check:
-                        Color: =RGBA(115, 109, 109, 1)
+                        Color: =If(Checkb=true,Color.White,RGBA(115, 109, 109, 1))
                         Fill: =If(Checkb=true, Color.Green,Color.White)
                         Height: =25
                         Icon: =Icon.Check
@@ -228,7 +228,7 @@ Screen4 As screen:
                     Rectangle2_1 As rectangle:
                         BorderColor: =RGBA(148, 135, 141, 1)
                         BorderThickness: =2
-                        Fill: =RGBA(255, 255, 255, 1)
+                        Fill: =If(Checkb=false,Color.Red,Color.White)
                         Height: =40
                         Width: =40
                         X: =527
@@ -236,7 +236,8 @@ Screen4 As screen:
                         ZIndex: =11
 
                     Icon1_1 As icon.Check:
-                        Color: =RGBA(115, 109, 109, 1)
+                        Color: =If(Checkb=false,Color.White,RGBA(115, 109, 109, 1))
+                        Fill: =If(Checkb=false,Color.Red,Color.White)
                         Height: =25
                         Icon: =Icon.Cancel
                         OnSelect: =Set(Checkb,false)
@@ -1292,13 +1293,13 @@ Screen4 As screen:
         Container5_1 As groupContainer.manualLayoutContainer:
             DropShadow: =DropShadow.None
             FillPortions: =0
-            Height: =120
+            Height: =390
             LayoutMinHeight: =112
             LayoutMinWidth: =250
             ZIndex: =11
 
             Container6_1 As groupContainer.manualLayoutContainer:
-                Height: =91
+                Height: =390
                 Width: =603
                 ZIndex: =1
 
@@ -1312,8 +1313,8 @@ Screen4 As screen:
                     Size: =17
                     Text: ="Save and Continue"
                     Width: =558
-                    X: =24
-                    Y: =21
+                    X: =21
+                    Y: =315
                     ZIndex: =1
 
     Label4 As label:
