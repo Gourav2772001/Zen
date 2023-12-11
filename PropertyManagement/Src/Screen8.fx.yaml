@@ -238,7 +238,7 @@ Screen8 As screen:
                     Text: ="Snag Checklist"
                     Width: =204
                     X: =16
-                    Y: =19
+                    Y: =11
                     ZIndex: =18
 
                 Label11_218 As label:
@@ -251,7 +251,7 @@ Screen8 As screen:
                     Text: ="Select All"
                     Width: =133
                     X: =445
-                    Y: =19
+                    Y: =11
                     ZIndex: =19
 
                 Label11_226 As label:
