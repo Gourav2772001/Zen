@@ -181,7 +181,7 @@ Screen4 As screen:
                     Text: ="Locks quality"
                     Width: =204
                     X: =16
-                    Y: =329
+                    Y: =327
                     ZIndex: =7
 
                 Label11_51 As label:
@@ -293,7 +293,7 @@ Screen4 As screen:
                         Icon: =Icon.Cancel
                         OnSelect: |-
                             =Set(Checkb1,false);
-                            Set(name,Label11_52)
+                            Set(name,Label11_54)
                         Width: =25
                         X: =534
                         Y: =132
@@ -344,7 +344,7 @@ Screen4 As screen:
                         Icon: =Icon.Cancel
                         OnSelect: |-
                             =Set(Checkb2,false);
-                            Set(name,Label11_52)
+                            Set(name,Label11_56)
                         Width: =25
                         X: =534
                         Y: =184
@@ -395,7 +395,7 @@ Screen4 As screen:
                         Icon: =Icon.Cancel
                         OnSelect: |-
                             =Set(Checkb2,false);
-                            Set(name,Label11_52)
+                            Set(name,Label11_58)
                         Width: =25
                         X: =534
                         Y: =234
@@ -446,7 +446,7 @@ Screen4 As screen:
                         Icon: =Icon.Cancel
                         OnSelect: |-
                             =Set(Checkb4,false);
-                            Set(name,Label11_52)
+                            Set(name,Label11_70)
                         Width: =25
                         X: =534
                         Y: =283
@@ -497,7 +497,7 @@ Screen4 As screen:
                         Icon: =Icon.Cancel
                         OnSelect: |-
                             =Set(Checkb5,false);
-                            Set(name,Label11_52)
+                            Set(name,Label11_72)
                         Width: =25
                         X: =534
                         Y: =335
@@ -671,7 +671,7 @@ Screen4 As screen:
                         Icon: =Icon.Cancel
                         OnSelect: |-
                             =Set(Checkb6,false);
-                            Set(name,Label11_52)
+                            Set(name,Label11_76)
                         Width: =25
                         X: =534
                         Y: =16
@@ -722,7 +722,7 @@ Screen4 As screen:
                         Icon: =Icon.Cancel
                         OnSelect: |-
                             =Set(Checkb7,false);
-                            Set(name,Label11_52)
+                            Set(name,Label11_80)
                         Width: =25
                         X: =534
                         Y: =64
@@ -773,7 +773,7 @@ Screen4 As screen:
                         Icon: =Icon.Cancel
                         OnSelect: |-
                             =Set(Checkb8,false);
-                            Set(name,Label11_52)
+                            Set(name,Label11_86)
                         Width: =25
                         X: =534
                         Y: =116
@@ -824,7 +824,7 @@ Screen4 As screen:
                         Icon: =Icon.Cancel
                         OnSelect: |-
                             =Set(Checkb9,false);
-                            Set(name,Label11_52)
+                            Set(name,Label11_88)
                         Width: =25
                         X: =534
                         Y: =172
@@ -875,7 +875,7 @@ Screen4 As screen:
                         Icon: =Icon.Cancel
                         OnSelect: |-
                             =Set(Checkb10,false);
-                            Set(name,Label11_52)
+                            Set(name,Label11_90)
                         Width: =25
                         X: =534
                         Y: =230
@@ -926,7 +926,7 @@ Screen4 As screen:
                         Icon: =Icon.Cancel
                         OnSelect: |-
                             =Set(Checkb11,false);
-                            Set(name,Label11_52)
+                            Set(name,Label11_92)
                         Width: =25
                         X: =534
                         Y: =284
@@ -977,7 +977,7 @@ Screen4 As screen:
                         Icon: =Icon.Cancel
                         OnSelect: |-
                             =Set(Checkb12,false);
-                            Set(name,Label11_52)
+                            Set(name,Label11_94)
                         Width: =25
                         X: =534
                         Y: =336
@@ -1028,7 +1028,7 @@ Screen4 As screen:
                         Icon: =Icon.Cancel
                         OnSelect: |-
                             =Set(Checkb13,false);
-                            Set(name,Label11_52)
+                            Set(name,Label11_96)
                         Width: =25
                         X: =534
                         Y: =389
@@ -1079,7 +1079,7 @@ Screen4 As screen:
                         Icon: =Icon.Cancel
                         OnSelect: |-
                             =Set(Checkb14,false);
-                            Set(name,Label11_52)
+                            Set(name,Label11_136)
                         Width: =25
                         X: =534
                         Y: =440
@@ -1293,7 +1293,7 @@ Screen4 As screen:
                         Icon: =Icon.Cancel
                         OnSelect: |-
                             =Set(Checkb14,false);
-                            Set(name,Label11_52)
+                            Set(name,Label11_100)
                         Width: =25
                         X: =537
                         Y: =69
@@ -1344,7 +1344,7 @@ Screen4 As screen:
                         Icon: =Icon.Cancel
                         OnSelect: |-
                             =Set(Checkb14,false);
-                            Set(name,Label11_52)
+                            Set(name,Label11_102)
                         Width: =25
                         X: =537
                         Y: =121
@@ -1395,7 +1395,7 @@ Screen4 As screen:
                         Icon: =Icon.Cancel
                         OnSelect: |-
                             =Set(Checkb14,false);
-                            Set(name,Label11_52)
+                            Set(name,Label11_104)
                         Width: =25
                         X: =537
                         Y: =178
@@ -1446,7 +1446,7 @@ Screen4 As screen:
                         Icon: =Icon.Cancel
                         OnSelect: |-
                             =Set(Checkb14,false);
-                            Set(name,Label11_52)
+                            Set(name,Label11_106)
                         Width: =25
                         X: =537
                         Y: =231
@@ -1497,7 +1497,7 @@ Screen4 As screen:
                         Icon: =Icon.Cancel
                         OnSelect: |-
                             =Set(Checkb14,false);
-                            Set(name,Label11_52)
+                            Set(name,Label11_108)
                         Width: =25
                         X: =536
                         Y: =286
@@ -1548,7 +1548,7 @@ Screen4 As screen:
                         Icon: =Icon.Cancel
                         OnSelect: |-
                             =Set(Checkb14,false);
-                            Set(name,Label11_52)
+                            Set(name,Label11_110)
                         Width: =25
                         X: =536
                         Y: =340
@@ -1650,7 +1650,7 @@ Screen4 As screen:
                         Icon: =Icon.Cancel
                         OnSelect: |-
                             =Set(Checkb14,false);
-                            Set(name,Label11_52)
+                            Set(name,Label11_112)
                         Width: =25
                         X: =535
                         Y: =17
@@ -1701,7 +1701,7 @@ Screen4 As screen:
                         Icon: =Icon.Cancel
                         OnSelect: |-
                             =Set(Checkb14,false);
-                            Set(name,Label11_52)
+                            Set(name,Label11_114)
                         Width: =25
                         X: =535
                         Y: =71
@@ -1752,7 +1752,7 @@ Screen4 As screen:
                         Icon: =Icon.Cancel
                         OnSelect: |-
                             =Set(Checkb14,false);
-                            Set(name,Label11_52)
+                            Set(name,Label11_116)
                         Width: =25
                         X: =535
                         Y: =123
@@ -1978,7 +1978,7 @@ Screen4 As screen:
                         Icon: =Icon.Cancel
                         OnSelect: |-
                             =Set(Checkb14,false);
-                            Set(name,Label11_52)
+                            Set(name,Label11_118)
                         Width: =25
                         X: =538
                         Y: =67
@@ -2029,7 +2029,7 @@ Screen4 As screen:
                         Icon: =Icon.Cancel
                         OnSelect: |-
                             =Set(Checkb14,false);
-                            Set(name,Label11_52)
+                            Set(name,Label11_120)
                         Width: =25
                         X: =538
                         Y: =119
@@ -2080,7 +2080,7 @@ Screen4 As screen:
                         Icon: =Icon.Cancel
                         OnSelect: |-
                             =Set(Checkb14,false);
-                            Set(name,Label11_52)
+                            Set(name,Label11_122)
                         Width: =25
                         X: =538
                         Y: =173
@@ -2131,7 +2131,7 @@ Screen4 As screen:
                         Icon: =Icon.Cancel
                         OnSelect: |-
                             =Set(Checkb14,false);
-                            Set(name,Label11_52)
+                            Set(name,Label11_124)
                         Width: =25
                         X: =538
                         Y: =221
@@ -2182,7 +2182,7 @@ Screen4 As screen:
                         Icon: =Icon.Cancel
                         OnSelect: |-
                             =Set(Checkb14,false);
-                            Set(name,Label11_52)
+                            Set(name,Label11_126)
                         Width: =25
                         X: =538
                         Y: =273
@@ -2233,7 +2233,7 @@ Screen4 As screen:
                         Icon: =Icon.Cancel
                         OnSelect: |-
                             =Set(Checkb14,false);
-                            Set(name,Label11_52)
+                            Set(name,Label11_137)
                         Width: =25
                         X: =538
                         Y: =322
@@ -2284,7 +2284,7 @@ Screen4 As screen:
                         Icon: =Icon.Cancel
                         OnSelect: |-
                             =Set(Checkb14,false);
-                            Set(name,Label11_52)
+                            Set(name,Label11_138)
                         Width: =25
                         X: =538
                         Y: =372
@@ -2498,7 +2498,7 @@ Screen4 As screen:
                         Icon: =Icon.Cancel
                         OnSelect: |-
                             =Set(Checkb14,false);
-                            Set(name,Label11_52)
+                            Set(name,Label11_128)
                         Width: =25
                         X: =536
                         Y: =85
@@ -2549,7 +2549,7 @@ Screen4 As screen:
                         Icon: =Icon.Cancel
                         OnSelect: |-
                             =Set(Checkb14,false);
-                            Set(name,Label11_52)
+                            Set(name,Label11_130)
                         Width: =25
                         X: =536
                         Y: =137
@@ -2600,7 +2600,7 @@ Screen4 As screen:
                         Icon: =Icon.Cancel
                         OnSelect: |-
                             =Set(Checkb14,false);
-                            Set(name,Label11_52)
+                            Set(name,Label11_132)
                         Width: =25
                         X: =536
                         Y: =184
@@ -2651,7 +2651,7 @@ Screen4 As screen:
                         Icon: =Icon.Cancel
                         OnSelect: |-
                             =Set(Checkb14,false);
-                            Set(name,Label11_52)
+                            Set(name,Label11_134)
                         Width: =25
                         X: =536
                         Y: =236
@@ -2702,7 +2702,7 @@ Screen4 As screen:
                         Icon: =Icon.Cancel
                         OnSelect: |-
                             =Set(Checkb14,false);
-                            Set(name,Label11_52)
+                            Set(name,Label11_139)
                         Width: =25
                         X: =536
                         Y: =289
@@ -2753,7 +2753,7 @@ Screen4 As screen:
                         Icon: =Icon.Cancel
                         OnSelect: |-
                             =Set(Checkb14,false);
-                            Set(name,Label11_52)
+                            Set(name,Label11_141)
                         Width: =25
                         X: =536
                         Y: =342
@@ -2776,9 +2776,10 @@ Screen4 As screen:
                     Fill: =RGBA(181, 14, 89, 1)
                     Height: =55
                     HoverFill: =ColorFade(RGBA(181, 14, 89, 1), -20%)
-                    OnSelect: |
+                    OnSelect: |+
                         =Navigate(Screen6);
-                        Set(Mile,1)
+                        Set(Mile,1);
+                        
                     Size: =17
                     Text: ="Save and Continue"
                     Width: =558
@@ -2806,7 +2807,6 @@ Screen4 As screen:
 
         Circle1 As circle:
             BorderColor: =RGBA(181, 14, 89, 1)
-            BorderThickness: =3
             Fill: |-
                 =If(Mile=1,ColorValue("#B50E59"),RGBA(148, 135, 141, 1))
             Height: =80
