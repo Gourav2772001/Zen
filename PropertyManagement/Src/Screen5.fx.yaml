@@ -169,7 +169,7 @@ Screen5 As screen:
 
         TextInput3_1 As text:
             BorderColor: =RGBA(148, 135, 141, 1)
-            Default: =If(Mile=1,"Basic Inspection",If(Mile=2,"Deep Cleaning",If(Mile=3,"Asset Transition","Handover")))
+            Default: =If(Mile=0,"Basic Inspection",If(Mile=1,"Deep Cleaning",If(Mile=2,"Asset Transition","Handover")))
             Height: =70
             Size: =15
             Width: =532
