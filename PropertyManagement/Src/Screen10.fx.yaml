@@ -82,22 +82,6 @@ Screen10 As screen:
             Y: =0
             ZIndex: =1
 
-            Longitude1 As pcfDataField.textualColumn:
-                FieldDisplayName: ="Longitude"
-                FieldName: ="Longitude"
-                FieldType: ="s"
-                FieldVariantName: ="textualColumn"
-                Order: =33
-                ZIndex: =33
-
-            Latitude1 As pcfDataField.textualColumn:
-                FieldDisplayName: ="Latitude"
-                FieldName: ="Latitude"
-                FieldType: ="s"
-                FieldVariantName: ="textualColumn"
-                Order: =34
-                ZIndex: =34
-
             Location1 As pcfDataField.textualColumn:
                 FieldDisplayName: ="Location"
                 FieldName: ="Location"

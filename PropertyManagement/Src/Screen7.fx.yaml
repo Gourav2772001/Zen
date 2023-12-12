@@ -1000,7 +1000,8 @@ Screen7 As screen:
                         Icon: =Icon.Cancel
                         OnSelect: |-
                             =Set(Checkb56,false);
-                            Set(name,Label11_216)
+                            Set(name,Label11_216);
+                            Navigate(Screen5)
                         Width: =25
                         X: =545
                         Y: =685

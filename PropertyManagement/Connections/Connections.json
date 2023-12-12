@@ -7,8 +7,8 @@
     },
     "datasets": {},
     "dataSources": [
-      "SpatialServices_1",
-      "SpatialServices"
+      "SpatialServices",
+      "SpatialServices_1"
     ],
     "dependencies": {},
     "dependents": [],
