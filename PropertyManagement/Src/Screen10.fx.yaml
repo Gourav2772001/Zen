@@ -37,8 +37,8 @@ Screen10 As screen:
             lat: Map3.ItemsLatitudes
                 },
                 {
-            lag: Map3.CenterLocation.Longitude,
-            lat: Map3.CenterLocation.Latitude
+            lag: Location.Longitude,
+            lat: Location.Latitude
                 }
             )
         RouteWaypointsLatitudes: ="lat"
