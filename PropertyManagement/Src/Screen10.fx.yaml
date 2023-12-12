@@ -12,7 +12,7 @@ Screen10 As screen:
         DefaultLongitude: =Location.Longitude
         DefaultZoomLevel: =5
         DisplayMode: =DisplayMode.Edit
-        Height: =1120
+        Height: =1038
         InfoCards: ='Map.InfoCards'.OnHover
         Items: =LookUp(GODREJ,Location=Loc.Location)
         ItemsAddresses: =
@@ -30,11 +30,11 @@ Screen10 As screen:
         PinColor: =RGBA(29, 114, 169, 1)
         RouteMaintainOrder: =false
         RouteOptimization: ='Map.RouteOptimization'.Distance
-        RouteWaypoints_Items: =
-        UseRouting: =false
+        RouteWaypoints_Items: =GODREJ
+        UseRouting: =true
         Width: =636
         X: =4
-        Y: =0
+        Y: =96
         ZIndex: =1
 
         Title7 As pcfDataField.textualColumn:
