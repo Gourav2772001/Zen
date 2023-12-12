@@ -766,7 +766,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "12/12/2023 10:23:41",
+  "HeaderLastSavedDateTimeUTC": "12/12/2023 10:34:58",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "61134af4-e3e3-4105-b4e1-e807bb4bf167": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/832938808e0b419c8dc90fe74f425501\""
@@ -794,6 +794,7 @@
     "park": "0014.png",
     "playground": "0015.png",
     "rating (1)": "92572f31-dc2d-4c77-a1b9-6260d073160a.png",
+    "status": "22907679-a278-47af-9594-d258c7ee0837.png",
     "swimming": "0016.png",
     "tennis": "0017.png",
     "tie": "0018.png"
@@ -820,6 +821,7 @@
     "park": "https://docserverpwaprodcin.blob.core.windows.net/73be25c2-1243-4a63-a918-66f575bcc04f-1/resource/Assets0Images00014.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2023-12-12T07%3A09%3A12Z&ske=2023-12-13T07%3A24%3A12Z&sks=b&skv=2022-11-02&sv=2022-11-02&spr=https&se=2023-12-13T07%3A24%3A12Z&sr=b&sp=r&sig=Fbg8QDsiuwxNqyoVb37hykcviB%2Ff5iVB8MdQ%2F3FrZg8%3D",
     "playground": "https://docserverpwaprodcin.blob.core.windows.net/73be25c2-1243-4a63-a918-66f575bcc04f-1/resource/Assets0Images00015.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2023-12-12T07%3A09%3A12Z&ske=2023-12-13T07%3A24%3A12Z&sks=b&skv=2022-11-02&sv=2022-11-02&spr=https&se=2023-12-13T07%3A24%3A12Z&sr=b&sp=r&sig=l%2FJm97mMTSQuMGi403j8IUlQWv8kaeoo5Es6IraYgtc%3D",
     "rating (1)": "https://docserverpwaprodcin.blob.core.windows.net/73be25c2-1243-4a63-a918-66f575bcc04f-1/resource/f09e7cef-7bc2-4968-ab96-160423d6b7fb.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2023-12-12T09%3A49%3A50Z&ske=2023-12-13T10%3A04%3A50Z&sks=b&skv=2022-11-02&sv=2022-11-02&spr=https&se=2023-12-13T10%3A04%3A50Z&sr=b&sp=r&sig=OqsdjdFfyiB%2FmjF9FPcblCKQ%2BGwV%2BY38G2GVKIHn3Vw%3D",
+    "status": "https://docserverpwaprodcin.blob.core.windows.net/73be25c2-1243-4a63-a918-66f575bcc04f-1/resource/bd333561-a6e4-4275-a0c0-4d19e67ce463.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2023-12-12T10%3A32%3A20Z&ske=2023-12-13T10%3A47%3A20Z&sks=b&skv=2022-11-02&sv=2022-11-02&spr=https&se=2023-12-13T10%3A47%3A20Z&sr=b&sp=r&sig=Lr7hgdYv1GFiwEODk2jgiqdoI2jdogf066fy5lsbzSA%3D",
     "swimming": "https://docserverpwaprodcin.blob.core.windows.net/73be25c2-1243-4a63-a918-66f575bcc04f-1/resource/Assets0Images00016.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2023-12-12T07%3A09%3A12Z&ske=2023-12-13T07%3A24%3A12Z&sks=b&skv=2022-11-02&sv=2022-11-02&spr=https&se=2023-12-13T07%3A24%3A12Z&sr=b&sp=r&sig=czmLXko5bCaf1zXiUzxfFEnsGNz5pjkjoHtQnQymRRg%3D",
     "tennis": "https://docserverpwaprodcin.blob.core.windows.net/73be25c2-1243-4a63-a918-66f575bcc04f-1/resource/Assets0Images00017.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2023-12-12T07%3A09%3A12Z&ske=2023-12-13T07%3A24%3A12Z&sks=b&skv=2022-11-02&sv=2022-11-02&spr=https&se=2023-12-13T07%3A24%3A12Z&sr=b&sp=r&sig=L3uTry5Bn2vyFDkDkjG10apvgdhP4ZUnUAZ4rqgAPL0%3D",
     "tie": "https://docserverpwaprodcin.blob.core.windows.net/73be25c2-1243-4a63-a918-66f575bcc04f-1/resource/Assets0Images00018.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2023-12-12T07%3A09%3A12Z&ske=2023-12-13T07%3A24%3A12Z&sks=b&skv=2022-11-02&sv=2022-11-02&spr=https&se=2023-12-13T07%3A24%3A12Z&sr=b&sp=r&sig=XYZHIVgydk6ArZO7VEiL9u1JL7Osp9N2eEF9YWOTb0g%3D"
@@ -2878,6 +2880,7 @@
     "Image-playground": 15,
     "Image-rating (1)": 23,
     "Image-SampleImage": 0,
+    "Image-status": 25,
     "Image-swimming": 16,
     "Image-tennis": 17,
     "Image-tie": 18

@@ -95,7 +95,7 @@ Screen9 As screen:
 
             Image33_1 As image:
                 Height: =40
-                Image: ='hashtag (1)'
+                Image: =status
                 Width: =40
                 X: =359
                 Y: =94
@@ -130,7 +130,7 @@ Screen9 As screen:
         FontWeight: =FontWeight.Bold
         Height: =45
         Size: =21
-        Text: ="New Snags"
+        Text: ="Snags"
         Width: =541
         X: =99
         Y: =45
