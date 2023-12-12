@@ -106,7 +106,7 @@ Screen9 As screen:
                 Fill: =Color.Transparent
                 Height: =Parent.Height
                 HoverFill: =
-                OnSelect: |-
+                OnSelect: |
                     =ClearCollect(currentData,Filter(GODREJ,'RegistrationNo.'=Gallery2.Selected.Title));
                     Navigate(Screen3);
                 PressedFill: =Color.Transparent

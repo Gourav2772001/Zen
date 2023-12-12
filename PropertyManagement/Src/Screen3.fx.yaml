@@ -1,5 +1,6 @@
 Screen3 As screen:
-    OnVisible: =
+    OnVisible: |
+        =
 
     Icon4 As icon.ArrowLeft:
         Color: =RGBA(0, 0, 0, 1)
@@ -30,15 +31,14 @@ Screen3 As screen:
         RadiusTopRight: =20
         Width: =603
         X: =19
-        Y: =142
+        Y: =118
         ZIndex: =4
 
         Image10 As image:
-            Height: =385
+            Height: =390
             Image: =First(currentData).Image
             ImagePosition: =ImagePosition.Fill
             Width: =Parent.Width
-            Y: =3
             ZIndex: =1
 
     PropertyG As groupContainer.verticalAutoLayoutContainer:
@@ -1272,6 +1272,8 @@ Screen3 As screen:
                         Set(Mile,0)
                     Size: =17
                     Text: ="Proceed for Inspection"
+                    Visible: |
+                        =true
                     Width: =558
                     X: =24
                     Y: =117
