@@ -118,7 +118,7 @@ Screen11 As screen:
                 Height: =66
                 Image: =If(IsBlank(AddMediaButton2_1.Media), SampleImage, AddMediaButton2_1.Media)
                 ImagePosition: =ImagePosition.Fill
-                Width: =356
+                Width: =551
                 X: =53
                 Y: =802
                 ZIndex: =12
