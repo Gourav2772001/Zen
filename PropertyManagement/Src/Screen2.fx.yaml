@@ -186,6 +186,8 @@ Screen2 As screen:
                 OnSelect: |-
                     =Navigate(Screen3);
                     ClearCollect(currentData,PropertyGrid.Selected)
+                    ;
+                    Set(showbutton,true);
                 Width: =273
                 ZIndex: =1
 

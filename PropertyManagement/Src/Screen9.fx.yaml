@@ -2,16 +2,16 @@ Screen9 As screen:
 
     "Gallery2 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver5.0'":
         DelayItemLoading: =true
-        Height: =309
+        Height: =911
         Items: =Godrej_snags
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
-        OnSelect: |-
-            =ClearCollect(currentData,Filter(GODREJ,'RegistrationNo.'=Gallery2.Selected.Title));
-            Navigate(Screen3);
+        LoadingSpinnerColor: =RGBA(180,14,90,1)
+        OnSelect: =true
         TemplatePadding: =0
         TemplateSize: =203
-        Y: =226
+        WrapCount: =2
+        Y: =207
         ZIndex: =1
 
         Container1 As groupContainer.manualLayoutContainer:
@@ -21,7 +21,7 @@ Screen9 As screen:
             RadiusBottomRight: =20
             RadiusTopLeft: =20
             RadiusTopRight: =20
-            Width: =609
+            Width: =281
             X: =18
             Y: =17
             ZIndex: =7
@@ -32,36 +32,17 @@ Screen9 As screen:
                 Size: =18
                 Text: =ThisItem.Snag_category
                 Width: =215
-                X: =85
+                X: =66
                 Y: =18
                 ZIndex: =1
-
-            Label16_1 As label:
-                Font: =Font.'Segoe UI'
-                FontWeight: =FontWeight.Bold
-                Height: =35
-                Size: =18
-                Text: =ThisItem.SeverityLevel
-                Width: =133
-                X: =410
-                Y: =23
-                ZIndex: =5
 
             Image28 As image:
                 Height: =40
                 Image: ='disruption (1)'
                 Width: =40
-                X: =30
+                X: =26
                 Y: =18
                 ZIndex: =7
-
-            Image30 As image:
-                Height: =40
-                Image: ='rating (1)'
-                Width: =40
-                X: =359
-                Y: =18
-                ZIndex: =8
 
             Label15_1 As label:
                 Color: =RGBA(153, 141, 146, 1)
@@ -74,17 +55,6 @@ Screen9 As screen:
                 Y: =94
                 ZIndex: =9
 
-            Label15_2 As label:
-                Color: =RGBA(153, 141, 146, 1)
-                Font: =Font.'Segoe UI'
-                FontWeight: =FontWeight.Semibold
-                Size: =16
-                Text: =ThisItem.Snag_Status
-                Width: =153
-                X: =410
-                Y: =94
-                ZIndex: =10
-
             Image33 As image:
                 Height: =40
                 Image: ='hashtag (1)'
@@ -93,27 +63,15 @@ Screen9 As screen:
                 Y: =94
                 ZIndex: =11
 
-            Image33_1 As image:
-                Height: =40
-                Image: =status
-                Width: =40
-                X: =359
-                Y: =94
-                ZIndex: =12
-
-            Button4 As button:
-                Color: =Color.Transparent
-                Fill: =Color.Transparent
+            Rectangle3 As rectangle:
+                Fill: =RGBA(0, 0, 0, 0)
                 Height: =Parent.Height
-                HoverFill: =
                 OnSelect: |
                     =ClearCollect(currentData,Filter(GODREJ,'RegistrationNo.'=Gallery2.Selected.Title));
+                    Set(showbutton,false);
                     Navigate(Screen3);
-                PressedFill: =Color.Transparent
-                Size: =24
-                Text: =""
                 Width: =Parent.Width
-                ZIndex: =13
+                ZIndex: =12
 
     Icon4_6 As icon.ArrowLeft:
         Color: =RGBA(0, 0, 0, 1)
