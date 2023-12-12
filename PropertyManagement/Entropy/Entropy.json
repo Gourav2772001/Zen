@@ -761,7 +761,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "12/12/2023 07:29:15",
+  "HeaderLastSavedDateTimeUTC": "12/12/2023 08:57:55",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "61134af4-e3e3-4105-b4e1-e807bb4bf167": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/832938808e0b419c8dc90fe74f425501\""
@@ -2855,7 +2855,7 @@
     "AnalysisLoadTime": 2.5734749,
     "ControlCount": {
       "addMedia": 1,
-      "button": 7,
+      "button": 8,
       "circle": 16,
       "gallery": 1,
       "galleryTemplate": 1,

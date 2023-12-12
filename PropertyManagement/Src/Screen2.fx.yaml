@@ -162,6 +162,7 @@ Screen2 As screen:
         LoadingSpinnerColor: =RGBA(180, 14, 90, 1)
         TemplatePadding: =0
         TemplateSize: =332
+        Transition: =Transition.Pop
         Y: =504
         ZIndex: =13
 
