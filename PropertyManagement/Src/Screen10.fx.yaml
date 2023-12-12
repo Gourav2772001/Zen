@@ -8,7 +8,7 @@ Screen10 As screen:
         CurrentLocationLatitude: =Location.Latitude
         CurrentLocationLongitude: =Location.Longitude
         DefaultLatitude: =Location.Latitude
-        DefaultLocation: =false
+        DefaultLocation: =true
         DefaultLongitude: =Location.Longitude
         DefaultZoomLevel: =5
         DisplayMode: =DisplayMode.Edit
@@ -32,17 +32,14 @@ Screen10 As screen:
         RouteOptimization: ='Map.RouteOptimization'.Distance
         RouteWaypoints_Items: |-
             =Table(
-                {
-            lag: Map3.ItemsLongitudes,
-            lat: Map3.ItemsLatitudes
-                },
-                {
-            lag: Location.Longitude,
-            lat: Location.Latitude
-                }
+              
+                {long:75.767700,
+                lat: 26.886190},
+                  {long:Loc.Longitude,
+                lat:Loc.Latitude}
             )
         RouteWaypointsLatitudes: ="lat"
-        RouteWaypointsLongitudes: ="lag"
+        RouteWaypointsLongitudes: ="long"
         UseRouting: =true
         Width: =636
         X: =4
@@ -328,4 +325,13 @@ Screen10 As screen:
             FieldVariantName: ="textualColumn"
             Order: =35
             ZIndex: =35
+
+    Label16 As label:
+        Height: =70
+        Size: =21
+        Text: =Loc.Latitude
+        Width: =560
+        X: =40
+        Y: =40
+        ZIndex: =2
 
