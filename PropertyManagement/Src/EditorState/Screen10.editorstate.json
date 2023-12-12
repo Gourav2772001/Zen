@@ -1999,7 +1999,10 @@
       "MetaDataIDKey": "",
       "Name": "Map3",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 0,
+      "ParentIndex": 1,
+      "PcfServiceDependencies": [
+        "SpatialServices_2"
+      ],
       "PersistMetaDataIDKey": false,
       "Properties": [
         {

@@ -2,7 +2,7 @@ Screen9 As screen:
 
     "Gallery2 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver5.0'":
         DelayItemLoading: =true
-        Height: =911
+        Height: =938
         Items: =Godrej_snags
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
@@ -12,11 +12,12 @@ Screen9 As screen:
         TemplateSize: =241
         Transition: =Transition.Pop
         WrapCount: =2
-        Y: =207
+        Y: =198
         ZIndex: =1
 
         Container1 As groupContainer.manualLayoutContainer:
             DropShadow: =DropShadow.Semibold
+            Fill: =RGBA(242, 240, 241, 1)
             Height: =205
             RadiusBottomLeft: =20
             RadiusBottomRight: =20
@@ -27,16 +28,6 @@ Screen9 As screen:
             Y: =18
             ZIndex: =7
 
-            Rectangle3 As rectangle:
-                Fill: =RGBA(242, 240, 241, 1)
-                Height: =205
-                OnSelect: |
-                    =ClearCollect(currentData,Filter(GODREJ,'RegistrationNo.'=Gallery2.Selected.Title));
-                    Set(showbutton,false);
-                    Navigate(Screen3);
-                Width: =Parent.Width
-                ZIndex: =1
-
             Label15_3 As label:
                 Color: =RGBA(153, 141, 146, 1)
                 Font: =Font.'Segoe UI'
@@ -46,7 +37,7 @@ Screen9 As screen:
                 Width: =215
                 X: =66
                 Y: =151
-                ZIndex: =2
+                ZIndex: =1
 
             Label15_2 As label:
                 Color: =RGBA(153, 141, 146, 1)
@@ -57,7 +48,7 @@ Screen9 As screen:
                 Width: =215
                 X: =66
                 Y: =111
-                ZIndex: =3
+                ZIndex: =2
 
             Image28 As image:
                 Height: =40
@@ -65,7 +56,7 @@ Screen9 As screen:
                 Width: =40
                 X: =17
                 Y: =18
-                ZIndex: =4
+                ZIndex: =3
 
             Label15 As label:
                 Font: =Font.'Segoe UI'
@@ -75,7 +66,7 @@ Screen9 As screen:
                 Width: =215
                 X: =66
                 Y: =18
-                ZIndex: =5
+                ZIndex: =4
 
             Label15_1 As label:
                 Color: =RGBA(153, 141, 146, 1)
@@ -86,6 +77,16 @@ Screen9 As screen:
                 Width: =215
                 X: =66
                 Y: =71
+                ZIndex: =5
+
+            Rectangle3 As rectangle:
+                Fill: =RGBA(0, 0, 0, 0)
+                Height: =205
+                OnSelect: |
+                    =ClearCollect(currentData,Filter(GODREJ,'RegistrationNo.'=Gallery2.Selected.Title));
+                    Set(showbutton,false);
+                    Navigate(Screen3);
+                Width: =Parent.Width
                 ZIndex: =6
 
     Icon4_6 As icon.ArrowLeft:
