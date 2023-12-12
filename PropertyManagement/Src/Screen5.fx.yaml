@@ -34,7 +34,7 @@ Screen5 As screen:
             Size: =17
             Text: ="Fill details below to raise a snag"
             Width: =560
-            X: =28
+            X: =44
             ZIndex: =1
 
         Group2 As group:
@@ -169,7 +169,7 @@ Screen5 As screen:
 
         TextInput3_1 As text:
             BorderColor: =RGBA(148, 135, 141, 1)
-            Default: =""
+            Default: =If(Mile=1,"Basic Inspection",If(Mile=2,"Deep Cleaning",If(Mile=3,"Asset Transition","Handover")))
             Height: =70
             Size: =15
             Width: =532
