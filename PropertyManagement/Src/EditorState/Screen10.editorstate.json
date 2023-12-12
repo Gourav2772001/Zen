@@ -1735,6 +1735,9 @@
       "Name": "Map3",
       "OptimizeForDevices": "Off",
       "ParentIndex": 0,
+      "PcfServiceDependencies": [
+        "SpatialServices"
+      ],
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
