@@ -16,6 +16,7 @@ Screen2 As screen:
             Height: =49
             Image: |-
                 ="data:image/svg+xml;utf8, %3Csvg%20%20viewBox%3D%270%200%202048%202048%27%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%3E%3Cpath%20d%3D%27M512%20384h1536v128H512V384zm512%20640V896h1024v128H1024zm0%20512v-128h1024v128H1024zM0%20640V256h384v384H0zm128-256v128h128V384H128zm384%20768V768h384v384H512zm128-256v128h128V896H640zm-128%20768v-384h384v384H512zm128-256v128h128v-128H640z%27%20fill%3D%27%23FFFFFF%27%3E%3C%2Fpath%3E%3C%2Fsvg%3E"
+            OnSelect: =Navigate(Screen9)
             Width: =50
             X: =8
             Y: =8
@@ -162,6 +163,7 @@ Screen2 As screen:
         LoadingSpinnerColor: =RGBA(180, 14, 90, 1)
         TemplatePadding: =0
         TemplateSize: =332
+        Transition: =Transition.Pop
         Y: =504
         ZIndex: =13
 

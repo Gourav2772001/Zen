@@ -222,7 +222,7 @@ Screen5 As screen:
         OnSelect: |+
             =Back();
             Set(name,Blank());
-            Patch(Godrej_snags,{Sub_Issue:Label14.Text,Description:TextInput2.Text,'Security Level':Radio1.Selected.Value,Image:UploadedImage2.Image,Snag_category:TextInput3_2.Text,Title:PropertyGrid.Selected.'RegistrationNo.'});
+            Patch(Godrej_snags,{Sub_Issue:Label14.Text,Description:TextInput2.Text,SeverityLevel:Radio1.Selected.Value,Image:UploadedImage2.Image,Snag_category:TextInput3_2.Text,Title:PropertyGrid.Selected.'RegistrationNo.'});
             Reset(TextInput2);
             Reset(Radio1);
             
