@@ -1,25 +1,5 @@
 Screen10 As screen:
 
-    Label16 As label:
-        Align: =Align.Center
-        FontWeight: =FontWeight.Bold
-        Height: =70
-        Size: =24
-        Text: ="Maps"
-        Width: =463
-        X: =86
-        Y: =17
-        ZIndex: =2
-
-    Icon6 As icon.ArrowLeft:
-        Height: =35
-        Icon: =Icon.ArrowLeft
-        OnSelect: =Back()
-        Width: =45
-        X: =16
-        Y: =17
-        ZIndex: =3
-
     Container10 As groupContainer.manualLayoutContainer:
         Height: =1043
         Width: =640
@@ -89,4 +69,25 @@ Screen10 As screen:
                 FieldVariantName: ="textualColumn"
                 Order: =3
                 ZIndex: =35
+
+    Icon4_7 As icon.ArrowLeft:
+        Color: =RGBA(0, 0, 0, 1)
+        Height: =45
+        Icon: =Icon.ArrowLeft
+        OnSelect: =Back()
+        Width: =45
+        X: =16
+        Y: =30
+        ZIndex: =5
+
+    Label5_7 As label:
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Bold
+        Height: =45
+        Size: =21
+        Text: ="Map"
+        Width: =541
+        X: =83
+        Y: =30
+        ZIndex: =6
 
