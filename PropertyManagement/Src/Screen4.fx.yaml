@@ -190,6 +190,22 @@ Screen4 As screen:
                     Font: =Font.'Segoe UI'
                     FontWeight: =FontWeight.Bold
                     Height: =43
+                    OnSelect: |-
+                        =Set(Checkb,true);
+                        Set(Checkb1,true);
+                        Set(Checkb2,true);
+                        Set(Checkb3,true);
+                        Set(Checkb4,true);
+                        Set(Checkb5,true);
+                        Set(Checkb6,true);
+                        Set(Checkb7,true);
+                        Set(Checkb8,true);
+                        Set(Checkb9,true);
+                        Set(Checkb10,true);
+                        Set(Checkb11,true);
+                        Set(Checkb12,true);
+                        Set(Checkb13,true);
+                        Set(Checkb14,true);
                     Size: =17
                     Text: ="Select All"
                     Width: =204
@@ -1926,6 +1942,14 @@ Screen4 As screen:
                     Font: =Font.'Segoe UI'
                     FontWeight: =FontWeight.Bold
                     Height: =43
+                    OnSelect: |
+                        =Set(Checkb24,true);
+                        Set(Checkb25,true);
+                        Set(Checkb26,true);
+                        Set(Checkb27,true);
+                        Set(Checkb28,true);
+                        Set(Checkb29,true);
+                        Set(Checkb30,true);
                     Size: =17
                     Text: ="Select All"
                     Width: =204
