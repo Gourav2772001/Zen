@@ -22,19 +22,20 @@ Screen11 As screen:
         ZIndex: =2
 
     Container8_1 As groupContainer.manualLayoutContainer:
-        Height: =1022
+        Height: =1046
         Width: =638
         X: =2
-        Y: =114
+        Y: =90
         ZIndex: =3
 
         Label12_1 As label:
             Font: =Font.'Segoe UI'
-            Height: =70
+            Height: =55
             Size: =17
             Text: ="Fill details of the customer"
             Width: =560
             X: =44
+            Y: =9
             ZIndex: =1
 
         Group2_1 As group:
