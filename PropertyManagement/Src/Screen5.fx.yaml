@@ -90,6 +90,7 @@ Screen5 As screen:
                 ZIndex: =8
 
             Radio1 As radio:
+                BorderStyle: =BorderStyle.None
                 Font: =Font.'Segoe UI'
                 Height: =78
                 Items: =["Low","Medium","High"]
@@ -225,6 +226,9 @@ Screen5 As screen:
             Patch(Godrej_snags,{Sub_Issue:Label14.Text,Description:TextInput2.Text,SeverityLevel:Radio1.Selected.Value,Image:UploadedImage2.Image,Snag_category:TextInput3_2.Text,Title:PropertyGrid.Selected.'RegistrationNo.'});
             Reset(TextInput2);
             Reset(Radio1);
+            Reset(TextInput3_2);
+            Reset(AddMediaButton2)
+            
             
         Size: =18
         Text: ="Submit"
