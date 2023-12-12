@@ -103,6 +103,31 @@ Screen5 As screen:
                 Y: =659
                 ZIndex: =9
 
+        Label14 As label:
+            BorderColor: =RGBA(0, 0, 0, 1)
+            BorderThickness: =1
+            DisplayMode: =DisplayMode.View
+            Height: =81
+            Size: =21
+            Text: =name.Text
+            Width: =532
+            X: =43
+            Y: =261
+            ZIndex: =14
+
+        TextInput3 As text:
+            BorderColor: =RGBA(148, 135, 141, 1)
+            Default: =name.Text
+            DisabledBorderColor: =RGBA(255, 255, 255, 1)
+            DisabledColor: =RGBA(0, 0, 0, 1)
+            DisplayMode: =DisplayMode.Disabled
+            Height: =70
+            Size: =15
+            Width: =532
+            X: =42
+            Y: =266
+            ZIndex: =14
+
         Group4 As group:
             Height: =5
             Width: =5
@@ -141,28 +166,6 @@ Screen5 As screen:
                 X: =44
                 Y: =784
                 ZIndex: =13
-
-        Label14 As label:
-            BorderColor: =RGBA(0, 0, 0, 1)
-            BorderThickness: =1
-            DisplayMode: =DisplayMode.View
-            Height: =81
-            Size: =21
-            Text: =name.Text
-            Width: =532
-            X: =43
-            Y: =261
-            ZIndex: =14
-
-        TextInput3 As text:
-            BorderColor: =RGBA(148, 135, 141, 1)
-            Default: =""
-            Height: =70
-            Size: =15
-            Width: =532
-            X: =42
-            Y: =266
-            ZIndex: =14
 
         TextInput3_1 As text:
             BorderColor: =RGBA(148, 135, 141, 1)
