@@ -36,6 +36,7 @@
       "OData__ColorTag": "Color Tag",
       "SecurityLevel": "Security Level",
       "Snag_category": "Snag_category",
+      "Snag_Status": "Snag_Status",
       "Sub_Issue": "Sub_Issue",
       "Title": "Title"
     },

@@ -513,8 +513,8 @@ Screen6 As screen:
                         ZIndex: =46
 
                     Icon1_87 As icon.Check:
-                        Color: =If(Checkb1=false,Color.White,RGBA(115, 109, 109, 1))
-                        Fill: =If(Checkb1=false,Color.Red,Color.White)
+                        Color: =If(Checkb43=false,Color.White,RGBA(115, 109, 109, 1))
+                        Fill: =If(Checkb43=false,Color.Red,Color.White)
                         Height: =25
                         Icon: =Icon.Cancel
                         OnSelect: |-

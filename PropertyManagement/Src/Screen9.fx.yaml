@@ -1,2 +1,150 @@
 Screen9 As screen:
 
+    "Gallery2 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver5.0'":
+        DelayItemLoading: =true
+        Height: =894
+        Items: =Godrej_snags
+        Layout: =Layout.Vertical
+        LoadingSpinner: =LoadingSpinner.Data
+        TemplatePadding: =0
+        TemplateSize: =104
+        Y: =240
+        ZIndex: =1
+
+        Title3 As label:
+            FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
+            Height: =Self.Size * 1.8
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Size: =17
+            Text: =ThisItem.Title
+            VerticalAlign: =VerticalAlign.Top
+            Width: =Parent.TemplateWidth - 173
+            X: =43
+            Y: =22
+            ZIndex: =2
+
+        Subtitle3 As label:
+            FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
+            Height: =Self.Size * 1.8
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Size: =15
+            Text: =ThisItem.Snag_category
+            VerticalAlign: =VerticalAlign.Top
+            Width: =Title3.Width
+            X: =Title3.X
+            Y: =Title3.Y + Title3.Height
+            ZIndex: =3
+
+        NextArrow3 As icon.ChevronRight:
+            AccessibleLabel: =Self.Tooltip
+            Color: =RGBA(166, 166, 166, 1)
+            Height: =50
+            Icon: =Icon.ChevronRight
+            OnSelect: =Select(Parent)
+            PaddingBottom: =16
+            PaddingLeft: =16
+            PaddingRight: =16
+            PaddingTop: =16
+            Tooltip: ="View item details"
+            Width: =50
+            X: =Parent.TemplateWidth - Self.Width - 12
+            Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
+            ZIndex: =4
+
+        Separator3 As rectangle:
+            Height: =8
+            OnSelect: =Select(Parent)
+            Width: =Parent.TemplateWidth
+            Y: =Parent.TemplateHeight - Self.Height
+            ZIndex: =5
+
+        Rectangle5 As rectangle:
+            Fill: =RGBA(181, 14, 89, 1)
+            Height: =Parent.TemplateHeight - Separator3.Height
+            OnSelect: =Select(Parent)
+            Visible: =ThisItem.IsSelected
+            Width: =4
+            ZIndex: =6
+
+    Icon4_6 As icon.ArrowLeft:
+        Color: =RGBA(0, 0, 0, 1)
+        Height: =45
+        Icon: =Icon.ArrowLeft
+        OnSelect: =Back()
+        Width: =45
+        X: =32
+        Y: =45
+        ZIndex: =2
+
+    Label5_6 As label:
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Bold
+        Height: =45
+        Size: =21
+        Text: ="New Snags"
+        Width: =541
+        X: =99
+        Y: =45
+        ZIndex: =3
+
+    flter_1 As groupContainer.manualLayoutContainer:
+        Fill: =RGBA(180, 14, 90, 1)
+        Height: =63
+        RadiusBottomLeft: =10
+        RadiusBottomRight: =10
+        RadiusTopLeft: =10
+        RadiusTopRight: =10
+        Width: =66
+        X: =548
+        Y: =121
+        ZIndex: =6
+
+        Image6_1 As image:
+            Height: =49
+            Image: |-
+                ="data:image/svg+xml;utf8, %3Csvg%20%20viewBox%3D%270%200%202048%202048%27%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%3E%3Cpath%20d%3D%27M512%20384h1536v128H512V384zm512%20640V896h1024v128H1024zm0%20512v-128h1024v128H1024zM0%20640V256h384v384H0zm128-256v128h128V384H128zm384%20768V768h384v384H512zm128-256v128h128V896H640zm-128%20768v-384h384v384H512zm128-256v128h128v-128H640z%27%20fill%3D%27%23FFFFFF%27%3E%3C%2Fpath%3E%3C%2Fsvg%3E"
+            Width: =50
+            X: =8
+            Y: =8
+            ZIndex: =1
+
+    SearchInput_1 As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =40
+        ZIndex: =6
+
+        TextInput1_1 As text:
+            BorderColor: =RGBA(233, 231, 232, 1)
+            Default: =""
+            Font: =Font.'Segoe UI'
+            Height: =63
+            HintText: ="            Search property, builders"
+            RadiusBottomLeft: =12
+            RadiusBottomRight: =12
+            RadiusTopLeft: =12
+            RadiusTopRight: =12
+            Size: =17
+            Width: =491
+            X: =30
+            Y: =121
+            ZIndex: =4
+
+        Icon3_1 As icon.Search:
+            Color: =RGBA(180, 14, 90, 1)
+            Height: =50
+            Icon: =Icon.Search
+            Width: =50
+            X: =49
+            Y: =127
+            ZIndex: =5
+
