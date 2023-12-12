@@ -310,7 +310,8 @@ Screen4 As screen:
                         Icon: =Icon.Cancel
                         OnSelect: |-
                             =Set(Checkb1,false);
-                            Set(name,Label11_54)
+                            Set(name,Label11_54);
+                            Navigate(Screen5)
                         Width: =25
                         X: =534
                         Y: =132
@@ -347,7 +348,7 @@ Screen4 As screen:
                     Rectangle2_17 As rectangle:
                         BorderColor: =RGBA(148, 135, 141, 1)
                         BorderThickness: =2
-                        Fill: =If(Checkb3=false,Color.Red,Color.White)
+                        Fill: =If(Checkb2=false,Color.Red,Color.White)
                         Height: =40
                         Width: =40
                         X: =527
@@ -355,13 +356,14 @@ Screen4 As screen:
                         ZIndex: =19
 
                     Icon1_5 As icon.Check:
-                        Color: =If(Checkb3=false,Color.White,RGBA(115, 109, 109, 1))
-                        Fill: =If(Checkb3=false,Color.Red,Color.White)
+                        Color: =If(Checkb2=false,Color.White,RGBA(115, 109, 109, 1))
+                        Fill: =If(Checkb2=false,Color.Red,Color.White)
                         Height: =25
                         Icon: =Icon.Cancel
                         OnSelect: |-
                             =Set(Checkb2,false);
-                            Set(name,Label11_56)
+                            Set(name,Label11_56);
+                            Navigate(Screen5)
                         Width: =25
                         X: =534
                         Y: =184
@@ -398,7 +400,7 @@ Screen4 As screen:
                     Rectangle2_19 As rectangle:
                         BorderColor: =RGBA(148, 135, 141, 1)
                         BorderThickness: =2
-                        Fill: =If(Checkb2=false,Color.Red,Color.White)
+                        Fill: =If(Checkb3=false,Color.Red,Color.White)
                         Height: =40
                         Width: =40
                         X: =527
@@ -406,13 +408,14 @@ Screen4 As screen:
                         ZIndex: =23
 
                     Icon1_7 As icon.Check:
-                        Color: =If(Checkb2=false,Color.White,RGBA(115, 109, 109, 1))
-                        Fill: =If(Checkb2=false,Color.Red,Color.White)
+                        Color: =If(Checkb3=false,Color.White,RGBA(115, 109, 109, 1))
+                        Fill: =If(Checkb3=false,Color.Red,Color.White)
                         Height: =25
                         Icon: =Icon.Cancel
                         OnSelect: |-
-                            =Set(Checkb2,false);
-                            Set(name,Label11_58)
+                            =Set(Checkb3,false);
+                            Set(name,Label11_58);
+                            Navigate(Screen5)
                         Width: =25
                         X: =534
                         Y: =234
@@ -449,7 +452,7 @@ Screen4 As screen:
                     Rectangle2_21 As rectangle:
                         BorderColor: =RGBA(148, 135, 141, 1)
                         BorderThickness: =2
-                        Fill: =If(Checkb1=false,Color.Red,Color.White)
+                        Fill: =If(Checkb4=false,Color.Red,Color.White)
                         Height: =40
                         Width: =40
                         X: =527
@@ -463,7 +466,7 @@ Screen4 As screen:
                         Icon: =Icon.Cancel
                         OnSelect: |-
                             =Set(Checkb4,false);
-                            Set(name,Label11_70)
+                            Set(name,Label11_70);Navigate(Screen5)
                         Width: =25
                         X: =534
                         Y: =283
@@ -515,6 +518,7 @@ Screen4 As screen:
                         OnSelect: |-
                             =Set(Checkb5,false);
                             Set(name,Label11_72)
+                            ;Navigate(Screen5)
                         Width: =25
                         X: =534
                         Y: =335
@@ -688,7 +692,7 @@ Screen4 As screen:
                         Icon: =Icon.Cancel
                         OnSelect: |-
                             =Set(Checkb6,false);
-                            Set(name,Label11_76)
+                            Set(name,Label11_76);Navigate(Screen5)
                         Width: =25
                         X: =534
                         Y: =16
@@ -739,7 +743,7 @@ Screen4 As screen:
                         Icon: =Icon.Cancel
                         OnSelect: |-
                             =Set(Checkb7,false);
-                            Set(name,Label11_80)
+                            Set(name,Label11_80);Navigate(Screen5)
                         Width: =25
                         X: =534
                         Y: =64
@@ -790,7 +794,7 @@ Screen4 As screen:
                         Icon: =Icon.Cancel
                         OnSelect: |-
                             =Set(Checkb8,false);
-                            Set(name,Label11_86)
+                            Set(name,Label11_86);Navigate(Screen5)
                         Width: =25
                         X: =534
                         Y: =116
@@ -841,7 +845,7 @@ Screen4 As screen:
                         Icon: =Icon.Cancel
                         OnSelect: |-
                             =Set(Checkb9,false);
-                            Set(name,Label11_88)
+                            Set(name,Label11_88);Navigate(Screen5)
                         Width: =25
                         X: =534
                         Y: =172
@@ -892,7 +896,7 @@ Screen4 As screen:
                         Icon: =Icon.Cancel
                         OnSelect: |-
                             =Set(Checkb10,false);
-                            Set(name,Label11_90)
+                            Set(name,Label11_90);Navigate(Screen5)
                         Width: =25
                         X: =534
                         Y: =230
@@ -943,7 +947,7 @@ Screen4 As screen:
                         Icon: =Icon.Cancel
                         OnSelect: |-
                             =Set(Checkb11,false);
-                            Set(name,Label11_92)
+                            Set(name,Label11_92);Navigate(Screen5)
                         Width: =25
                         X: =534
                         Y: =284
@@ -994,7 +998,7 @@ Screen4 As screen:
                         Icon: =Icon.Cancel
                         OnSelect: |-
                             =Set(Checkb12,false);
-                            Set(name,Label11_94)
+                            Set(name,Label11_94);Navigate(Screen5)
                         Width: =25
                         X: =534
                         Y: =336
@@ -1045,7 +1049,7 @@ Screen4 As screen:
                         Icon: =Icon.Cancel
                         OnSelect: |-
                             =Set(Checkb13,false);
-                            Set(name,Label11_96)
+                            Set(name,Label11_96);Navigate(Screen5)
                         Width: =25
                         X: =534
                         Y: =389
@@ -1096,7 +1100,7 @@ Screen4 As screen:
                         Icon: =Icon.Cancel
                         OnSelect: |-
                             =Set(Checkb14,false);
-                            Set(name,Label11_136)
+                            Set(name,Label11_136);Navigate(Screen5)
                         Width: =25
                         X: =534
                         Y: =440
@@ -2594,8 +2598,8 @@ Screen4 As screen:
                         ZIndex: =25
 
                     Icon1_65 As icon.Check:
-                        Color: =If(Checkb1=false,Color.White,RGBA(115, 109, 109, 1))
-                        Fill: =If(Checkb1=false,Color.Red,Color.White)
+                        Color: =If(Checkb32=false,Color.White,RGBA(115, 109, 109, 1))
+                        Fill: =If(Checkb32=false,Color.Red,Color.White)
                         Height: =25
                         Icon: =Icon.Cancel
                         OnSelect: |-
