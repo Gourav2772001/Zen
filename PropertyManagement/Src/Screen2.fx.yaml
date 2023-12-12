@@ -209,6 +209,9 @@ Screen2 As screen:
             Image8 As image:
                 Height: =30
                 Image: =location
+                OnSelect: |-
+                    =Set(Loc,PropertyGrid.Selected);
+                    Navigate(Screen10)
                 Width: =30
                 X: =297
                 Y: =119
