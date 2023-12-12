@@ -115,7 +115,7 @@ Screen2 As screen:
                 FontWeight: =FontWeight.Semibold
                 Height: =47
                 Size: =25
-                Text: ="54"
+                Text: ="25"
                 Width: =116
                 X: =28
                 Y: =51
@@ -147,7 +147,7 @@ Screen2 As screen:
                 FontWeight: =FontWeight.Semibold
                 Height: =47
                 Size: =25
-                Text: ="54"
+                Text: ="50"
                 Width: =116
                 X: =28
                 Y: =51
