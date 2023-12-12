@@ -1,0 +1,319 @@
+Screen10 As screen:
+
+    "Map3 As 'Map (preview)'.pcfdataset":
+        AddressDataSource: =PropertyGrid.Selected.Location
+        BorderColor: =RGBA(0, 18, 107, 1)
+        Clustering: =false
+        CurrentLocation: =true
+        CurrentLocationLatitude: =Location.Latitude
+        CurrentLocationLongitude: =Location.Longitude
+        DefaultLatitude: =Location.Latitude
+        DefaultLocation: =true
+        DefaultLongitude: =Location.Longitude
+        DefaultZoomLevel: =5
+        DisplayMode: =DisplayMode.Edit
+        Height: =1120
+        InfoCards: ='Map.InfoCards'.OnHover
+        Items: =LookUp(GODREJ,Location=Loc.Location)
+        ItemsAddresses: =
+        ItemsLatitudes: ="Latitude"
+        ItemsLongitudes: ="Longitude"
+        MapStyle: ='Map.MapStyle'.Road
+        OnItemsChange: =false
+        OnLoad: =false
+        OnMapClick: =false
+        OnRouteDirectionChange: =false
+        OnShapeCreated: =false
+        OnShapeDeleted: =false
+        OnShapeEdited: =false
+        OnShapeSelected: =false
+        PinColor: =RGBA(29, 114, 169, 1)
+        RouteMaintainOrder: =false
+        RouteOptimization: ='Map.RouteOptimization'.Distance
+        RouteWaypoints_Items: =
+        UseRouting: =false
+        Width: =636
+        X: =4
+        Y: =0
+        ZIndex: =1
+
+        Title7 As pcfDataField.textualColumn:
+            FieldDisplayName: ="Title"
+            FieldName: ="Title"
+            FieldType: ="s"
+            FieldVariantName: ="textualColumn"
+            Order: =1
+            ZIndex: =1
+
+        Name6 As pcfDataField.textualColumn:
+            FieldDisplayName: ="Name"
+            FieldName: ="Name"
+            FieldType: ="s"
+            FieldVariantName: ="textualColumn"
+            Order: =2
+            ZIndex: =2
+
+        "'RegistrationNo.6' As pcfDataField.textualColumn":
+            FieldDisplayName: ="RegistrationNo."
+            FieldName: ="RegistrationNo_x002e_"
+            FieldType: ="s"
+            FieldVariantName: ="textualColumn"
+            Order: =3
+            ZIndex: =3
+
+        Location8 As pcfDataField.textualColumn:
+            FieldDisplayName: ="Location"
+            FieldName: ="Location"
+            FieldType: ="s"
+            FieldVariantName: ="textualColumn"
+            Order: =4
+            ZIndex: =4
+
+        Owner6 As pcfDataField.textualColumn:
+            FieldDisplayName: ="Owner"
+            FieldName: ="Owner"
+            FieldType: ="s"
+            FieldVariantName: ="textualColumn"
+            Order: =5
+            ZIndex: =5
+
+        Project6 As pcfDataField.textualColumn:
+            FieldDisplayName: ="Project"
+            FieldName: ="Project"
+            FieldType: ="s"
+            FieldVariantName: ="textualColumn"
+            Order: =6
+            ZIndex: =6
+
+        Image25 As pcfDataField.textualColumn:
+            FieldDisplayName: ="Image"
+            FieldName: ="Image"
+            FieldType: ="I"
+            FieldVariantName: ="textualColumn"
+            Order: =7
+            ZIndex: =7
+
+        "'Property Type6' As pcfDataField.textualColumn":
+            FieldDisplayName: ="Property Type"
+            FieldName: ="PropertyType"
+            FieldType: ="s"
+            FieldVariantName: ="textualColumn"
+            Order: =8
+            ZIndex: =8
+
+        Cost6 As pcfDataField.textualColumn:
+            FieldDisplayName: ="Cost"
+            FieldName: ="Cost"
+            FieldType: ="n"
+            FieldVariantName: ="textualColumn"
+            Order: =9
+            ZIndex: =9
+
+        "'Total Tower6' As pcfDataField.textualColumn":
+            FieldDisplayName: ="Total Tower"
+            FieldName: ="TotalTower"
+            FieldType: ="n"
+            FieldVariantName: ="textualColumn"
+            Order: =10
+            ZIndex: =10
+
+        "'Floor Number6' As pcfDataField.textualColumn":
+            FieldDisplayName: ="Floor Number"
+            FieldName: ="FloorNumber"
+            FieldType: ="n"
+            FieldVariantName: ="textualColumn"
+            Order: =11
+            ZIndex: =11
+
+        Area6 As pcfDataField.textualColumn:
+            FieldDisplayName: ="Area"
+            FieldName: ="Area"
+            FieldType: ="n"
+            FieldVariantName: ="textualColumn"
+            Order: =12
+            ZIndex: =12
+
+        "'Covered Area6' As pcfDataField.textualColumn":
+            FieldDisplayName: ="Covered Area"
+            FieldName: ="CoveredArea"
+            FieldType: ="n"
+            FieldVariantName: ="textualColumn"
+            Order: =13
+            ZIndex: =13
+
+        "'Carpet Area6' As pcfDataField.textualColumn":
+            FieldDisplayName: ="Carpet Area"
+            FieldName: ="CarpetArea"
+            FieldType: ="n"
+            FieldVariantName: ="textualColumn"
+            Order: =14
+            ZIndex: =14
+
+        Furnished6 As pcfDataField.textualColumn:
+            FieldDisplayName: ="Furnished"
+            FieldName: ="Furnished"
+            FieldType: ="s"
+            FieldVariantName: ="textualColumn"
+            Order: =15
+            ZIndex: =15
+
+        Room6 As pcfDataField.textualColumn:
+            FieldDisplayName: ="Room"
+            FieldName: ="Room"
+            FieldType: ="n"
+            FieldVariantName: ="textualColumn"
+            Order: =16
+            ZIndex: =16
+
+        Washroom6 As pcfDataField.textualColumn:
+            FieldDisplayName: ="Washroom"
+            FieldName: ="Washroom"
+            FieldType: ="n"
+            FieldVariantName: ="textualColumn"
+            Order: =17
+            ZIndex: =17
+
+        Balcony6 As pcfDataField.textualColumn:
+            FieldDisplayName: ="Balcony"
+            FieldName: ="Balcony"
+            FieldType: ="n"
+            FieldVariantName: ="textualColumn"
+            Order: =18
+            ZIndex: =18
+
+        "'Servant Room6' As pcfDataField.textualColumn":
+            FieldDisplayName: ="Servant Room"
+            FieldName: ="ServantRoom"
+            FieldType: ="n"
+            FieldVariantName: ="textualColumn"
+            Order: =19
+            ZIndex: =19
+
+        "'Construction Type6' As pcfDataField.textualColumn":
+            FieldDisplayName: ="Construction Type"
+            FieldName: ="ConstructionType"
+            FieldType: ="s"
+            FieldVariantName: ="textualColumn"
+            Order: =20
+            ZIndex: =20
+
+        "'Number of Towers6' As pcfDataField.textualColumn":
+            FieldDisplayName: ="Number of Towers"
+            FieldName: ="NumberofTowers"
+            FieldType: ="n"
+            FieldVariantName: ="textualColumn"
+            Order: =21
+            ZIndex: =21
+
+        "'Tower Type6' As pcfDataField.textualColumn":
+            FieldDisplayName: ="Tower Type"
+            FieldName: ="TowerType"
+            FieldType: ="s"
+            FieldVariantName: ="textualColumn"
+            Order: =22
+            ZIndex: =22
+
+        "'Internal Roads6' As pcfDataField.textualColumn":
+            FieldDisplayName: ="Internal Roads"
+            FieldName: ="InternalRoads"
+            FieldType: ="n"
+            FieldVariantName: ="textualColumn"
+            Order: =23
+            ZIndex: =23
+
+        "'Sewerage Depth6' As pcfDataField.textualColumn":
+            FieldDisplayName: ="Sewerage Depth"
+            FieldName: ="SewerageDepth"
+            FieldType: ="n"
+            FieldVariantName: ="textualColumn"
+            Order: =24
+            ZIndex: =24
+
+        "'Electric Wires6' As pcfDataField.textualColumn":
+            FieldDisplayName: ="Electric Wires"
+            FieldName: ="ElectricWires"
+            FieldType: ="s"
+            FieldVariantName: ="textualColumn"
+            Order: =25
+            ZIndex: =25
+
+        Sanitary6 As pcfDataField.textualColumn:
+            FieldDisplayName: ="Sanitary"
+            FieldName: ="Sanitary"
+            FieldType: ="s"
+            FieldVariantName: ="textualColumn"
+            Order: =26
+            ZIndex: =26
+
+        Switches6 As pcfDataField.textualColumn:
+            FieldDisplayName: ="Switches"
+            FieldName: ="Switches"
+            FieldType: ="s"
+            FieldVariantName: ="textualColumn"
+            Order: =27
+            ZIndex: =27
+
+        Plywood6 As pcfDataField.textualColumn:
+            FieldDisplayName: ="Plywood"
+            FieldName: ="Plywood"
+            FieldType: ="s"
+            FieldVariantName: ="textualColumn"
+            Order: =28
+            ZIndex: =28
+
+        "'Floor Tiles6' As pcfDataField.textualColumn":
+            FieldDisplayName: ="Floor Tiles"
+            FieldName: ="FloorTiles"
+            FieldType: ="s"
+            FieldVariantName: ="textualColumn"
+            Order: =29
+            ZIndex: =29
+
+        Loan6 As pcfDataField.textualColumn:
+            FieldDisplayName: ="Loan"
+            FieldName: ="Loan"
+            FieldType: ="s"
+            FieldVariantName: ="textualColumn"
+            Order: =30
+            ZIndex: =30
+
+        Amount6 As pcfDataField.textualColumn:
+            FieldDisplayName: ="Amount"
+            FieldName: ="Amount"
+            FieldType: ="n"
+            FieldVariantName: ="textualColumn"
+            Order: =31
+            ZIndex: =31
+
+        "'Loan Type6' As pcfDataField.textualColumn":
+            FieldDisplayName: ="Loan Type"
+            FieldName: ="LoanType"
+            FieldType: ="s"
+            FieldVariantName: ="textualColumn"
+            Order: =32
+            ZIndex: =32
+
+        Longitude1 As pcfDataField.textualColumn:
+            FieldDisplayName: ="Longitude"
+            FieldName: ="Longitude"
+            FieldType: ="s"
+            FieldVariantName: ="textualColumn"
+            Order: =33
+            ZIndex: =33
+
+        Latitude1 As pcfDataField.textualColumn:
+            FieldDisplayName: ="Latitude"
+            FieldName: ="Latitude"
+            FieldType: ="s"
+            FieldVariantName: ="textualColumn"
+            Order: =34
+            ZIndex: =34
+
+        Attachments6 As pcfDataField.textualColumn:
+            FieldDisplayName: ="Attachments"
+            FieldName: ="{Attachments}"
+            FieldType: ="r*"
+            FieldVariantName: ="textualColumn"
+            Order: =35
+            ZIndex: =35
+
