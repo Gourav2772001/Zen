@@ -161,6 +161,7 @@ Screen2 As screen:
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
         LoadingSpinnerColor: =RGBA(180, 14, 90, 1)
+        OnSelect: =true
         TemplatePadding: =0
         TemplateSize: =332
         Transition: =Transition.Pop
@@ -215,7 +216,7 @@ Screen2 As screen:
                 Image: =location
                 OnSelect: |-
                     =Set(Loc,PropertyGrid.Selected);
-                    Navigate(Screen10)
+                    Navigate(Screen10);
                 Width: =30
                 X: =297
                 Y: =119

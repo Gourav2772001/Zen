@@ -2852,36 +2852,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen8.PropertyG_5.OwnerDetails1_5.Container7_15.Icon1_115.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Screen8.PropertyG_5.OwnerDetails1_5.Container7_15.Icon1_115.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Screen8",
-                "type": "Screen8.PropertyG_5.OwnerDetails1_5.Container7_15.Icon1_115"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "Screen8.PropertyG_5.OwnerDetails1_5.Container7_15.Icon1_115.AccessibleLabel"
                 }
               ],
@@ -2906,6 +2876,36 @@
           },
           "ruleId": "acc-AccessibleLabelNeeded",
           "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen8.PropertyG_5.OwnerDetails1_5.Container7_15.Icon1_115.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen8.PropertyG_5.OwnerDetails1_5.Container7_15.Icon1_115.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Screen8",
+                "type": "Screen8.PropertyG_5.OwnerDetails1_5.Container7_15.Icon1_115"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 4
         },
         {
           "locations": [
