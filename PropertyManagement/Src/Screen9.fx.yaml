@@ -2,78 +2,118 @@ Screen9 As screen:
 
     "Gallery2 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver5.0'":
         DelayItemLoading: =true
-        Height: =545
+        Height: =872
         Items: =Godrej_snags
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
+        OnSelect: |-
+            =ClearCollect(currentData,Filter(GODREJ,'RegistrationNo.'=Gallery2.Selected.Title));
+            Navigate(Screen3);
         TemplatePadding: =0
-        TemplateSize: =104
+        TemplateSize: =203
         Y: =226
         ZIndex: =1
 
-        Title3 As label:
-            Font: =Font.'Segoe UI'
-            FontWeight: =If(ThisItem.IsSelected, FontWeight.Bold, FontWeight.Normal)
-            Height: =Self.Size * 1.8
-            OnSelect: =Select(Parent)
-            PaddingBottom: =0
-            PaddingLeft: =0
-            PaddingRight: =0
-            PaddingTop: =0
-            Size: =20
-            Text: =ThisItem.Snag_category
-            VerticalAlign: =VerticalAlign.Top
-            Width: =Parent.TemplateWidth - 173
-            X: =43
-            Y: =22
-            ZIndex: =2
+        Container1 As groupContainer.manualLayoutContainer:
+            DropShadow: =DropShadow.Semibold
+            Height: =169
+            RadiusBottomLeft: =20
+            RadiusBottomRight: =20
+            RadiusTopLeft: =20
+            RadiusTopRight: =20
+            Width: =609
+            X: =18
+            Y: =17
+            ZIndex: =7
 
-        Subtitle3 As label:
-            FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
-            Height: =Self.Size * 1.8
-            OnSelect: =Select(Parent)
-            PaddingBottom: =0
-            PaddingLeft: =0
-            PaddingRight: =0
-            PaddingTop: =0
-            Size: =15
-            Text: =ThisItem.Title
-            VerticalAlign: =VerticalAlign.Top
-            Width: =Title3.Width
-            X: =Title3.X
-            Y: =Title3.Y + Title3.Height
-            ZIndex: =3
+            Label15 As label:
+                Font: =Font.'Segoe UI'
+                FontWeight: =FontWeight.Bold
+                Size: =18
+                Text: =ThisItem.Snag_category
+                Width: =215
+                X: =85
+                Y: =18
+                ZIndex: =1
 
-        NextArrow3 As icon.ChevronRight:
-            AccessibleLabel: =Self.Tooltip
-            Color: =RGBA(166, 166, 166, 1)
-            Height: =50
-            Icon: =Icon.ChevronRight
-            OnSelect: =Select(Parent)
-            PaddingBottom: =16
-            PaddingLeft: =16
-            PaddingRight: =16
-            PaddingTop: =16
-            Tooltip: ="View item details"
-            Width: =50
-            X: =Parent.TemplateWidth - Self.Width - 12
-            Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
-            ZIndex: =4
+            Label16_1 As label:
+                Font: =Font.'Segoe UI'
+                FontWeight: =FontWeight.Bold
+                Height: =35
+                Size: =18
+                Text: =ThisItem.SeverityLevel
+                Width: =133
+                X: =410
+                Y: =23
+                ZIndex: =5
 
-        Separator3 As rectangle:
-            Height: =8
-            OnSelect: =Select(Parent)
-            Width: =Parent.TemplateWidth
-            Y: =Parent.TemplateHeight - Self.Height
-            ZIndex: =5
+            Image28 As image:
+                Height: =40
+                Image: ='disruption (1)'
+                Width: =40
+                X: =30
+                Y: =18
+                ZIndex: =7
 
-        Rectangle5 As rectangle:
-            Fill: =RGBA(181, 14, 89, 1)
-            Height: =Parent.TemplateHeight - Separator3.Height
-            OnSelect: =Select(Parent)
-            Visible: =ThisItem.IsSelected
-            Width: =4
-            ZIndex: =6
+            Image30 As image:
+                Height: =40
+                Image: ='rating (1)'
+                Width: =40
+                X: =359
+                Y: =18
+                ZIndex: =8
+
+            Label15_1 As label:
+                Color: =RGBA(153, 141, 146, 1)
+                Font: =Font.'Segoe UI'
+                FontWeight: =FontWeight.Semibold
+                Size: =16
+                Text: =ThisItem.Title
+                Width: =215
+                X: =85
+                Y: =94
+                ZIndex: =9
+
+            Label15_2 As label:
+                Color: =RGBA(153, 141, 146, 1)
+                Font: =Font.'Segoe UI'
+                FontWeight: =FontWeight.Semibold
+                Size: =16
+                Text: =ThisItem.Snag_Status
+                Width: =153
+                X: =410
+                Y: =94
+                ZIndex: =10
+
+            Image33 As image:
+                Height: =40
+                Image: ='hashtag (1)'
+                Width: =40
+                X: =30
+                Y: =94
+                ZIndex: =11
+
+            Image33_1 As image:
+                Height: =40
+                Image: ='hashtag (1)'
+                Width: =40
+                X: =359
+                Y: =94
+                ZIndex: =12
+
+            Button4 As button:
+                Color: =Color.Transparent
+                Fill: =Color.Transparent
+                Height: =Parent.Height
+                HoverFill: =
+                OnSelect: |-
+                    =ClearCollect(currentData,Filter(GODREJ,'RegistrationNo.'=Gallery2.Selected.Title));
+                    Navigate(Screen3);
+                PressedFill: =Color.Transparent
+                Size: =24
+                Text: =""
+                Width: =Parent.Width
+                ZIndex: =13
 
     Icon4_6 As icon.ArrowLeft:
         Color: =RGBA(0, 0, 0, 1)

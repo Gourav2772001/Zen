@@ -34,7 +34,7 @@
       "Image": "Image",
       "Modified": "Modified",
       "OData__ColorTag": "Color Tag",
-      "SecurityLevel": "Security Level",
+      "SecurityLevel": "SeverityLevel",
       "Snag_category": "Snag_category",
       "Snag_Status": "Snag_Status",
       "Sub_Issue": "Sub_Issue",
