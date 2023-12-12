@@ -172,8 +172,6 @@ App As appinfo:
         Set(Checkb68,Blank());
         Set(name,Blank())
         
-        
-        
     Theme: =PowerAppsTheme
 
     Host As hostControl.DefaultHostControlVariant:

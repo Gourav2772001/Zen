@@ -1728,22 +1728,6 @@
           "InvariantPropertyName": "RouteWaypoints_Items",
           "IsLockable": false,
           "NameMapSourceSchema": "?"
-        },
-        {
-          "AFDDataSourceName": "",
-          "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "\"\"",
-          "InvariantPropertyName": "RouteWaypointsLatitudes",
-          "IsLockable": false,
-          "NameMapSourceSchema": "?"
-        },
-        {
-          "AFDDataSourceName": "",
-          "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "\"\"",
-          "InvariantPropertyName": "RouteWaypointsLongitudes",
-          "IsLockable": false,
-          "NameMapSourceSchema": "?"
         }
       ],
       "HasDynamicProperties": false,
@@ -1861,16 +1845,6 @@
         {
           "Category": "Data",
           "PropertyName": "RouteWaypoints_Items",
-          "RuleProviderType": "Unknown"
-        },
-        {
-          "Category": "Data",
-          "PropertyName": "RouteWaypointsLatitudes",
-          "RuleProviderType": "Unknown"
-        },
-        {
-          "Category": "Data",
-          "PropertyName": "RouteWaypointsLongitudes",
           "RuleProviderType": "Unknown"
         },
         {

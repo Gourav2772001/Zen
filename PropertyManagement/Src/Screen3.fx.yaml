@@ -1272,8 +1272,7 @@ Screen3 As screen:
                         Set(Mile,0)
                     Size: =17
                     Text: ="Proceed for Inspection"
-                    Visible: |
-                        =true
+                    Visible: =showbutton
                     Width: =558
                     X: =24
                     Y: =117
