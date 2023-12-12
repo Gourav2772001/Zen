@@ -8,7 +8,7 @@ Screen10 As screen:
         CurrentLocationLatitude: =Location.Latitude
         CurrentLocationLongitude: =Location.Longitude
         DefaultLatitude: =Location.Latitude
-        DefaultLocation: =true
+        DefaultLocation: =false
         DefaultLongitude: =Location.Longitude
         DefaultZoomLevel: =5
         DisplayMode: =DisplayMode.Edit
@@ -30,7 +30,19 @@ Screen10 As screen:
         PinColor: =RGBA(29, 114, 169, 1)
         RouteMaintainOrder: =false
         RouteOptimization: ='Map.RouteOptimization'.Distance
-        RouteWaypoints_Items: =GODREJ
+        RouteWaypoints_Items: |-
+            =Table(
+                {
+            lag: Map3.ItemsLongitudes,
+            lat: Map3.ItemsLatitudes
+                },
+                {
+            lag: Map3.CenterLocation.Longitude,
+            lat: Map3.CenterLocation.Latitude
+                }
+            )
+        RouteWaypointsLatitudes: ="lat"
+        RouteWaypointsLongitudes: ="lag"
         UseRouting: =true
         Width: =636
         X: =4
