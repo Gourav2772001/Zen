@@ -153,6 +153,14 @@ Screen6 As screen:
                     Font: =Font.'Segoe UI'
                     FontWeight: =FontWeight.Bold
                     Height: =43
+                    OnSelect: |
+                        =Set(Checkb37,true);
+                        Set(Checkb38,true);
+                        Set(Checkb39,true);
+                        Set(Checkb40,true);
+                        Set(Checkb41,true);
+                        Set(Checkb42,true);
+                        Set(Checkb43,true);
                     Size: =17
                     Text: ="Select All"
                     Width: =133

@@ -247,6 +247,19 @@ Screen8 As screen:
                     Font: =Font.'Segoe UI'
                     FontWeight: =FontWeight.Bold
                     Height: =43
+                    OnSelect: |
+                        =Set(Checkb57,true);
+                        Set(Checkb58,true);
+                        Set(Checkb59,true);
+                        Set(Checkb60,true);
+                        Set(Checkb61,true);
+                        Set(Checkb62,true);
+                        Set(Checkb63,true);
+                        Set(Checkb64,true);
+                        Set(Checkb65,true);
+                        Set(Checkb66,true);
+                        Set(Checkb67,true);
+                        Set(Checkb68,true);
                     Size: =17
                     Text: ="Select All"
                     Width: =133
