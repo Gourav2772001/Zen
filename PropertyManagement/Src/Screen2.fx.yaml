@@ -265,6 +265,17 @@ Screen2 As screen:
                 X: =500
                 ZIndex: =11
 
+            Rectangle4 As rectangle:
+                Fill: =RGBA(0, 0, 0, 0)
+                Height: =Parent.Height
+                OnSelect: |-
+                    =Navigate(Screen3);
+                    ClearCollect(currentData,PropertyGrid.Selected)
+                    ;
+                    Set(showbutton,true);
+                Width: =Parent.Width
+                ZIndex: =12
+
     Header As group:
         Height: =5
         Width: =5
