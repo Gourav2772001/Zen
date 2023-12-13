@@ -33,7 +33,7 @@ Screen1 As screen:
         PressedFill: =ColorFade(Self.BorderColor, 20%)
         Size: =18
         Text: ="Explore"
-        Width: =280
+        Width: =298
         X: =159
         Y: =1044
         ZIndex: =3
@@ -47,6 +47,6 @@ Screen1 As screen:
         Size: =25
         Text: ="PROPERTY MANAGEMENT"
         Width: =640
-        Y: =71
+        Y: =81
         ZIndex: =4
 
