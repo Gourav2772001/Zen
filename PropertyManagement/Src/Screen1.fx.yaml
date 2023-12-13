@@ -43,8 +43,9 @@ Screen1 As screen:
         Font: =Font.'Segoe UI'
         FontWeight: =FontWeight.Bold
         Height: =70
+        Italic: =true
         Size: =25
-        Text: ="PROPERTY MANAGMENT"
+        Text: ="PROPERTY MANAGEMENT"
         Width: =640
         Y: =71
         ZIndex: =4
