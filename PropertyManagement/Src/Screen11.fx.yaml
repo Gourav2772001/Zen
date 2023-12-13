@@ -129,7 +129,7 @@ Screen11 As screen:
                 BorderThickness: =1
                 Height: =66
                 Size: =17
-                Text: ="Please upload your Adhar / PAN card"
+                Text: ="Please upload your Adhaar / PAN card"
                 Width: =551
                 X: =53
                 Y: =802

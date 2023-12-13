@@ -868,6 +868,64 @@ Screen8 As screen:
                         Y: =585
                         ZIndex: =68
 
+                Group8_68 As group:
+                    Height: =5
+                    Width: =5
+                    X: =-425
+                    Y: =-28
+                    ZIndex: =73
+
+                    Rectangle2_148 As rectangle:
+                        BorderColor: =RGBA(148, 135, 141, 1)
+                        BorderThickness: =2
+                        Fill: =If(Checkb68=true, Color.Green,Color.White)
+                        Height: =40
+                        Width: =40
+                        X: =465
+                        Y: =629
+                        ZIndex: =69
+
+                    Icon1_136 As icon.Check:
+                        Color: =If(Checkb68=true,Color.White,RGBA(115, 109, 109, 1))
+                        Fill: =If(Checkb68=true, Color.Green,Color.White)
+                        Height: =25
+                        Icon: =Icon.Check
+                        OnSelect: =Set(Checkb68,true)
+                        Width: =25
+                        X: =472
+                        Y: =637
+                        ZIndex: =70
+
+                    Rectangle2_149 As rectangle:
+                        BorderColor: =RGBA(148, 135, 141, 1)
+                        BorderThickness: =2
+                        Fill: =If(Checkb68=false,Color.Red,Color.White)
+                        Height: =40
+                        Width: =40
+                        X: =538
+                        Y: =629
+                        ZIndex: =71
+
+                    Icon1_137 As icon.Check:
+                        Color: =If(Checkb68=false,Color.White,RGBA(115, 109, 109, 1))
+                        Fill: =If(Checkb68=false,Color.Red,Color.White)
+                        Height: =25
+                        Icon: =Icon.Cancel
+                        OnSelect: |-
+                            =Set(
+                                Checkb68,
+                                false
+                            );
+                            Set(
+                                name,
+                                Label11_229
+                            );
+                            Navigate(Screen5)
+                        Width: =25
+                        X: =545
+                        Y: =637
+                        ZIndex: =72
+
                 Button3_12 As button:
                     BorderColor: =Color.Transparent
                     Color: =RGBA(189, 43, 111, 1)
@@ -941,64 +999,6 @@ Screen8 As screen:
                     X: =444
                     Y: =6
                     ZIndex: =73
-
-                Group8_68 As group:
-                    Height: =5
-                    Width: =5
-                    X: =-425
-                    Y: =-28
-                    ZIndex: =73
-
-                    Rectangle2_148 As rectangle:
-                        BorderColor: =RGBA(148, 135, 141, 1)
-                        BorderThickness: =2
-                        Fill: =If(Checkb68=true, Color.Green,Color.White)
-                        Height: =40
-                        Width: =40
-                        X: =465
-                        Y: =629
-                        ZIndex: =69
-
-                    Icon1_136 As icon.Check:
-                        Color: =If(Checkb68=true,Color.White,RGBA(115, 109, 109, 1))
-                        Fill: =If(Checkb68=true, Color.Green,Color.White)
-                        Height: =25
-                        Icon: =Icon.Check
-                        OnSelect: =Set(Checkb68,true)
-                        Width: =25
-                        X: =472
-                        Y: =637
-                        ZIndex: =70
-
-                    Rectangle2_149 As rectangle:
-                        BorderColor: =RGBA(148, 135, 141, 1)
-                        BorderThickness: =2
-                        Fill: =If(Checkb68=false,Color.Red,Color.White)
-                        Height: =40
-                        Width: =40
-                        X: =538
-                        Y: =629
-                        ZIndex: =71
-
-                    Icon1_137 As icon.Check:
-                        Color: =If(Checkb68=false,Color.White,RGBA(115, 109, 109, 1))
-                        Fill: =If(Checkb68=false,Color.Red,Color.White)
-                        Height: =25
-                        Icon: =Icon.Cancel
-                        OnSelect: |-
-                            =Set(
-                                Checkb68,
-                                false
-                            );
-                            Set(
-                                name,
-                                Label11_229
-                            );
-                            Navigate(Screen5)
-                        Width: =25
-                        X: =545
-                        Y: =637
-                        ZIndex: =72
 
                 Button3_13 As button:
                     BorderColor: =Color.Transparent
