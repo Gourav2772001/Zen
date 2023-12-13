@@ -142,7 +142,7 @@ Screen8 As screen:
 
             Container7_15 As groupContainer.manualLayoutContainer:
                 DropShadow: =DropShadow.None
-                Height: =700
+                Height: =681
                 Width: =603
                 ZIndex: =1
 
@@ -240,32 +240,6 @@ Screen8 As screen:
                     X: =16
                     Y: =11
                     ZIndex: =18
-
-                Label11_218 As label:
-                    Align: =Align.Right
-                    Color: =RGBA(180, 14, 90, 1)
-                    Font: =Font.'Segoe UI'
-                    FontWeight: =FontWeight.Bold
-                    Height: =43
-                    OnSelect: |
-                        =Set(Checkb57,true);
-                        Set(Checkb58,true);
-                        Set(Checkb59,true);
-                        Set(Checkb60,true);
-                        Set(Checkb61,true);
-                        Set(Checkb62,true);
-                        Set(Checkb63,true);
-                        Set(Checkb64,true);
-                        Set(Checkb65,true);
-                        Set(Checkb66,true);
-                        Set(Checkb67,true);
-                        Set(Checkb68,true);
-                    Size: =17
-                    Text: ="Select All"
-                    Width: =133
-                    X: =445
-                    Y: =11
-                    ZIndex: =19
 
                 Label11_226 As label:
                     Color: =RGBA(148, 135, 141, 1)
@@ -951,6 +925,120 @@ Screen8 As screen:
                         X: =545
                         Y: =637
                         ZIndex: =72
+
+                Button3_12 As button:
+                    BorderColor: =Color.Transparent
+                    Color: =RGBA(189, 43, 111, 1)
+                    Fill: =Color.Transparent
+                    Font: =Font.'Segoe UI'
+                    FontWeight: =FontWeight.Bold
+                    Height: =34
+                    HoverBorderColor: =Color.Transparent
+                    HoverColor: =RGBA(189, 43, 111, 1)
+                    HoverFill: =Color.Transparent
+                    OnSelect: |
+                        =Set(
+                            Checkb57,
+                            Blank()
+                        );
+                        Set(
+                            Checkb58,
+                            Blank()
+                        );
+                        Set(
+                            Checkb59,
+                            Blank()
+                        );
+                        Set(
+                            Checkb60,
+                            Blank()
+                        );
+                        Set(
+                            Checkb61,
+                            Blank()
+                        );
+                        Set(
+                            Checkb62,
+                            Blank()
+                        );
+                        Set(
+                            Checkb63,
+                            Blank()
+                        );Set(
+                            Checkb64,
+                            Blank()
+                        );
+                        Set(
+                            Checkb65,
+                            Blank()
+                        );
+                        Set(
+                            Checkb66,
+                            Blank()
+                        );
+                        Set(
+                            Checkb67,
+                            Blank()
+                        );
+                        Set(
+                            Checkb68,
+                            Blank()
+                        );
+                        
+                        Set(
+                            sel7,
+                            2
+                        );
+                    PressedBorderColor: =Color.Transparent
+                    PressedColor: =RGBA(189, 43, 111, 1)
+                    PressedFill: =Color.Transparent
+                    Size: =17
+                    Text: ="Deselect All"
+                    Visible: =If(sel7=1,true,false)
+                    Width: =155
+                    X: =444
+                    Y: =6
+                    ZIndex: =73
+
+                Button3_13 As button:
+                    BorderColor: =Color.Transparent
+                    Color: =RGBA(189, 43, 111, 1)
+                    Fill: =Color.Transparent
+                    Font: =Font.'Segoe UI'
+                    FontWeight: =FontWeight.Bold
+                    Height: =34
+                    HoverBorderColor: =Color.Transparent
+                    HoverColor: =RGBA(189, 43, 111, 1)
+                    HoverFill: =Color.Transparent
+                    OnSelect: |
+                        =Set(Checkb57,true);
+                        Set(Checkb58,true);
+                        Set(Checkb59,true);
+                        Set(Checkb60,true);
+                        Set(Checkb61,true);
+                        Set(Checkb62,true);
+                        Set(Checkb63,true);
+                        Set(Checkb64,true);
+                        Set(Checkb65,true);
+                        Set(Checkb66,true);
+                        Set(Checkb67,true);
+                        Set(Checkb68,true);
+                        
+                        
+                        Set(
+                            sel7,
+                            1
+                        );
+                    PressedBorderColor: =Color.Transparent
+                    PressedColor: =RGBA(189, 43, 111, 1)
+                    PressedFill: =Color.Transparent
+                    Size: =17
+                    Text: ="Select All"
+                    Visible: =If(sel7=1,false,true)
+                    Width: =155
+                    X: =448
+                    Y: =6
+                    ZIndex: =74
 
     Icon5_7 As icon.Check:
         Color: =RGBA(255, 255, 255, 1)

@@ -3,7 +3,7 @@ Screen9 As screen:
     "Gallery2 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver5.0'":
         DelayItemLoading: =true
         Height: =952
-        Items: =Godrej_snags
+        Items: =Filter(Godrej_snags,Title=PropertyGrid.Selected.'RegistrationNo.')
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
         LoadingSpinnerColor: =RGBA(180,14,90,1)

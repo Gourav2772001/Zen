@@ -145,7 +145,7 @@ Screen7 As screen:
 
             Container7_14 As groupContainer.manualLayoutContainer:
                 DropShadow: =DropShadow.None
-                Height: =740
+                Height: =723
                 Width: =596
                 ZIndex: =1
 
@@ -243,33 +243,6 @@ Screen7 As screen:
                     X: =16
                     Y: =1
                     ZIndex: =18
-
-                Label11_199 As label:
-                    Align: =Align.Right
-                    Color: =RGBA(180, 14, 90, 1)
-                    Font: =Font.'Segoe UI'
-                    FontWeight: =FontWeight.Bold
-                    Height: =43
-                    OnSelect: |-
-                        =Set(Checkb44,true);
-                        Set(Checkb45,true);
-                        Set(Checkb46,true);
-                        Set(Checkb47,true);
-                        Set(Checkb48,true);
-                        Set(Checkb49,true);
-                        Set(Checkb50,true);
-                        Set(Checkb51,true);
-                        Set(Checkb52,true);
-                        Set(Checkb53,true);
-                        Set(Checkb54,true);
-                        Set(Checkb55,true);
-                        Set(Checkb56,true);
-                    Size: =17
-                    Text: ="Select All"
-                    Width: =133
-                    X: =445
-                    Y: =1
-                    ZIndex: =19
 
                 Label11_210 As label:
                     Color: =RGBA(148, 135, 141, 1)
@@ -1006,6 +979,122 @@ Screen7 As screen:
                         X: =545
                         Y: =685
                         ZIndex: =82
+
+                Button3_10 As button:
+                    BorderColor: =Color.Transparent
+                    Color: =RGBA(189, 43, 111, 1)
+                    Fill: =Color.Transparent
+                    Font: =Font.'Segoe UI'
+                    FontWeight: =FontWeight.Bold
+                    Height: =31
+                    HoverBorderColor: =Color.Transparent
+                    HoverColor: =RGBA(189, 43, 111, 1)
+                    HoverFill: =Color.Transparent
+                    OnSelect: |-
+                        =Set(Checkb44,true);
+                        Set(Checkb45,true);
+                        Set(Checkb46,true);
+                        Set(Checkb47,true);
+                        Set(Checkb48,true);
+                        Set(Checkb49,true);
+                        Set(Checkb50,true);
+                        Set(Checkb51,true);
+                        Set(Checkb52,true);
+                        Set(Checkb53,true);
+                        Set(Checkb54,true);
+                        Set(Checkb55,true);
+                        Set(Checkb56,true);
+                        Set(sel6,1);
+                    PressedBorderColor: =Color.Transparent
+                    PressedColor: =RGBA(189, 43, 111, 1)
+                    PressedFill: =Color.Transparent
+                    Size: =17
+                    Text: ="Select All"
+                    Visible: =If(sel6=1,false,true)
+                    Width: =155
+                    X: =441
+                    Y: =1
+                    ZIndex: =83
+
+                Button3_11 As button:
+                    BorderColor: =Color.Transparent
+                    Color: =RGBA(189, 43, 111, 1)
+                    Fill: =Color.Transparent
+                    Font: =Font.'Segoe UI'
+                    FontWeight: =FontWeight.Bold
+                    Height: =34
+                    HoverBorderColor: =Color.Transparent
+                    HoverColor: =RGBA(189, 43, 111, 1)
+                    HoverFill: =Color.Transparent
+                    OnSelect: |
+                        =Set(
+                            Checkb44,
+                            Blank()
+                        );
+                        Set(
+                            Checkb45,
+                            Blank()
+                        );
+                        Set(
+                            Checkb46,
+                            Blank()
+                        );
+                        Set(
+                            Checkb47,
+                            Blank()
+                        );
+                        Set(
+                            Checkb48,
+                            Blank()
+                        );
+                        Set(
+                            Checkb49,
+                            Blank()
+                        );
+                        Set(
+                            Checkb50,
+                            Blank()
+                        );
+                        Set(
+                            Checkb51,
+                            Blank()
+                        );
+                        Set(
+                            Checkb52,
+                            Blank()
+                        );
+                        Set(
+                            Checkb53,
+                            Blank()
+                        );
+                        Set(
+                            Checkb54,
+                            Blank()
+                        );
+                        Set(
+                            Checkb55,
+                            Blank()
+                        );
+                        Set(
+                            Checkb56,
+                            Blank()
+                        );
+                        
+                        
+                        
+                        Set(
+                            sel6,
+                            2
+                        );
+                    PressedBorderColor: =Color.Transparent
+                    PressedColor: =RGBA(189, 43, 111, 1)
+                    PressedFill: =Color.Transparent
+                    Size: =17
+                    Text: ="Deselect All"
+                    Visible: =If(sel6=1,true,false)
+                    Width: =155
+                    X: =441
+                    ZIndex: =84
 
     Button1_3 As button:
         Fill: =RGBA(181, 14, 89, 1)
