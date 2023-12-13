@@ -7,7 +7,7 @@ Screen10 As screen:
         ZIndex: =4
 
         "Map3 As 'Map (preview)'.pcfdataset":
-            AddressDataSource: =PropertyGrid.Selected.Location
+            AddressDataSource: =DP_PropertyGrid.Selected.Location
             BorderColor: =RGBA(0, 18, 107, 1)
             Clustering: =false
             CurrentLocation: =true

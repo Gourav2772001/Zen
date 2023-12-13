@@ -6360,48 +6360,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen1"
+                  "fullyQualifiedName": "startingScreen.SS_backgroundContainer.SS_bg_Rectangle.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen1",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "module": "Screen1",
-                "type": "Screen1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Low"
-          },
-          "ruleId": "acc-ReadableScreenNameNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Screen1.Container2.Rectangle1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Screen1.Container2.Rectangle1.AccessibleLabel",
+                  "fullyQualifiedName": "startingScreen.SS_backgroundContainer.SS_bg_Rectangle.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Screen1",
-                "type": "Screen1.Container2.Rectangle1"
+                "module": "startingScreen",
+                "type": "startingScreen.SS_backgroundContainer.SS_bg_Rectangle"
               }
             }
           ],
@@ -6419,19 +6390,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen1.Container2.Rectangle1.TabIndex"
+                  "fullyQualifiedName": "startingScreen.SS_backgroundContainer.SS_bg_Rectangle.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen1.Container2.Rectangle1.TabIndex",
+                  "fullyQualifiedName": "startingScreen.SS_backgroundContainer.SS_bg_Rectangle.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
-                "module": "Screen1",
-                "type": "Screen1.Container2.Rectangle1"
+                "module": "startingScreen",
+                "type": "startingScreen.SS_backgroundContainer.SS_bg_Rectangle"
               }
             }
           ],
@@ -6807,48 +6778,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen2"
+                  "fullyQualifiedName": "Dashboard_Page.Dp_SearchInput_SearchtextBar.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen2",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "module": "Screen2",
-                "type": "Screen2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Low"
-          },
-          "ruleId": "acc-ReadableScreenNameNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Screen2.TextInput1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Screen2.TextInput1.AccessibleLabel",
+                  "fullyQualifiedName": "Dashboard_Page.Dp_SearchInput_SearchtextBar.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Screen2",
-                "type": "Screen2.TextInput1"
+                "module": "Dashboard_Page",
+                "type": "Dashboard_Page.Dp_SearchInput_SearchtextBar"
               }
             }
           ],
@@ -6866,19 +6808,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen2.flter.Image6.AccessibleLabel"
+                  "fullyQualifiedName": "Dashboard_Page.Dp_Filter.Dp_Filter_image.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen2.flter.Image6.AccessibleLabel",
+                  "fullyQualifiedName": "Dashboard_Page.Dp_Filter.Dp_Filter_image.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Screen2",
-                "type": "Screen2.flter.Image6"
+                "module": "Dashboard_Page",
+                "type": "Dashboard_Page.Dp_Filter.Dp_Filter_image"
               }
             }
           ],
@@ -6896,19 +6838,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen2.flter.Image6.TabIndex"
+                  "fullyQualifiedName": "Dashboard_Page.Dp_Filter.Dp_Filter_image.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen2.flter.Image6.TabIndex",
+                  "fullyQualifiedName": "Dashboard_Page.Dp_Filter.Dp_Filter_image.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
-                "module": "Screen2",
-                "type": "Screen2.flter.Image6"
+                "module": "Dashboard_Page",
+                "type": "Dashboard_Page.Dp_Filter.Dp_Filter_image"
               }
             }
           ],
@@ -6926,19 +6868,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen2.PropertyGrid.AccessibleLabel"
+                  "fullyQualifiedName": "Dashboard_Page.DP_PropertyGrid.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen2.PropertyGrid.AccessibleLabel",
+                  "fullyQualifiedName": "Dashboard_Page.DP_PropertyGrid.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Screen2",
-                "type": "Screen2.PropertyGrid"
+                "module": "Dashboard_Page",
+                "type": "Dashboard_Page.DP_PropertyGrid"
               }
             }
           ],
@@ -6956,19 +6898,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen2.PropertyGrid.TabIndex"
+                  "fullyQualifiedName": "Dashboard_Page.DP_PropertyGrid.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen2.PropertyGrid.TabIndex",
+                  "fullyQualifiedName": "Dashboard_Page.DP_PropertyGrid.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
-                "module": "Screen2",
-                "type": "Screen2.PropertyGrid"
+                "module": "Dashboard_Page",
+                "type": "Dashboard_Page.DP_PropertyGrid"
               }
             }
           ],
@@ -6986,19 +6928,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen2.PropertyGrid.Container3.Image4.AccessibleLabel"
+                  "fullyQualifiedName": "Dashboard_Page.DP_PropertyGrid.PropertyGrid_Container.Dp_Pgrid_PropertyImage.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen2.PropertyGrid.Container3.Image4.AccessibleLabel",
+                  "fullyQualifiedName": "Dashboard_Page.DP_PropertyGrid.PropertyGrid_Container.Dp_Pgrid_PropertyImage.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Screen2",
-                "type": "Screen2.PropertyGrid.Container3.Image4"
+                "module": "Dashboard_Page",
+                "type": "Dashboard_Page.DP_PropertyGrid.PropertyGrid_Container.Dp_Pgrid_PropertyImage"
               }
             }
           ],
@@ -7016,19 +6958,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen2.PropertyGrid.Container3.Image4.TabIndex"
+                  "fullyQualifiedName": "Dashboard_Page.DP_PropertyGrid.PropertyGrid_Container.Dp_Pgrid_PropertyImage.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen2.PropertyGrid.Container3.Image4.TabIndex",
+                  "fullyQualifiedName": "Dashboard_Page.DP_PropertyGrid.PropertyGrid_Container.Dp_Pgrid_PropertyImage.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
-                "module": "Screen2",
-                "type": "Screen2.PropertyGrid.Container3.Image4"
+                "module": "Dashboard_Page",
+                "type": "Dashboard_Page.DP_PropertyGrid.PropertyGrid_Container.Dp_Pgrid_PropertyImage"
               }
             }
           ],
@@ -7046,19 +6988,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen2.PropertyGrid.Container3.Label9.FocusedBorderThickness"
+                  "fullyQualifiedName": "Dashboard_Page.DP_PropertyGrid.PropertyGrid_Container.Dp_grid_snags.FocusedBorderThickness"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen2.PropertyGrid.Container3.Label9.FocusedBorderThickness",
+                  "fullyQualifiedName": "Dashboard_Page.DP_PropertyGrid.PropertyGrid_Container.Dp_grid_snags.FocusedBorderThickness",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "FocusedBorderThickness",
-                "module": "Screen2",
-                "type": "Screen2.PropertyGrid.Container3.Label9"
+                "module": "Dashboard_Page",
+                "type": "Dashboard_Page.DP_PropertyGrid.PropertyGrid_Container.Dp_grid_snags"
               }
             }
           ],
@@ -7076,19 +7018,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen2.PropertyGrid.Container3.Label9.TabIndex"
+                  "fullyQualifiedName": "Dashboard_Page.DP_PropertyGrid.PropertyGrid_Container.Dp_grid_snags.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen2.PropertyGrid.Container3.Label9.TabIndex",
+                  "fullyQualifiedName": "Dashboard_Page.DP_PropertyGrid.PropertyGrid_Container.Dp_grid_snags.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
-                "module": "Screen2",
-                "type": "Screen2.PropertyGrid.Container3.Label9"
+                "module": "Dashboard_Page",
+                "type": "Dashboard_Page.DP_PropertyGrid.PropertyGrid_Container.Dp_grid_snags"
               }
             }
           ],
@@ -7106,19 +7048,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen2.PropertyGrid.Container3.Image8.AccessibleLabel"
+                  "fullyQualifiedName": "Dashboard_Page.DP_PropertyGrid.PropertyGrid_Container.Dp_grid_map.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen2.PropertyGrid.Container3.Image8.AccessibleLabel",
+                  "fullyQualifiedName": "Dashboard_Page.DP_PropertyGrid.PropertyGrid_Container.Dp_grid_map.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Screen2",
-                "type": "Screen2.PropertyGrid.Container3.Image8"
+                "module": "Dashboard_Page",
+                "type": "Dashboard_Page.DP_PropertyGrid.PropertyGrid_Container.Dp_grid_map"
               }
             }
           ],
@@ -7136,19 +7078,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen2.PropertyGrid.Container3.Image8.TabIndex"
+                  "fullyQualifiedName": "Dashboard_Page.DP_PropertyGrid.PropertyGrid_Container.Dp_grid_map.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen2.PropertyGrid.Container3.Image8.TabIndex",
+                  "fullyQualifiedName": "Dashboard_Page.DP_PropertyGrid.PropertyGrid_Container.Dp_grid_map.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
-                "module": "Screen2",
-                "type": "Screen2.PropertyGrid.Container3.Image8"
+                "module": "Dashboard_Page",
+                "type": "Dashboard_Page.DP_PropertyGrid.PropertyGrid_Container.Dp_grid_map"
               }
             }
           ],
@@ -15233,19 +15175,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen2.PropertyGrid.Container3.Rectangle4.AccessibleLabel"
+                  "fullyQualifiedName": "Dashboard_Page.DP_PropertyGrid.PropertyGrid_Container.Dp_grid_bgrectangle.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen2.PropertyGrid.Container3.Rectangle4.AccessibleLabel",
+                  "fullyQualifiedName": "Dashboard_Page.DP_PropertyGrid.PropertyGrid_Container.Dp_grid_bgrectangle.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Screen2",
-                "type": "Screen2.PropertyGrid.Container3.Rectangle4"
+                "module": "Dashboard_Page",
+                "type": "Dashboard_Page.DP_PropertyGrid.PropertyGrid_Container.Dp_grid_bgrectangle"
               }
             }
           ],
@@ -15263,19 +15205,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen2.PropertyGrid.Container3.Rectangle4.TabIndex"
+                  "fullyQualifiedName": "Dashboard_Page.DP_PropertyGrid.PropertyGrid_Container.Dp_grid_bgrectangle.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen2.PropertyGrid.Container3.Rectangle4.TabIndex",
+                  "fullyQualifiedName": "Dashboard_Page.DP_PropertyGrid.PropertyGrid_Container.Dp_grid_bgrectangle.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
-                "module": "Screen2",
-                "type": "Screen2.PropertyGrid.Container3.Rectangle4"
+                "module": "Dashboard_Page",
+                "type": "Dashboard_Page.DP_PropertyGrid.PropertyGrid_Container.Dp_grid_bgrectangle"
               }
             }
           ],

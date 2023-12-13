@@ -1,31 +1,31 @@
-Screen1 As screen:
+startingScreen As screen:
 
-    Container2 As groupContainer.manualLayoutContainer:
+    SS_backgroundContainer As groupContainer.manualLayoutContainer:
         Height: =1136
         Width: =640
         ZIndex: =1
 
-        Rectangle1 As rectangle:
+        SS_bg_Rectangle As rectangle:
             Fill: =RGBA(0, 0, 0, 0)
             Height: =1136
-            OnSelect: =Navigate(Screen2)
+            OnSelect: =Navigate(Dashboard_Page)
             Width: =640
             ZIndex: =3
 
-    Image21 As image:
+    SS_backgroundImage As image:
         Height: =1136
         Image: ='elliot-andrews-0Z_KzexdAH4-unsplash 1'
         ImagePosition: =ImagePosition.Fill
         Width: =640
         ZIndex: =2
 
-    Button4 As button:
+    SS_ExploreBTN As button:
         Fill: =RGBA(0, 0, 0, 0.7)
         Font: =Font.'Segoe UI'
         FontWeight: =FontWeight.Bold
         Height: =70
         HoverFill: =ColorFade(Self.BorderColor, 20%)
-        OnSelect: =Navigate(Screen2)
+        OnSelect: =Navigate(Dashboard_Page)
         PaddingBottom: =0
         PaddingLeft: =0
         PaddingRight: =0
@@ -38,7 +38,7 @@ Screen1 As screen:
         Y: =1044
         ZIndex: =3
 
-    Label16 As label:
+    SS_headertitle As label:
         Align: =Align.Center
         Font: =Font.'Segoe UI'
         FontWeight: =FontWeight.Bold

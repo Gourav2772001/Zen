@@ -132,8 +132,8 @@
     "UserLocale": "en-US"
   },
   "ScreenOrder": [
-    "Screen1",
-    "Screen2",
+    "startingScreen",
+    "Dashboard_Page",
     "Screen3",
     "Screen4",
     "Screen5",

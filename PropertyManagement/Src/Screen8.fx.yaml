@@ -1072,7 +1072,7 @@ Screen8 As screen:
         Height: =55
         HoverFill: =ColorFade(RGBA(181, 14, 89, 1), -20%)
         OnSelect: |-
-            =Navigate(Screen2);
+            =Navigate(Dashboard_Page);
             Set(Mile,4);
             Set(Checkb,Blank());
             Set(Checkb1,Blank());
