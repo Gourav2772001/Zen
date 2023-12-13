@@ -103,7 +103,7 @@
       "MetaDataIDKey": "",
       "Name": "Amenities",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 8,
+      "ParentIndex": 9,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -331,7 +331,7 @@
       "MetaDataIDKey": "",
       "Name": "Amenities1",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 9,
+      "ParentIndex": 5,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -2961,7 +2961,7 @@
       "MetaDataIDKey": "",
       "Name": "BasicDetails2",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 2,
+      "ParentIndex": 6,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -3465,7 +3465,7 @@
       "MetaDataIDKey": "",
       "Name": "ConstructionDetails",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 3,
+      "ParentIndex": 7,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -3693,7 +3693,7 @@
       "MetaDataIDKey": "",
       "Name": "ConstructionDetails1",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 4,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -3926,7 +3926,7 @@
       "MetaDataIDKey": "",
       "Name": "ConstructionDetails2",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 5,
+      "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -30112,7 +30112,7 @@
       "MetaDataIDKey": "",
       "Name": "OwnerDetails",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 6,
+      "ParentIndex": 8,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -30340,7 +30340,7 @@
       "MetaDataIDKey": "",
       "Name": "OwnerDetails1",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 7,
+      "ParentIndex": 4,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {

@@ -2,7 +2,7 @@ Screen9 As screen:
 
     "Gallery2 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver5.0'":
         DelayItemLoading: =true
-        Height: =938
+        Height: =952
         Items: =Godrej_snags
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
@@ -12,7 +12,7 @@ Screen9 As screen:
         TemplateSize: =241
         Transition: =Transition.Pop
         WrapCount: =2
-        Y: =198
+        Y: =184
         ZIndex: =1
 
         Container1 As groupContainer.manualLayoutContainer:
