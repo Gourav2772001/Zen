@@ -3,36 +3,7 @@ Screen1 As screen:
     Container2 As groupContainer.manualLayoutContainer:
         Height: =1136
         Width: =640
-        ZIndex: =3
-
-        Image2 As image:
-            Height: =56
-            Image: ='Group 3'
-            Width: =197
-            X: =221
-            Y: =131
-            ZIndex: =1
-
-        Img As groupContainer.manualLayoutContainer:
-            BorderStyle: =BorderStyle.None
-            DropShadow: =DropShadow.None
-            Height: =946
-            RadiusBottomLeft: =0
-            RadiusBottomRight: =0
-            RadiusTopLeft: =0
-            RadiusTopRight: =0
-            Width: =640
-            Y: =187
-            ZIndex: =2
-
-            Image1 As image:
-                DisplayMode: =DisplayMode.View
-                Height: =943
-                Image: ='elliot-andrews-0Z_KzexdAH4-unsplash 1'
-                ImagePosition: =ImagePosition.Fill
-                Width: =640
-                Y: =3
-                ZIndex: =1
+        ZIndex: =1
 
         Rectangle1 As rectangle:
             Fill: =RGBA(0, 0, 0, 0)
@@ -40,4 +11,41 @@ Screen1 As screen:
             OnSelect: =Navigate(Screen2)
             Width: =640
             ZIndex: =3
+
+    Image21 As image:
+        Height: =1136
+        Image: ='elliot-andrews-0Z_KzexdAH4-unsplash 1'
+        ImagePosition: =ImagePosition.Fill
+        Width: =640
+        ZIndex: =2
+
+    Button4 As button:
+        Fill: =RGBA(0, 0, 0, 0.7)
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Bold
+        Height: =70
+        HoverFill: =ColorFade(Self.BorderColor, 20%)
+        OnSelect: =Navigate(Screen2)
+        PaddingBottom: =0
+        PaddingLeft: =0
+        PaddingRight: =0
+        PaddingTop: =0
+        PressedFill: =ColorFade(Self.BorderColor, 20%)
+        Size: =18
+        Text: ="Explore"
+        Width: =280
+        X: =159
+        Y: =1044
+        ZIndex: =3
+
+    Label16 As label:
+        Align: =Align.Center
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Bold
+        Height: =70
+        Size: =25
+        Text: ="PROPERTY MANAGMENT"
+        Width: =640
+        Y: =71
+        ZIndex: =4
 

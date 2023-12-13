@@ -1611,6 +1611,38 @@ Screen4 As screen:
                         Y: =286
                         ZIndex: =28
 
+                Button3_2 As button:
+                    BorderColor: =Color.Transparent
+                    Color: =RGBA(189, 43, 111, 1)
+                    Fill: =Color.Transparent
+                    Font: =Font.'Segoe UI'
+                    FontWeight: =FontWeight.Bold
+                    Height: =31
+                    HoverBorderColor: =Color.Transparent
+                    HoverColor: =RGBA(189, 43, 111, 1)
+                    HoverFill: =Color.Transparent
+                    OnSelect: |-
+                        =Set(Checkb15,true);
+                        Set(Checkb16,true);
+                        Set(Checkb17,true);
+                        Set(Checkb18,true);
+                        Set(Checkb19,true);
+                        Set(Checkb20,true);
+                        Set(Checkb21,true);
+                        Set(Checkb22,true);
+                        Set(Checkb23,true);
+                        Set(sel2,1);
+                    PressedBorderColor: =Color.Transparent
+                    PressedColor: =RGBA(189, 43, 111, 1)
+                    PressedFill: =Color.Transparent
+                    Size: =17
+                    Text: ="Select All"
+                    Visible: =If(sel2=1,false,true)
+                    Width: =155
+                    X: =436
+                    Y: =8
+                    ZIndex: =33
+
                 Group8_20 As group:
                     Height: =5
                     Width: =5
@@ -1662,38 +1694,6 @@ Screen4 As screen:
                         X: =536
                         Y: =340
                         ZIndex: =32
-
-                Button3_2 As button:
-                    BorderColor: =Color.Transparent
-                    Color: =RGBA(189, 43, 111, 1)
-                    Fill: =Color.Transparent
-                    Font: =Font.'Segoe UI'
-                    FontWeight: =FontWeight.Bold
-                    Height: =31
-                    HoverBorderColor: =Color.Transparent
-                    HoverColor: =RGBA(189, 43, 111, 1)
-                    HoverFill: =Color.Transparent
-                    OnSelect: |-
-                        =Set(Checkb15,true);
-                        Set(Checkb16,true);
-                        Set(Checkb17,true);
-                        Set(Checkb18,true);
-                        Set(Checkb19,true);
-                        Set(Checkb20,true);
-                        Set(Checkb21,true);
-                        Set(Checkb22,true);
-                        Set(Checkb23,true);
-                        Set(sel2,1);
-                    PressedBorderColor: =Color.Transparent
-                    PressedColor: =RGBA(189, 43, 111, 1)
-                    PressedFill: =Color.Transparent
-                    Size: =17
-                    Text: ="Select All"
-                    Visible: =If(sel2=1,false,true)
-                    Width: =155
-                    X: =436
-                    Y: =8
-                    ZIndex: =33
 
                 Button3_3 As button:
                     BorderColor: =Color.Transparent
@@ -2433,57 +2433,6 @@ Screen4 As screen:
                         Y: =322
                         ZIndex: =43
 
-                Group8_30 As group:
-                    Height: =5
-                    Width: =5
-                    X: =-414
-                    Y: =-392
-                    ZIndex: =48
-
-                    Rectangle2_72 As rectangle:
-                        BorderColor: =RGBA(148, 135, 141, 1)
-                        BorderThickness: =2
-                        Fill: =If(Checkb30=true, Color.Green,Color.White)
-                        Height: =40
-                        Width: =40
-                        X: =458
-                        Y: =364
-                        ZIndex: =44
-
-                    Icon1_60 As icon.Check:
-                        Color: =If(Checkb30=true,Color.White,RGBA(115, 109, 109, 1))
-                        Fill: =If(Checkb30=true, Color.Green,Color.White)
-                        Height: =25
-                        Icon: =Icon.Check
-                        OnSelect: =Set(Checkb30,true)
-                        Width: =25
-                        X: =465
-                        Y: =372
-                        ZIndex: =45
-
-                    Rectangle2_73 As rectangle:
-                        BorderColor: =RGBA(148, 135, 141, 1)
-                        BorderThickness: =2
-                        Fill: =If(Checkb30=false,Color.Red,Color.White)
-                        Height: =40
-                        Width: =40
-                        X: =531
-                        Y: =364
-                        ZIndex: =46
-
-                    Icon1_61 As icon.Check:
-                        Color: =If(Checkb30=false,Color.White,RGBA(115, 109, 109, 1))
-                        Fill: =If(Checkb30=false,Color.Red,Color.White)
-                        Height: =25
-                        Icon: =Icon.Cancel
-                        OnSelect: |-
-                            =Set(Checkb30,false);
-                            Set(name,Label11_138);Navigate(Screen5)
-                        Width: =25
-                        X: =538
-                        Y: =372
-                        ZIndex: =47
-
                 Button3_4 As button:
                     BorderColor: =Color.Transparent
                     Color: =RGBA(189, 43, 111, 1)
@@ -2539,6 +2488,57 @@ Screen4 As screen:
                     X: =436
                     Y: =8
                     ZIndex: =48
+
+                Group8_30 As group:
+                    Height: =5
+                    Width: =5
+                    X: =-414
+                    Y: =-392
+                    ZIndex: =48
+
+                    Rectangle2_72 As rectangle:
+                        BorderColor: =RGBA(148, 135, 141, 1)
+                        BorderThickness: =2
+                        Fill: =If(Checkb30=true, Color.Green,Color.White)
+                        Height: =40
+                        Width: =40
+                        X: =458
+                        Y: =364
+                        ZIndex: =44
+
+                    Icon1_60 As icon.Check:
+                        Color: =If(Checkb30=true,Color.White,RGBA(115, 109, 109, 1))
+                        Fill: =If(Checkb30=true, Color.Green,Color.White)
+                        Height: =25
+                        Icon: =Icon.Check
+                        OnSelect: =Set(Checkb30,true)
+                        Width: =25
+                        X: =465
+                        Y: =372
+                        ZIndex: =45
+
+                    Rectangle2_73 As rectangle:
+                        BorderColor: =RGBA(148, 135, 141, 1)
+                        BorderThickness: =2
+                        Fill: =If(Checkb30=false,Color.Red,Color.White)
+                        Height: =40
+                        Width: =40
+                        X: =531
+                        Y: =364
+                        ZIndex: =46
+
+                    Icon1_61 As icon.Check:
+                        Color: =If(Checkb30=false,Color.White,RGBA(115, 109, 109, 1))
+                        Fill: =If(Checkb30=false,Color.Red,Color.White)
+                        Height: =25
+                        Icon: =Icon.Cancel
+                        OnSelect: |-
+                            =Set(Checkb30,false);
+                            Set(name,Label11_138);Navigate(Screen5)
+                        Width: =25
+                        X: =538
+                        Y: =372
+                        ZIndex: =47
 
                 Button3_5 As button:
                     BorderColor: =Color.Transparent
@@ -2976,6 +2976,37 @@ Screen4 As screen:
                         Y: =289
                         ZIndex: =38
 
+                Button3_6 As button:
+                    BorderColor: =Color.Transparent
+                    Color: =RGBA(189, 43, 111, 1)
+                    Fill: =Color.Transparent
+                    Font: =Font.'Segoe UI'
+                    FontWeight: =FontWeight.Bold
+                    Height: =31
+                    HoverBorderColor: =Color.Transparent
+                    HoverColor: =RGBA(189, 43, 111, 1)
+                    HoverFill: =Color.Transparent
+                    OnSelect: |-
+                        =Set(Checkb31,true);
+                        Set(Checkb32,true);
+                        Set(Checkb33,true);
+                        Set(Checkb34,true);
+                        Set(Checkb35,true);
+                        Set(Checkb36,true);
+                        
+                        
+                        Set(sel4,1);
+                    PressedBorderColor: =Color.Transparent
+                    PressedColor: =RGBA(189, 43, 111, 1)
+                    PressedFill: =Color.Transparent
+                    Size: =17
+                    Text: ="Select All"
+                    Visible: =If(sel4=1,false,true)
+                    Width: =155
+                    X: =436
+                    Y: =17
+                    ZIndex: =43
+
                 Group8_36 As group:
                     Height: =5
                     Width: =5
@@ -3026,37 +3057,6 @@ Screen4 As screen:
                         X: =536
                         Y: =342
                         ZIndex: =42
-
-                Button3_6 As button:
-                    BorderColor: =Color.Transparent
-                    Color: =RGBA(189, 43, 111, 1)
-                    Fill: =Color.Transparent
-                    Font: =Font.'Segoe UI'
-                    FontWeight: =FontWeight.Bold
-                    Height: =31
-                    HoverBorderColor: =Color.Transparent
-                    HoverColor: =RGBA(189, 43, 111, 1)
-                    HoverFill: =Color.Transparent
-                    OnSelect: |-
-                        =Set(Checkb31,true);
-                        Set(Checkb32,true);
-                        Set(Checkb33,true);
-                        Set(Checkb34,true);
-                        Set(Checkb35,true);
-                        Set(Checkb36,true);
-                        
-                        
-                        Set(sel4,1);
-                    PressedBorderColor: =Color.Transparent
-                    PressedColor: =RGBA(189, 43, 111, 1)
-                    PressedFill: =Color.Transparent
-                    Size: =17
-                    Text: ="Select All"
-                    Visible: =If(sel4=1,false,true)
-                    Width: =155
-                    X: =436
-                    Y: =17
-                    ZIndex: =43
 
                 Button3_7 As button:
                     BorderColor: =Color.Transparent
