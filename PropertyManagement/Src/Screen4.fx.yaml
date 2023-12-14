@@ -385,7 +385,7 @@ Screen4 As screen:
                         Icon: =Icon.Cancel
                         OnSelect: |-
                             =Set(Checkb3,false);
-                            Set(name,Label11_58);
+                            Set(name,Pd_OwnerDetails1_Name_Label);
                             Navigate(Screen5)
                         Width: =25
                         X: =534

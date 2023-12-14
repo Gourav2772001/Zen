@@ -1,8 +1,8 @@
-Screen3 As screen:
+Property_Details As screen:
     OnVisible: |
         =
 
-    Icon4 As icon.ArrowLeft:
+    Pd_backIconPropertyDetails As icon.ArrowLeft:
         Color: =RGBA(0, 0, 0, 1)
         Height: =45
         Icon: =Icon.ArrowLeft
@@ -12,7 +12,7 @@ Screen3 As screen:
         Y: =50
         ZIndex: =2
 
-    Label5 As label:
+    Pd_PropertyHeaderLabel As label:
         Font: =Font.'Segoe UI'
         FontWeight: =FontWeight.Bold
         Height: =45
@@ -23,7 +23,7 @@ Screen3 As screen:
         Y: =50
         ZIndex: =3
 
-    PropertyImage As groupContainer.manualLayoutContainer:
+    Pd_PropertyImage_Container As groupContainer.manualLayoutContainer:
         Height: =390
         RadiusBottomLeft: =20
         RadiusBottomRight: =20
@@ -41,9 +41,10 @@ Screen3 As screen:
             Width: =Parent.Width
             ZIndex: =1
 
-    PropertyG As groupContainer.verticalAutoLayoutContainer:
+    Pd_container As groupContainer.verticalAutoLayoutContainer:
         DropShadow: =DropShadow.None
         Height: =594
+        LayoutAlignItems: =LayoutAlignItems.Stretch
         LayoutDirection: =LayoutDirection.Vertical
         LayoutMode: =LayoutMode.Auto
         LayoutOverflowY: =LayoutOverflow.Scroll
@@ -55,7 +56,8 @@ Screen3 As screen:
         Y: =532
         ZIndex: =5
 
-        BasicDetails As groupContainer.manualLayoutContainer:
+        Pd_BasicDetails As groupContainer.manualLayoutContainer:
+            AlignInContainer: =AlignInContainer.SetByContainer
             DropShadow: =DropShadow.None
             FillPortions: =0
             Height: =100
@@ -107,7 +109,8 @@ Screen3 As screen:
                     Y: =12
                     ZIndex: =3
 
-        BasicDetails1 As groupContainer.manualLayoutContainer:
+        Pd_BasicDetails1 As groupContainer.manualLayoutContainer:
+            AlignInContainer: =AlignInContainer.SetByContainer
             DropShadow: =DropShadow.None
             FillPortions: =0
             Height: =380
@@ -290,14 +293,68 @@ Screen3 As screen:
                     Y: =219
                     ZIndex: =15
 
-        BasicDetails2 As groupContainer.manualLayoutContainer:
+        Pd_ConstructionDetails As groupContainer.manualLayoutContainer:
+            AlignInContainer: =AlignInContainer.SetByContainer
+            DropShadow: =DropShadow.None
+            FillPortions: =0
+            Height: =100
+            LayoutMinHeight: =112
+            LayoutMinWidth: =250
+            ZIndex: =3
+
+            Container4_1 As groupContainer.manualLayoutContainer:
+                DropShadow: =DropShadow.Semilight
+                Height: =80
+                Width: =566
+                X: =18
+                Y: =9
+                ZIndex: =1
+
+                Label10_1 As label:
+                    FontWeight: =FontWeight.Bold
+                    Height: =56
+                    Size: =18
+                    Text: ="Construction Details"
+                    Width: =293
+                    X: =12
+                    Y: =12
+                    ZIndex: =1
+
+                arrowUp_1 As image:
+                    Height: =45
+                    Image: ='arrow-up'
+                    OnSelect: |
+                        =Set(uparrow1, false);
+                        Set(downarrow1, true);
+                        Set(ShowContainer1,!ShowContainer1)
+                    Visible: =uparrow1
+                    Width: =45
+                    X: =501
+                    Y: =17
+                    ZIndex: =2
+
+                arrowDown_1 As image:
+                    Height: =45
+                    Image: ='down-arrow (1)'
+                    OnSelect: |
+                        =Set(ShowContainer1,!ShowContainer1);
+                        Set(uparrow1, true);
+                        Set(downarrow1, false)
+                    Visible: =downarrow1
+                    Width: =45
+                    X: =501
+                    Y: =17
+                    ZIndex: =3
+
+        Pd_BasicDetails2 As groupContainer.manualLayoutContainer:
+            AlignInContainer: =AlignInContainer.SetByContainer
             DropShadow: =DropShadow.None
             FillPortions: =0
             Height: =490
             LayoutMinHeight: =112
             LayoutMinWidth: =250
             Visible: =ShowContainer
-            ZIndex: =3
+            ZIndex: =4
 
             Container9 As groupContainer.manualLayoutContainer:
                 DropShadow: =DropShadow.None
@@ -497,59 +554,8 @@ Screen3 As screen:
                     Y: =421
                     ZIndex: =16
 
-        ConstructionDetails As groupContainer.manualLayoutContainer:
-            DropShadow: =DropShadow.None
-            FillPortions: =0
-            Height: =100
-            LayoutMinHeight: =112
-            LayoutMinWidth: =250
-            ZIndex: =4
-
-            Container4_1 As groupContainer.manualLayoutContainer:
-                DropShadow: =DropShadow.Semilight
-                Height: =80
-                Width: =566
-                X: =18
-                Y: =9
-                ZIndex: =1
-
-                Label10_1 As label:
-                    FontWeight: =FontWeight.Bold
-                    Height: =56
-                    Size: =18
-                    Text: ="Construction Details"
-                    Width: =293
-                    X: =12
-                    Y: =12
-                    ZIndex: =1
-
-                arrowUp_1 As image:
-                    Height: =45
-                    Image: ='arrow-up'
-                    OnSelect: |
-                        =Set(uparrow1, false);
-                        Set(downarrow1, true);
-                        Set(ShowContainer1,!ShowContainer1)
-                    Visible: =uparrow1
-                    Width: =45
-                    X: =501
-                    Y: =17
-                    ZIndex: =2
-
-                arrowDown_1 As image:
-                    Height: =45
-                    Image: ='down-arrow (1)'
-                    OnSelect: |
-                        =Set(ShowContainer1,!ShowContainer1);
-                        Set(uparrow1, true);
-                        Set(downarrow1, false)
-                    Visible: =downarrow1
-                    Width: =45
-                    X: =501
-                    Y: =17
-                    ZIndex: =3
-
-        ConstructionDetails1 As groupContainer.manualLayoutContainer:
+        Pd_ConstructionDetails1 As groupContainer.manualLayoutContainer:
+            AlignInContainer: =AlignInContainer.SetByContainer
             DropShadow: =DropShadow.None
             FillPortions: =0
             Height: =380
@@ -732,7 +738,8 @@ Screen3 As screen:
                     Y: =219
                     ZIndex: =15
 
-        ConstructionDetails2 As groupContainer.manualLayoutContainer:
+        Pd_ConstructionDetails2 As groupContainer.manualLayoutContainer:
+            AlignInContainer: =AlignInContainer.SetByContainer
             DropShadow: =DropShadow.None
             FillPortions: =0
             Height: =180
@@ -819,7 +826,8 @@ Screen3 As screen:
                     Y: =115
                     ZIndex: =10
 
-        OwnerDetails As groupContainer.manualLayoutContainer:
+        Pd_OwnerDetails As groupContainer.manualLayoutContainer:
+            AlignInContainer: =AlignInContainer.SetByContainer
             DropShadow: =DropShadow.None
             FillPortions: =0
             Height: =100
@@ -827,7 +835,7 @@ Screen3 As screen:
             LayoutMinWidth: =250
             ZIndex: =7
 
-            Container4_2 As groupContainer.manualLayoutContainer:
+            Pd_OwnerDetailsInnerContainer As groupContainer.manualLayoutContainer:
                 DropShadow: =DropShadow.Semilight
                 Height: =72
                 Width: =569
@@ -835,7 +843,7 @@ Screen3 As screen:
                 Y: =18
                 ZIndex: =1
 
-                Label10_2 As label:
+                Pd_OwnerDetails_HeaderLabel As label:
                     FontWeight: =FontWeight.Bold
                     Height: =49
                     Size: =18
@@ -845,7 +853,7 @@ Screen3 As screen:
                     Y: =12
                     ZIndex: =1
 
-                arrowDown_2 As image:
+                Pd_OwnerDetails_ArrowDown As image:
                     Height: =45
                     Image: ='down-arrow (1)'
                     OnSelect: |
@@ -858,7 +866,7 @@ Screen3 As screen:
                     Y: =12
                     ZIndex: =2
 
-                arrowUp_2 As image:
+                Pd_OwnerDetails_ArrowUp As image:
                     Height: =45
                     Image: ='arrow-up'
                     OnSelect: |
@@ -871,7 +879,8 @@ Screen3 As screen:
                     Y: =12
                     ZIndex: =3
 
-        OwnerDetails1 As groupContainer.manualLayoutContainer:
+        Pd_OwnerDetails1 As groupContainer.manualLayoutContainer:
+            AlignInContainer: =AlignInContainer.SetByContainer
             DropShadow: =DropShadow.None
             FillPortions: =0
             Height: =280
@@ -880,13 +889,13 @@ Screen3 As screen:
             Visible: =ShowContainer2
             ZIndex: =8
 
-            Container7_3 As groupContainer.manualLayoutContainer:
+            Pd_OwnerDetails1_Inner_Container As groupContainer.manualLayoutContainer:
                 DropShadow: =DropShadow.None
                 Height: =280
                 Width: =591
                 ZIndex: =1
 
-                Label11_58 As label:
+                Pd_OwnerDetails1_Name_Label As label:
                     Color: =RGBA(148, 135, 141, 1)
                     Font: =Font.'Segoe UI'
                     FontWeight: =FontWeight.Semibold
@@ -898,7 +907,7 @@ Screen3 As screen:
                     Y: =8
                     ZIndex: =1
 
-                Label11_60 As label:
+                Pd_OwnerDetails1_Loan_Label As label:
                     Color: =RGBA(148, 135, 141, 1)
                     Font: =Font.'Segoe UI'
                     FontWeight: =FontWeight.Semibold
@@ -910,7 +919,7 @@ Screen3 As screen:
                     Y: =60
                     ZIndex: =2
 
-                Label11_62 As label:
+                Pd_OwnerDetails1_Amount_Label As label:
                     Color: =RGBA(148, 135, 141, 1)
                     Font: =Font.'Segoe UI'
                     FontWeight: =FontWeight.Semibold
@@ -922,7 +931,7 @@ Screen3 As screen:
                     Y: =112
                     ZIndex: =3
 
-                Label11_64 As label:
+                Pd_OwnerDetails1_Propertycost_label As label:
                     Color: =RGBA(148, 135, 141, 1)
                     Font: =Font.'Segoe UI'
                     FontWeight: =FontWeight.Semibold
@@ -934,7 +943,7 @@ Screen3 As screen:
                     Y: =164
                     ZIndex: =4
 
-                Label11_66 As label:
+                Pd_OwnerDetails1_Loantype_Label As label:
                     Color: =RGBA(148, 135, 141, 1)
                     Font: =Font.'Segoe UI'
                     FontWeight: =FontWeight.Semibold
@@ -946,7 +955,7 @@ Screen3 As screen:
                     Y: =216
                     ZIndex: =5
 
-                Label11_59 As label:
+                Pd_OwnerDetails1_Name_value As label:
                     Align: =Align.Right
                     Font: =Font.'Segoe UI'
                     FontWeight: =FontWeight.Semibold
@@ -958,7 +967,7 @@ Screen3 As screen:
                     Y: =11
                     ZIndex: =8
 
-                Label11_61 As label:
+                Pd_OwnerDetails1_Loanbool_value As label:
                     Align: =Align.Right
                     Font: =Font.'Segoe UI'
                     FontWeight: =FontWeight.Semibold
@@ -970,7 +979,7 @@ Screen3 As screen:
                     Y: =63
                     ZIndex: =9
 
-                Label11_63 As label:
+                Pd_OwnerDetails1_Amount_value As label:
                     Align: =Align.Right
                     Font: =Font.'Segoe UI'
                     FontWeight: =FontWeight.Semibold
@@ -982,7 +991,7 @@ Screen3 As screen:
                     Y: =115
                     ZIndex: =10
 
-                Label11_65 As label:
+                Pd_OwnerDetails1_propertycost_value As label:
                     Align: =Align.Right
                     Font: =Font.'Segoe UI'
                     FontWeight: =FontWeight.Semibold
@@ -994,7 +1003,7 @@ Screen3 As screen:
                     Y: =167
                     ZIndex: =11
 
-                Label11_67 As label:
+                Pd_OwnerDetails1_Loantype_value As label:
                     Align: =Align.Right
                     Font: =Font.'Segoe UI'
                     FontWeight: =FontWeight.Semibold
@@ -1006,7 +1015,8 @@ Screen3 As screen:
                     Y: =219
                     ZIndex: =15
 
-        Amenities As groupContainer.manualLayoutContainer:
+        Pd_Amenities As groupContainer.manualLayoutContainer:
+            AlignInContainer: =AlignInContainer.SetByContainer
             DropShadow: =DropShadow.None
             FillPortions: =0
             Height: =100
@@ -1014,7 +1024,7 @@ Screen3 As screen:
             LayoutMinWidth: =250
             ZIndex: =9
 
-            Container4_3 As groupContainer.manualLayoutContainer:
+            Pd_AmenitiesInnerContainer As groupContainer.manualLayoutContainer:
                 DropShadow: =DropShadow.Semilight
                 Height: =72
                 Width: =569
@@ -1022,7 +1032,7 @@ Screen3 As screen:
                 Y: =18
                 ZIndex: =1
 
-                Label10_3 As label:
+                Pd_Amenities_Label_header As label:
                     FontWeight: =FontWeight.Bold
                     Height: =49
                     Size: =18
@@ -1032,7 +1042,7 @@ Screen3 As screen:
                     Y: =12
                     ZIndex: =1
 
-                arrowDown_3 As image:
+                Pd_Arrowdown_Amenities As image:
                     Height: =45
                     Image: ='down-arrow (1)'
                     OnSelect: |
@@ -1045,7 +1055,7 @@ Screen3 As screen:
                     Y: =12
                     ZIndex: =2
 
-                arrowUp_3 As image:
+                Pd_ArrowUp_Amenities As image:
                     Height: =45
                     Image: ='arrow-up'
                     OnSelect: |
@@ -1058,7 +1068,8 @@ Screen3 As screen:
                     Y: =12
                     ZIndex: =3
 
-        Amenities1 As groupContainer.manualLayoutContainer:
+        Pd_Amenities1 As groupContainer.manualLayoutContainer:
+            AlignInContainer: =AlignInContainer.SetByContainer
             DropShadow: =DropShadow.None
             FillPortions: =0
             Height: =405
@@ -1067,14 +1078,14 @@ Screen3 As screen:
             Visible: =ShowContainer3
             ZIndex: =10
 
-            Container7_4 As groupContainer.manualLayoutContainer:
+            Pd_innerAmenities1Container As groupContainer.manualLayoutContainer:
                 DropShadow: =DropShadow.None
                 Height: =405
                 Visible: =ShowContainer3
                 Width: =603
                 ZIndex: =1
 
-                Label11_73 As label:
+                Pd_Label_ClubHouse As label:
                     Align: =Align.Center
                     Font: =Font.'Segoe UI'
                     FontWeight: =FontWeight.Semibold
@@ -1086,7 +1097,7 @@ Screen3 As screen:
                     Y: =28
                     ZIndex: =8
 
-                Label11_75 As label:
+                Pd_Label_BasketBallCourt As label:
                     Align: =Align.Center
                     Font: =Font.'Segoe UI'
                     FontWeight: =FontWeight.Semibold
@@ -1098,7 +1109,7 @@ Screen3 As screen:
                     Y: =28
                     ZIndex: =9
 
-                Label11_77 As label:
+                Pd_Label_TennisCourt As label:
                     Align: =Align.Center
                     Font: =Font.'Segoe UI'
                     FontWeight: =FontWeight.Semibold
@@ -1110,7 +1121,7 @@ Screen3 As screen:
                     Y: =102
                     ZIndex: =10
 
-                Label11_79 As label:
+                Pd_label_Cricket_Pitch As label:
                     Align: =Align.Center
                     Font: =Font.'Segoe UI'
                     FontWeight: =FontWeight.Semibold
@@ -1122,7 +1133,7 @@ Screen3 As screen:
                     Y: =102
                     ZIndex: =11
 
-                Label11_83 As label:
+                Pd_Label_KidsPlayArea As label:
                     Align: =Align.Center
                     Font: =Font.'Segoe UI'
                     FontWeight: =FontWeight.Semibold
@@ -1134,7 +1145,7 @@ Screen3 As screen:
                     Y: =255
                     ZIndex: =13
 
-                Label11_85 As label:
+                Pd_Label_Park As label:
                     Align: =Align.Center
                     Font: =Font.'Segoe UI'
                     FontWeight: =FontWeight.Semibold
@@ -1146,7 +1157,7 @@ Screen3 As screen:
                     Y: =181
                     ZIndex: =14
 
-                Label11_81 As label:
+                Pd_Label_PowerBackup As label:
                     Align: =Align.Center
                     Font: =Font.'Segoe UI'
                     FontWeight: =FontWeight.Semibold
@@ -1158,7 +1169,7 @@ Screen3 As screen:
                     Y: =170
                     ZIndex: =15
 
-                Image7 As image:
+                Pd_ClubHouseImage As image:
                     Height: =60
                     Image: =clubhouse
                     Width: =60
@@ -1166,7 +1177,7 @@ Screen3 As screen:
                     Y: =11
                     ZIndex: =16
 
-                Image9 As image:
+                Pd_BasketBallCourtImage As image:
                     Height: =60
                     Image: ='basketball-ball-variant'
                     Width: =60
@@ -1174,7 +1185,7 @@ Screen3 As screen:
                     Y: =11
                     ZIndex: =17
 
-                Image11 As image:
+                Pd_TennisCourtImage As image:
                     Height: =60
                     Image: =tennis
                     Width: =60
@@ -1182,7 +1193,7 @@ Screen3 As screen:
                     Y: =89
                     ZIndex: =18
 
-                Image13 As image:
+                Pd_CricketPitchImage As image:
                     Height: =60
                     Image: ='cricket-ground'
                     Width: =60
@@ -1190,7 +1201,7 @@ Screen3 As screen:
                     Y: =89
                     ZIndex: =19
 
-                Image15 As image:
+                Pd_PoweBackupImage As image:
                     Height: =60
                     Image: =backup
                     Width: =60
@@ -1198,7 +1209,7 @@ Screen3 As screen:
                     Y: =170
                     ZIndex: =20
 
-                Image16 As image:
+                Pd_KidsPlayArenaImage As image:
                     Height: =60
                     Image: =playground
                     Width: =60
@@ -1206,7 +1217,7 @@ Screen3 As screen:
                     Y: =247
                     ZIndex: =21
 
-                Image17 As image:
+                Pd_ParkImage As image:
                     Height: =60
                     Image: =park
                     Width: =60
@@ -1214,7 +1225,7 @@ Screen3 As screen:
                     Y: =167
                     ZIndex: =22
 
-                Image18 As image:
+                Pd_SwimmingImage As image:
                     Height: =60
                     Image: =swimming
                     Width: =60
@@ -1222,7 +1233,7 @@ Screen3 As screen:
                     Y: =247
                     ZIndex: =23
 
-                Label11_84 As label:
+                Pd_Label_SwimmingPool As label:
                     Align: =Align.Center
                     Font: =Font.'Segoe UI'
                     FontWeight: =FontWeight.Semibold
@@ -1234,7 +1245,7 @@ Screen3 As screen:
                     Y: =263
                     ZIndex: =24
 
-                Image19 As image:
+                Pd_Muscle_Image As image:
                     Height: =60
                     Image: =muscle
                     Width: =60
@@ -1242,7 +1253,7 @@ Screen3 As screen:
                     Y: =331
                     ZIndex: =25
 
-                Image20 As image:
+                Pd_FoodCourt_Image As image:
                     Height: =60
                     Image: ='food-court'
                     Width: =60
@@ -1250,7 +1261,8 @@ Screen3 As screen:
                     Y: =331
                     ZIndex: =26
 
-        Container5 As groupContainer.manualLayoutContainer:
+        Pd_ContainerForBtnProceedForInspection As groupContainer.manualLayoutContainer:
+            AlignInContainer: =AlignInContainer.SetByContainer
             DropShadow: =DropShadow.None
             FillPortions: =0
             Height: =190
@@ -1258,12 +1270,12 @@ Screen3 As screen:
             LayoutMinWidth: =250
             ZIndex: =11
 
-            Container6 As groupContainer.manualLayoutContainer:
+            Pd_InnerContainerBtn As groupContainer.manualLayoutContainer:
                 Height: =190
                 Width: =603
                 ZIndex: =1
 
-                Button1 As button:
+                Pd_Btn_ProceedForInspection As button:
                     Fill: =RGBA(181, 14, 89, 1)
                     Height: =55
                     HoverFill: =ColorFade(RGBA(181, 14, 89, 1), -20%)

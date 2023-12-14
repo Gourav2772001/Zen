@@ -85,7 +85,7 @@ Screen9 As screen:
                 OnSelect: |
                     =ClearCollect(currentData,Filter(GODREJ,'RegistrationNo.'=Gallery2.Selected.Title));
                     Set(showbutton,false);
-                    Navigate(Screen3);
+                    Navigate(Property_Details);
                 Width: =Parent.Width
                 ZIndex: =6
 

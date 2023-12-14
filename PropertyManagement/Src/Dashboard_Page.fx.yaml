@@ -184,7 +184,7 @@ Dashboard_Page As screen:
                 Image: =ThisItem.Image
                 ImagePosition: =ImagePosition.Fill
                 OnSelect: |-
-                    =Navigate(Screen3);
+                    =Navigate(Property_Details);
                     ClearCollect(currentData,DP_PropertyGrid.Selected)
                     ;
                     Set(showbutton,true);
@@ -246,7 +246,7 @@ Dashboard_Page As screen:
                 Fill: =RGBA(0, 0, 0, 0)
                 Height: =Parent.Height
                 OnSelect: |-
-                    =Navigate(Screen3);
+                    =Navigate(Property_Details);
                     ClearCollect(currentData,DP_PropertyGrid.Selected)
                     ;
                     Set(showbutton,true);
