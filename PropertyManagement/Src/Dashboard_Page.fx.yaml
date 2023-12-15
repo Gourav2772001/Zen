@@ -1,5 +1,21 @@
 Dashboard_Page As screen:
 
+    Dp_SearchInput_SearchtextBar As text:
+        BorderColor: =RGBA(233, 231, 232, 1)
+        Default: =""
+        Font: =Font.'Segoe UI'
+        Height: =63
+        HintText: ="  Search property, builders"
+        RadiusBottomLeft: =12
+        RadiusBottomRight: =12
+        RadiusTopLeft: =12
+        RadiusTopRight: =12
+        Size: =17
+        Width: =470
+        X: =35
+        Y: =127
+        ZIndex: =4
+
     Dp_Filter As groupContainer.manualLayoutContainer:
         Fill: =RGBA(180, 14, 90, 1)
         Height: =63
@@ -12,13 +28,15 @@ Dashboard_Page As screen:
         Y: =127
         ZIndex: =8
 
-        Dp_Filter_image As image:
-            Height: =49
-            Image: |-
-                ="data:image/svg+xml;utf8, %3Csvg%20%20viewBox%3D%270%200%202048%202048%27%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%3E%3Cpath%20d%3D%27M512%20384h1536v128H512V384zm512%20640V896h1024v128H1024zm0%20512v-128h1024v128H1024zM0%20640V256h384v384H0zm128-256v128h128V384H128zm384%20768V768h384v384H512zm128-256v128h128V896H640zm-128%20768v-384h384v384H512zm128-256v128h128v-128H640z%27%20fill%3D%27%23FFFFFF%27%3E%3C%2Fpath%3E%3C%2Fsvg%3E"
-            Width: =50
-            X: =8
-            Y: =8
+        Icon2 As icon.Reset:
+            Color: =RGBA(255, 255, 255, 1)
+            Height: =40
+            Icon: =Icon.Reset
+            OnSelect: |
+                =Reset(Dp_SearchInput_SearchtextBar);
+            Width: =40
+            X: =15
+            Y: =12
             ZIndex: =1
 
     Dp_KPIcontainer As groupContainer.manualLayoutContainer:
@@ -156,7 +174,11 @@ Dashboard_Page As screen:
     "DP_PropertyGrid As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver5.0'":
         DelayItemLoading: =true
         Height: =632
-        Items: =GODREJ
+        Items: |
+            =Filter(
+                GODREJ,  // Replace with the name of your data source
+                Dp_SearchInput_SearchtextBar.Text in Name  // Replace with the column you want to search
+            )
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
         LoadingSpinnerColor: =RGBA(180, 14, 90, 1)
@@ -323,36 +345,4 @@ Dashboard_Page As screen:
             X: =35
             Y: =46
             ZIndex: =6
-
-    Dp_SearchInput As group:
-        Height: =5
-        Width: =5
-        X: =40
-        Y: =40
-        ZIndex: =14
-
-        Dp_SearchInput_SearchtextBar As text:
-            BorderColor: =RGBA(233, 231, 232, 1)
-            Default: =""
-            Font: =Font.'Segoe UI'
-            Height: =63
-            HintText: ="            Search property, builders"
-            RadiusBottomLeft: =12
-            RadiusBottomRight: =12
-            RadiusTopLeft: =12
-            RadiusTopRight: =12
-            Size: =17
-            Width: =471
-            X: =35
-            Y: =127
-            ZIndex: =4
-
-        Dp_SearchInput_Icon As icon.Search:
-            Color: =RGBA(180, 14, 90, 1)
-            Height: =50
-            Icon: =Icon.Search
-            Width: =50
-            X: =51
-            Y: =134
-            ZIndex: =5
 
