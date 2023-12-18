@@ -5,7 +5,11 @@ Dashboard_Page As screen:
         Default: =""
         Font: =Font.'Segoe UI'
         Height: =63
-        HintText: ="  Search property, builders"
+        HintText: ="Search property, builder"
+        HoverBorderColor: =RGBA(180, 14, 90, 1)
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =RGBA(180, 14, 90, 0.27)
+        PaddingLeft: =If(!IsBlank(Dp_SearchInput_SearchtextBar),30+Icon3.Width,30)
         RadiusBottomLeft: =12
         RadiusBottomRight: =12
         RadiusTopLeft: =12
@@ -297,6 +301,14 @@ Dashboard_Page As screen:
                 Width: =100
                 X: =500
                 ZIndex: =9
+
+    Icon3 As icon.Search:
+        Color: =RGBA(180, 14, 90, 1)
+        Icon: =Icon.Search
+        Width: =40
+        X: =43
+        Y: =127
+        ZIndex: =14
 
     Dp_Header_Container As group:
         Height: =5

@@ -110,3 +110,55 @@ Screen9 As screen:
         Y: =45
         ZIndex: =3
 
+    Dp_Filter_1 As groupContainer.manualLayoutContainer:
+        Fill: =RGBA(180, 14, 90, 1)
+        Height: =63
+        RadiusBottomLeft: =10
+        RadiusBottomRight: =10
+        RadiusTopLeft: =10
+        RadiusTopRight: =10
+        Width: =66
+        X: =541
+        Y: =103
+        ZIndex: =4
+
+        Icon2_1 As icon.Reset:
+            Color: =RGBA(255, 255, 255, 1)
+            Height: =40
+            Icon: =Icon.Reset
+            OnSelect: |
+                =Reset(Dp_SearchInput_SearchtextBar);
+            Width: =40
+            X: =15
+            Y: =12
+            ZIndex: =1
+
+    Dp_SearchInput_SearchtextBar_1 As text:
+        BorderColor: =RGBA(233, 231, 232, 1)
+        Default: =""
+        Font: =Font.'Segoe UI'
+        Height: =63
+        HintText: ="Search property, builder"
+        HoverBorderColor: =RGBA(180, 14, 90, 1)
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =RGBA(180, 14, 90, 0.27)
+        OnSelect: =Search(Godrej_snags,Dp_SearchInput_SearchtextBar_1.Text,"Snag_category")
+        PaddingLeft: =If(!IsBlank(Dp_SearchInput_SearchtextBar_1),30+Icon3.Width,30)
+        RadiusBottomLeft: =12
+        RadiusBottomRight: =12
+        RadiusTopLeft: =12
+        RadiusTopRight: =12
+        Size: =17
+        Width: =470
+        X: =32
+        Y: =103
+        ZIndex: =5
+
+    Icon3_1 As icon.Search:
+        Color: =RGBA(180, 14, 90, 1)
+        Icon: =Icon.Search
+        Width: =40
+        X: =52
+        Y: =103
+        ZIndex: =6
+
